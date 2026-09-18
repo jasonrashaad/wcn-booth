@@ -4,7 +4,8 @@ build-persona.py — a habit model of one person, derived from their own transcr
 
     python3 persona/build-persona.py                 # map + reduce → persona/jason-model*.md
     python3 persona/build-persona.py --map-only      # just the per-batch extraction
-    python3 persona/build-persona.py --reduce-only   # rebuild the documents from saved extractions
+    python3 persona/build-persona.py --reduce-only   # rebuild jason-model.md from saved extractions
+    python3 persona/build-persona.py --public        # derive jason-model.public.md from the EDITED private file
     python3 persona/build-persona.py --limit 3       # first N batches, for a smoke test
 
 Reads persona/corpus/*.json (the transcript JSON the Whisper service writes: `text`,
@@ -15,11 +16,13 @@ against a local Ollama:
           clip it came from, the kind of thing it is, a verbatim quote, and whether it is
           safe to raise on camera. Saved to persona/extract/<batch>.json so a reduce can
           be re-run without paying for the map again.
-  REDUCE  all observations → two Markdown documents:
-            persona/jason-model.md          everything. PRIVATE. never leaves this disk.
-            persona/jason-model.public.md   only observations tagged public. This is the
-                                            ONLY file prep/ask.py may read, and it is
-                                            meant to be edited by hand before it is used.
+  REDUCE  observations → persona/jason-model.md, one section at a time (546 observations
+          do not fit one context window). Every bullet is tagged [public] or [private].
+          PRIVATE. Never leaves this disk. This is the file the person reads and edits:
+          flip tags, delete lines, fix what the model misread.
+  PUBLIC  --public derives persona/jason-model.public.md from the edited private file by
+          keeping only [public] bullets. A plain filter, no model — so nothing private can
+          be paraphrased across the fence. This is the ONLY file prep/ask.py may read.
 
 Stdlib only. Nothing here leaves the LAN: the corpus is on this disk, inference is on
 the workbench, and the outputs are gitignored.
@@ -51,7 +54,7 @@ EXTRACT = HERE / "extract"
 OLLAMA = os.environ.get("BOOTH_OLLAMA", "http://192.168.1.118:11434")
 MODEL = os.environ.get("BOOTH_MODEL", "qwen3:30b")
 BATCH_WORDS = 1800          # ~2.5k tokens of transcript per map call
-NUM_CTX = 16384
+NUM_CTX = 24576
 
 KINDS = ["intent", "action", "theme", "cadence", "phrase", "belief", "number", "person", "tension"]
 
@@ -104,27 +107,49 @@ MAP_SCHEMA = {
     "required": ["observations"],
 }
 
-REDUCE_SYSTEM = """You are writing a habit model of one person from a list of dated
+REDUCE_SYSTEM = """You are writing ONE SECTION of a habit model of one person, from dated
 observations extracted from their own voice memos. Write it the way a coach who has
-known them for a year would write their file: specific, in plain language, no judgment,
-no diagnosis, no advice. Their own words are quoted back unsoftened.
+known them for a year would write their file: specific, plain language, no judgment, no
+diagnosis, no advice. Their own words are quoted back unsoftened.
 
-Output Markdown with exactly these sections, in this order, each a list of bullets.
-Every bullet ends with a citation like (2025-10-07) or (2025-10-07, 2026-07-12) — the
-dates of the clips it rests on. Merge duplicates; keep the count honest (say "at least
-four times" if it was said four times). Leave a section as "- (nothing in the corpus)"
-if there is nothing.
+Return a list of bullets. Each bullet is one specific point that merges duplicate
+observations; keep the count honest ("at least four times"). `dates` lists the dates of
+every clip it rests on. `public` is true only if EVERY observation it rests on was marked
+public. Fewer bullets than observations; never more. Order by earliest date."""
 
-## Who this is, in their own words
-## What they keep coming back to
-## What they said they would do
-## What they said they did
-## Named cadences and rituals
-## Phrases that are theirs
-## What they hold themselves to
-## Numbers and dates they stated
-## Tensions
-"""
+REDUCE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "bullets": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "text": {"type": "string"},
+                    "dates": {"type": "array", "items": {"type": "string"}},
+                    "public": {"type": "boolean"},
+                },
+                "required": ["text", "dates", "public"],
+            },
+        }
+    },
+    "required": ["bullets"],
+}
+
+# Section → the observation kinds it is built from. A kind may feed more than one section.
+SECTIONS = [
+    ("Who this is, in their own words",   ["theme", "belief", "phrase"]),
+    ("What they keep coming back to",     ["theme"]),
+    ("What they said they would do",      ["intent"]),
+    ("What they said they did",           ["action"]),
+    ("Named cadences and rituals",        ["cadence"]),
+    ("Phrases that are theirs",           ["phrase"]),
+    ("What they hold themselves to",      ["belief"]),
+    ("Numbers and dates they stated",     ["number"]),
+    ("People",                            ["person"]),
+    ("Tensions",                          ["tension"]),
+]
+TAG = re.compile(r"\[(public|private)\]\s*$")
 
 
 def clip_date(name):
@@ -220,27 +245,59 @@ def load_observations():
 
 
 def render_bullets(observations):
-    """Feed the reduce model a compact, kind-grouped, date-ordered listing."""
-    by_kind = defaultdict(list)
-    for o in observations:
-        by_kind[o["kind"]].append(o)
+    """Compact, date-ordered listing for one section's kinds."""
+    lines = []
+    for o in sorted(observations, key=lambda o: (o["date"], o["kind"])):
+        vis = "public" if o["public"] else "private"
+        lines.append(f"- ({o['date']}) [{o['kind']}, {vis}] {o['text']}  — \"{o['quote']}\"")
+    return "\n".join(lines)
+
+
+def run_reduce(observations):
     parts = []
-    for k in KINDS:
-        if not by_kind[k]:
+    for title, kinds in SECTIONS:
+        sub = [o for o in observations if o["kind"] in kinds]
+        if not sub:
+            parts.append(f"## {title}\n\n- (nothing in the corpus)\n")
             continue
-        parts.append(f"# {k} ({len(by_kind[k])})")
-        for o in sorted(by_kind[k], key=lambda o: o["date"]):
-            parts.append(f"- ({o['date']}) {o['text']}  — \"{o['quote']}\"")
+        user = f"Section: {title}\n\n{render_bullets(sub)}"
+        t0 = time.time()
+        content, raw = ollama(REDUCE_SYSTEM, user, schema=REDUCE_SCHEMA, temperature=0.3, timeout=1800)
+        try:
+            bullets = json.loads(content)["bullets"]
+        except (json.JSONDecodeError, KeyError) as e:
+            print(f"  {title}: bad JSON ({e})")
+            bullets = []
+        lines = []
+        for bl in bullets[: len(sub)]:          # a reduce never expands
+            dates = ", ".join(sorted(set(d for d in bl["dates"] if d)))
+            tag = "[public]" if bl["public"] else "[private]"
+            lines.append(f"- {bl['text'].strip()} ({dates}) {tag}")
+        n_pub = sum(1 for l in lines if l.endswith("[public]"))
+        print(f"  {title}: {len(sub)} obs → {len(lines)} bullets ({n_pub} public) "
+              f"in {time.time()-t0:.0f}s [{raw.get('eval_count',0)} tok]")
+        parts.append(f"## {title}\n\n" + ("\n".join(lines) if lines else "- (nothing in the corpus)") + "\n")
     return "\n".join(parts)
 
 
-def run_reduce(observations, label):
-    listing = render_bullets(observations)
-    print(f"reduce [{label}]: {len(observations)} observations, {len(listing.split())} words in")
-    t0 = time.time()
-    content, raw = ollama(REDUCE_SYSTEM, listing, temperature=0.3, timeout=1800)
-    print(f"  {raw.get('eval_count',0)} tok out in {time.time()-t0:.0f}s")
-    return content.strip()
+def derive_public(private_md):
+    """Keep headings and [public] bullets only. The People section never crosses."""
+    sections, cur = [], None
+    for line in private_md.splitlines():
+        if line.startswith("## "):
+            cur = [line, []]
+            sections.append(cur)
+        elif cur and line.startswith("- ") and line.rstrip().endswith("[public]"):
+            cur[1].append(TAG.sub("", line).rstrip())
+    out = []
+    for heading, bullets in sections:
+        if heading == "## People":
+            continue
+        out.append(heading)
+        out.append("")
+        out.extend(bullets or ["- (nothing promoted yet)"])
+        out.append("")
+    return "\n".join(out).rstrip() + "\n"
 
 
 def header(label, observations, clips):
@@ -250,17 +307,31 @@ def header(label, observations, clips):
             f"persona/build-persona.py, model {MODEL}. {len(clips)} clips, {len(observations)} "
             f"observations ({', '.join(f'{k} {n}' for k, n in kinds.most_common())}). "
             f"Corpus spans {dates[0] if dates else '?'} → {dates[-1] if dates else '?'}. "
-            f"{'PRIVATE. Never leaves this disk.' if label == 'private' else 'Edit by hand before prep/ask.py uses it.'} -->\n\n")
+            f"{'PRIVATE. Never leaves this disk. Edit this file: flip [private]/[public], delete lines, then run --public.' if label == 'private' else 'Derived from the edited private file by --public. Do not edit; edit jason-model.md and re-derive.'} -->\n\n")
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--map-only", action="store_true")
     ap.add_argument("--reduce-only", action="store_true")
+    ap.add_argument("--public", action="store_true", help="derive the public file from the edited private one")
     ap.add_argument("--limit", type=int, help="first N batches only")
     args = ap.parse_args()
 
     clips = load_corpus()
+    private_path = HERE / "jason-model.md"
+    public_path = HERE / "jason-model.public.md"
+
+    if args.public:
+        if not private_path.is_file():
+            sys.exit("no persona/jason-model.md to derive from")
+        obs = load_observations()
+        body = derive_public(private_path.read_text(encoding="utf-8"))
+        public_path.write_text(header("public", obs, clips) + body + "\n", encoding="utf-8")
+        n = sum(1 for l in body.splitlines() if l.startswith("- ") and "nothing promoted" not in l)
+        print(f"wrote {public_path.name}: {n} public bullets")
+        return
+
     if not args.reduce_only:
         run_map(clips, args.limit)
     if args.map_only:
@@ -268,14 +339,10 @@ def main():
     obs = load_observations()
     if not obs:
         sys.exit("no observations in persona/extract/ — run the map first")
-
-    private = run_reduce(obs, "private")
-    (HERE / "jason-model.md").write_text(header("private", obs, clips) + private + "\n", encoding="utf-8")
-    pub_obs = [o for o in obs if o["public"] and o["kind"] != "person"]
-    public = run_reduce(pub_obs, "public")
-    (HERE / "jason-model.public.md").write_text(header("public", pub_obs, clips) + public + "\n", encoding="utf-8")
-    print(f"wrote persona/jason-model.md ({len(private.split())} words) and "
-          f"persona/jason-model.public.md ({len(public.split())} words, {len(pub_obs)}/{len(obs)} observations)")
+    print(f"reduce: {len(obs)} observations, {len(SECTIONS)} sections, model {MODEL}")
+    body = run_reduce(obs)
+    private_path.write_text(header("private", obs, clips) + body, encoding="utf-8")
+    print(f"wrote {private_path} ({len(body.split())} words). READ IT, edit it, then run --public.")
 
 
 if __name__ == "__main__":

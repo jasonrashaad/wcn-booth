@@ -8,3 +8,4 @@ episodes/
 __pycache__/
 .DS_Store
 persona/map.log
+persona/themes.md
