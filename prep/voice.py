@@ -23,7 +23,12 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 SAMPLE_RATE = 24000
-DEFAULT_VOICE = "am_michael"
+# The cast, from the 2026-09-18 audition (all 19, same line, ranked by ear):
+#   bm_fable   — the Coach. "The appropriate amount of shit."
+#   bm_george  — the Coach, someday. An aspiration; earn it.
+#   am_onyx    — tough advice, if a second character ever speaks.
+#   am_adam    — the glitched self. Not the interviewer.
+DEFAULT_VOICE = "bm_fable"
 
 # The menu. Prefix = accent + gender: a = American, b = British; f/m = female/male.
 # Grades are Kokoro's own quality ratings from its voice list (A best). Notes are ours.
