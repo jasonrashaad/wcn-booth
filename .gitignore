@@ -1,7 +1,10 @@
 # Local build truth and anything about Jason himself stay off GitHub.
 CLAUDE.md
-persona/jason-model.md
+persona/jason-model*.md
+persona/corpus/
+persona/extract/
 episodes/
 .venv/
 __pycache__/
 .DS_Store
+persona/map.log
