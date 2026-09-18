@@ -56,23 +56,26 @@ PUBLISH   playlist ──► same-origin <video> on the press room (+ a link to 
 
 | Path | What |
 |---|---|
-| `booth/director.py` | Stdlib HTTP server: serves the avatar page and one episode's audio; `GET /api/next` advances |
-| `booth/avatar.html` | The Coach. Phase 0 placeholder art; the real mark lands in Phase 2 |
+| `persona/build-persona.py` | The corpus → a dated, tagged habit model, map/reduce against a local Ollama; `--public` derives the Coach's file by a plain filter |
+| `persona/themes.py` · `closers.py` | A noun cloud with dates, and the last line before each save key. No model |
+| `persona/coach.md` | The Coach's rules and register. No examples on purpose — the model copies any it is given |
+| `prep/ask.py` | Topic → questions, one per script-picked observation, with a validator for tics |
+| `prep/voice.py` · `timeline.py` | Kokoro (the cast lives here) and the wav → mouth track |
+| `booth/director.py` · `avatar.html` | The `:8788` jukebox and the Coach: the `?` mark on a teal CRT, the dot is the mouth |
 | `booth/obs/` | The OBS profile + scene collection, exported for rebuild |
-| `prep/timeline.py` | wav → 25 fps closed/mid/open mouth track. Stdlib only |
 | `docs/phase0.md` | The three unknowns, measured |
-| `persona/`, `prep/ask.py`, `post/`, `publish/` | Phases 1–4, not yet built |
+
+Not in the repo, by design: `persona/corpus/`, `persona/jason-model*.md`, `episodes/`.
 
 ## Status
 
-**Phase 0 done (2026-09-18).** Kokoro-82M runs ~1.9× realtime on an M5 laptop's CPU;
-a 30B mixture-of-experts model generates at 44 tok/s on a 16 GB Radeon — the same speed
-as the 14B it replaces; OBS captures the Browser Source's audio into the recording. The
-rig works. What does not exist yet is the Coach — and that is a writing problem with a
-corpus, not an infrastructure one.
+**Phases 0–2 done (2026-09-18).** The rig records; the Coach asks. Episode one is
+voiced. The Coach asks and does not listen — questions are generated and reviewed before
+the session, on purpose. A reactive Coach (Whisper → the brief → a follow-up) is the
+next design step, not a limitation of the parts: every stage of it already runs.
 
-Next: **Phase 1, the persona.** The quality lever is the persona document, not the
-model size.
+Not built: cutting clips, and the press room's video post. Persona refinement is its own
+track.
 
 ## Running it
 
