@@ -4,10 +4,21 @@ ask.py — the Coach writes the questions for one episode.
 
     python3 prep/ask.py --topic "the pivot date" --out episodes/2026-09-20
     python3 prep/ask.py --topic "..." --n 8 --out episodes/<ep>
+    python3 prep/ask.py --topic "..." --when 2025-10 --out episodes/<ep>   # only bullets dated that month
+    python3 prep/ask.py --topic "..." --brief-only                           # print what the Coach would see
 
 Reads persona/coach.md (the register and the rules) and persona/jason-model.public.md
 (the ONLY file about the guest the Coach may see — hand-edited, see build-persona.py),
-and asks a local Ollama for N questions on the topic. Writes <out>/questions.json:
+and asks a local Ollama for N questions on the topic.
+
+THE BRIEF
+    The public file is ~25k words; the Coach gets a brief, not the file. Always: the
+    timeline section ("What was going on, when") and the cadences. Then every bullet
+    anywhere whose words overlap the topic, and — with --when — only bullets carrying a
+    date in that month. Capped at BRIEF_WORDS. Deterministic, so the same topic gives the
+    same brief; the model's variance is confined to the questions.
+
+Writes <out>/questions.json:
 
     {"topic": ..., "model": ..., "generated": ...,
      "questions": [{"id": "q01", "text": "...", "rests_on": "...", "cites": "2025-09-28",
@@ -25,6 +36,7 @@ THE SPOT-CHECK IS THE TEST
 import argparse
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
@@ -35,6 +47,11 @@ COACH = REPO / "persona" / "coach.md"
 PUBLIC = REPO / "persona" / "jason-model.public.md"
 OLLAMA = os.environ.get("BOOTH_OLLAMA", "http://192.168.1.118:11434")
 MODEL = os.environ.get("BOOTH_MODEL", "qwen3:30b")
+BRIEF_WORDS = 8000
+ALWAYS = ("What was going on, when", "Named cadences and rituals")
+STOP = set("the a an and or of to in on at for with about from by is was were be been it its this that "
+           "these those they them their he she his her we our you your i my me what when where how why "
+           "which who whom not no yes do does did done have has had will would could should can may".split())
 
 SCHEMA = {
     "type": "object",
@@ -69,20 +86,70 @@ def ollama_chat(system, user, schema, temperature=0.7, timeout=900):
         return json.loads(json.loads(r.read())["message"]["content"])
 
 
+def sections(md):
+    """{heading: [bullet lines]} from a model file."""
+    out, cur = {}, None
+    for line in md.splitlines():
+        if line.startswith("## "):
+            cur = line[3:].strip(); out[cur] = []
+        elif cur and line.startswith("- "):
+            out[cur].append(line)
+    return out
+
+
+def brief(public_md, topic, when=None):
+    secs = sections(public_md)
+    words = {w for w in re.findall(r"[a-z][a-z'-]{2,}", topic.lower()) if w not in STOP}
+    chosen, total = [], 0
+
+    def take(heading, lines):
+        nonlocal total
+        keep = [l for l in lines if not when or when in l]
+        if not keep:
+            return
+        block = f"## {heading}\n" + "\n".join(keep)
+        n = len(block.split())
+        if total + n > BRIEF_WORDS and heading not in ALWAYS:
+            keep = keep[: max(1, int(len(keep) * (BRIEF_WORDS - total) / n))]
+            block = f"## {heading}\n" + "\n".join(keep)
+            n = len(block.split())
+        chosen.append(block); total += n
+
+    for h in ALWAYS:
+        if h in secs:
+            take(h, secs[h])
+    for h, lines in secs.items():
+        if h in ALWAYS:
+            continue
+        hits = [l for l in lines if words & set(re.findall(r"[a-z][a-z'-]{2,}", l.lower()))]
+        if hits:
+            take(h, hits)
+        if total >= BRIEF_WORDS:
+            break
+    return "\n\n".join(chosen), total
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--topic", required=True, help="what this episode is about")
+    ap.add_argument("--when", help="YYYY-MM: only bullets carrying a date in that month")
+    ap.add_argument("--brief-only", action="store_true", help="print the brief and exit")
     ap.add_argument("--n", type=int, default=12)
-    ap.add_argument("--out", required=True, help="episode directory")
+    ap.add_argument("--out", help="episode directory")
     ap.add_argument("--temperature", type=float, default=0.7)
     args = ap.parse_args()
 
     if not PUBLIC.is_file():
         sys.exit(f"{PUBLIC} does not exist — run persona/build-persona.py, then READ AND EDIT it first")
     coach = COACH.read_text(encoding="utf-8")
-    public = PUBLIC.read_text(encoding="utf-8")
+    public, n_words = brief(PUBLIC.read_text(encoding="utf-8"), args.topic, args.when)
+    if args.brief_only:
+        print(public); print(f"\n[{n_words} words]", file=sys.stderr); return
+    if not args.out:
+        sys.exit("--out is required (or --brief-only)")
+    print(f"brief: {n_words} words for topic {args.topic!r}" + (f", month {args.when}" if args.when else ""))
 
-    system = coach + "\n\n# The guest's file (public)\n\n" + public
+    system = coach + "\n\n# The guest's file (a brief for this episode)\n\n" + public
     user = (f"Write {args.n} questions for an episode about: {args.topic}.\n\n"
             "Each question follows 'How a question is built'. For each, also give `rests_on`: the "
             "one observation from the file it is built from, in one sentence, and `cites`: that "
