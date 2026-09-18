@@ -9,3 +9,4 @@ __pycache__/
 .DS_Store
 persona/map.log
 persona/themes.md
+persona/closers.md
