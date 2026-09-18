@@ -5,6 +5,7 @@ build-persona.py — a habit model of one person, derived from their own transcr
     python3 persona/build-persona.py                 # map + reduce → persona/jason-model*.md
     python3 persona/build-persona.py --map-only      # just the per-batch extraction
     python3 persona/build-persona.py --reduce-only   # rebuild jason-model.md from saved extractions
+    python3 persona/build-persona.py --reduce-only --only "Tensions"   # redo ONE section in place
     python3 persona/build-persona.py --public        # derive jason-model.public.md from the EDITED private file
     python3 persona/build-persona.py --limit 3       # first N batches, for a smoke test
 
@@ -253,31 +254,54 @@ def render_bullets(observations):
     return "\n".join(lines)
 
 
-def run_reduce(observations):
-    parts = []
-    for title, kinds in SECTIONS:
-        sub = [o for o in observations if o["kind"] in kinds]
-        if not sub:
-            parts.append(f"## {title}\n\n- (nothing in the corpus)\n")
-            continue
-        user = f"Section: {title}\n\n{render_bullets(sub)}"
-        t0 = time.time()
-        content, raw = ollama(REDUCE_SYSTEM, user, schema=REDUCE_SCHEMA, temperature=0.3, timeout=1800)
+def degenerate(bullets, n_obs):
+    """Constrained decoding guarantees the shape, not the content. Catch placeholders."""
+    if not bullets:
+        return True
+    texts = [bl["text"].strip().lower() for bl in bullets]
+    if any(t in ("text here", "text", "...", "") or t.startswith("bullet") for t in texts):
+        return True
+    return n_obs >= 10 and len(bullets) < 3
+
+
+def reduce_section(title, kinds, observations, tries=3):
+    sub = [o for o in observations if o["kind"] in kinds]
+    if not sub:
+        return f"## {title}\n\n- (nothing in the corpus)\n"
+    user = f"Section: {title}\n\n{render_bullets(sub)}"
+    bullets, raw, t0 = [], {}, time.time()
+    for attempt in range(1, tries + 1):
+        content, raw = ollama(REDUCE_SYSTEM, user, schema=REDUCE_SCHEMA,
+                              temperature=0.3 + 0.2 * (attempt - 1), timeout=1800)
         try:
             bullets = json.loads(content)["bullets"]
-        except (json.JSONDecodeError, KeyError) as e:
-            print(f"  {title}: bad JSON ({e})")
+        except (json.JSONDecodeError, KeyError):
             bullets = []
-        lines = []
-        for bl in bullets[: len(sub)]:          # a reduce never expands
-            dates = ", ".join(sorted(set(d for d in bl["dates"] if d)))
-            tag = "[public]" if bl["public"] else "[private]"
-            lines.append(f"- {bl['text'].strip()} ({dates}) {tag}")
-        n_pub = sum(1 for l in lines if l.endswith("[public]"))
-        print(f"  {title}: {len(sub)} obs → {len(lines)} bullets ({n_pub} public) "
-              f"in {time.time()-t0:.0f}s [{raw.get('eval_count',0)} tok]")
-        parts.append(f"## {title}\n\n" + ("\n".join(lines) if lines else "- (nothing in the corpus)") + "\n")
-    return "\n".join(parts)
+        if not degenerate(bullets, len(sub)):
+            break
+        print(f"  {title}: degenerate output on try {attempt} ({len(bullets)} bullets); retrying warmer")
+        bullets = []
+    lines = []
+    for bl in bullets[: len(sub)]:          # a reduce never expands
+        dates = ", ".join(sorted(set(d for d in bl["dates"] if d)))
+        tag = "[public]" if bl["public"] else "[private]"
+        lines.append(f"- {bl['text'].strip()} ({dates}) {tag}")
+    n_pub = sum(1 for l in lines if l.endswith("[public]"))
+    print(f"  {title}: {len(sub)} obs → {len(lines)} bullets ({n_pub} public) "
+          f"in {time.time()-t0:.0f}s [{raw.get('eval_count',0)} tok]")
+    return f"## {title}\n\n" + ("\n".join(lines) if lines else "- (reduce failed; see log)") + "\n"
+
+
+def run_reduce(observations):
+    return "\n".join(reduce_section(t, k, observations) for t, k in SECTIONS)
+
+
+def replace_section(text, title, new_block):
+    """Swap one '## title' block (up to the next '## ') in an existing model file."""
+    m = re.search(rf"^## {re.escape(title)}\n.*?(?=^## |\Z)", text, flags=re.M | re.S)
+    if not m:
+        return text.rstrip("\n") + "\n\n" + new_block
+    return text[:m.start()] + new_block + ("\n" if not new_block.endswith("\n\n") else "") + text[m.end():]
 
 
 def derive_public(private_md):
@@ -316,6 +340,7 @@ def main():
     ap.add_argument("--reduce-only", action="store_true")
     ap.add_argument("--public", action="store_true", help="derive the public file from the edited private one")
     ap.add_argument("--limit", type=int, help="first N batches only")
+    ap.add_argument("--only", metavar="SECTION", help="with --reduce-only: redo one section in place")
     args = ap.parse_args()
 
     clips = load_corpus()
@@ -339,6 +364,15 @@ def main():
     obs = load_observations()
     if not obs:
         sys.exit("no observations in persona/extract/ — run the map first")
+    if args.only:
+        kinds = dict(SECTIONS).get(args.only)
+        if not kinds:
+            sys.exit(f"unknown section {args.only!r}; one of: {[t for t, _ in SECTIONS]}")
+        block = reduce_section(args.only, kinds, obs)
+        text = private_path.read_text(encoding="utf-8")
+        private_path.write_text(replace_section(text, args.only, block), encoding="utf-8")
+        print(f"replaced section {args.only!r} in {private_path.name}")
+        return
     print(f"reduce: {len(obs)} observations, {len(SECTIONS)} sections, model {MODEL}")
     body = run_reduce(obs)
     private_path.write_text(header("private", obs, clips) + body, encoding="utf-8")
