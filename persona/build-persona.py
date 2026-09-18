@@ -55,19 +55,27 @@ EXTRACT = HERE / "extract"
 OLLAMA = os.environ.get("BOOTH_OLLAMA", "http://192.168.1.118:11434")
 MODEL = os.environ.get("BOOTH_MODEL", "qwen3:30b")
 BATCH_WORDS = 1800          # ~2.5k tokens of transcript per map call
+CLOSE_S = 12.0              # the saved line: the final seconds before the save key (see closers.py)
 NUM_CTX = 24576
 
-KINDS = ["intent", "action", "theme", "cadence", "phrase", "belief", "number", "person", "tension"]
+KINDS = ["moment", "intent", "action", "theme", "cadence", "phrase", "belief", "number", "person", "tension"]
 
-MAP_SYSTEM = """You are reading transcripts of one person's private voice memos. They are
-unedited, profane, and sometimes include other people talking. Your job is to extract
-OBSERVATIONS about the primary speaker — things a coach who has known them for a year
-would notice — and nothing else.
+MAP_SYSTEM = """You are reading one person's private voice journal. Each entry is a clip they
+saved by pressing a key when they heard themselves say something worth keeping — so
+the END of each clip (marked SAVED LINE) is the reason the clip exists, and the rest is
+the lead-up. Entries are unedited, profane, and sometimes include other people talking.
+
+Your job is to extract OBSERVATIONS about the primary speaker — what a coach who has
+known them for a year would write in their file. WHEN matters more than what: the
+speaker will recall where they were in their life from the date, and the meaning of
+what they said depends on it. Every observation is anchored to its clip and date.
 
 Each observation has:
 - kind: one of
-    intent   — something they say they WILL do, or want to do
-    action   — something they report they DID (or did not do)
+    moment   — what was GOING ON at that date: a job, a move, a deadline, a decision, a
+               fight, a start or an end. The timeline. Extract these generously.
+    intent   — something they say they will do or want to do
+    action   — something they report they did (or did not do)
     theme    — a subject they keep returning to
     cadence  — a named ritual, routine, day-of-week pattern, or repeated practice
     phrase   — a turn of phrase that is distinctly theirs (verbatim)
@@ -75,17 +83,19 @@ Each observation has:
     number   — a concrete figure, date, count, or measurement they state
     person   — a named person and the role they play (ALWAYS private)
     tension  — a contradiction between two things they said, or between intent and action
-- text: the observation in plain third person, one sentence, specific.
-- quote: a short verbatim excerpt from the transcript that supports it (their words).
-- clip: the clip id given in the transcript header.
-- public: true ONLY if a stranger could hear this raised on camera without it costing
-  the speaker anything — habits, work, training, food, routines, projects, stated
-  principles, jokes about themselves. false for sex, relationships, named people, family
-  conflict, substances, money trouble, health details, legal matters, or anything said
-  about a third party. When unsure, false.
+- text: the observation in plain third person, one sentence, specific. If it comes from
+  the SAVED LINE, begin it with "Saved:".
+- quote: a short verbatim excerpt that supports it (their words, unsoftened).
+- clip: the clip id given in the entry header.
+- public: this file is for the speaker's OWN on-camera self-interview, and they are not
+  shy about their own life. So public is true by default. It is false ONLY when the
+  observation names, describes, or exposes SOMEONE ELSE — a partner, family, a friend,
+  a co-worker, a client — or tells a third party's story. Protect other people, not
+  the speaker.
 
-Rules: extract only what is actually said. Do not diagnose, do not soften their language,
-do not invent. Skip small talk. Six to twenty observations per batch is normal."""
+Rules: extract only what is actually said. Do not diagnose, do not soften their
+language, do not invent. Skip small talk. Eight to twenty-five observations per batch
+is normal; the SAVED LINE of every clip should yield at least one."""
 
 MAP_SCHEMA = {
     "type": "object",
@@ -109,9 +119,13 @@ MAP_SCHEMA = {
 }
 
 REDUCE_SYSTEM = """You are writing ONE SECTION of a habit model of one person, from dated
-observations extracted from their own voice memos. Write it the way a coach who has
+observations extracted from their own voice journal. Write it the way a coach who has
 known them for a year would write their file: specific, plain language, no judgment, no
-diagnosis, no advice. Their own words are quoted back unsoftened.
+diagnosis, no advice. Their own words are quoted back unsoftened. WHEN matters more
+than what: lead a bullet with the time where you can ("Early October 2025: …") and never
+merge observations from different months into one bullet — the same thought in
+October and again in July is two bullets, because the person will read them as two
+different lives.
 
 Return a list of bullets. Each bullet is one specific point that merges duplicate
 observations; keep the count honest ("at least four times"). `dates` lists the dates of
@@ -139,6 +153,7 @@ REDUCE_SCHEMA = {
 
 # Section → the observation kinds it is built from. A kind may feed more than one section.
 SECTIONS = [
+    ("What was going on, when",           ["moment"]),
     ("Who this is, in their own words",   ["theme", "belief", "phrase"]),
     ("What they keep coming back to",     ["theme"]),
     ("What they said they would do",      ["intent"]),
@@ -168,8 +183,12 @@ def load_corpus():
         if len(text.split()) < 8:
             continue
         stem = Path(f).stem
+        segs = d.get("segments") or []
+        end = segs[-1].get("end", 0.0) if segs else 0.0
+        closer = " ".join(sg.get("text", "").strip() for sg in segs if sg.get("end", 0.0) > end - CLOSE_S)
         clips.append({"id": stem, "date": clip_date(stem), "words": len(text.split()),
-                      "audio_s": d.get("audio_s"), "text": text})
+                      "audio_s": d.get("audio_s") or end, "text": text,
+                      "closer": re.sub(r"\s+", " ", closer).strip() or text[-300:]})
     clips.sort(key=lambda c: (c["date"] == "undated", c["date"], c["id"]))
     return clips
 
@@ -212,7 +231,10 @@ def run_map(clips, limit=None):
         out = EXTRACT / f"{i:03d}.json"
         if out.is_file():
             continue
-        user = "\n\n".join(f"### clip {c['id']} (date {c['date']}, {c['audio_s']:.0f}s)\n{c['text']}" for c in b)
+        user = "\n\n".join(
+            f"### clip {c['id']} — DATE {c['date']} — {c['audio_s']:.0f}s\n{c['text']}\n"
+            f"SAVED LINE (the last {CLOSE_S:.0f}s, the reason this clip exists): {c['closer']}"
+            for c in b)
         t0 = time.time()
         content, raw = ollama(MAP_SYSTEM, user, schema=MAP_SCHEMA)
         try:
