@@ -90,3 +90,9 @@ Everything else is the standard library.
   TV channel; the director here is the same shape as its state server on purpose.
 - The persona corpus and the transcription service come from a private repo; only the
   measurements are reproduced here.
+
+## License
+
+Apache 2.0 — see `LICENSE`. Copyright 2026 Jason Rashaad. The code is the shell; the
+corpus, the persona, and the episodes are not in this repo and are not licensed to
+anyone.
