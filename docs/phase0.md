@@ -35,9 +35,9 @@ Everything else in the plan is known-good tech. These three were not.
 
 ### Found on the way: `wcn-whisper` had been down for six weeks
 
-`docker compose ps -a` in `/opt/whisper-poc`: `Exited (0) 6 weeks ago`. Clean stop, never
+`docker compose ps -a` for the Whisper stack: `Exited (0) 6 weeks ago`. Clean stop, never
 restarted — the container's restart policy does not survive a deliberate `stop`. Every
-other container on the box was up 4 weeks. WCN-INFRA said it was resident; it was not.
+other container on the box was up 4 weeks. The infra doc said it was resident; it was not.
 
 Bringing it back reproduced the documented contention exactly: with `qwen2.5:14b` still
 resident from the benchmark (10 GB), Whisper crash-looped on
@@ -48,5 +48,5 @@ resident from the benchmark (10 GB), Whisper crash-looped on
 *then* unload nothing and run the LLM pass only if it fits, else `keep_alive:0` / stop
 Whisper first. Ollama drops a model after 5 min idle by default, which is usually enough.
 
-Whisper binds `192.168.1.118:9077`, not loopback — `curl localhost:9077` on the box is
+Whisper binds the LAN interface, not loopback — `curl localhost:9077` on the box is
 empty by design, not a failure.
