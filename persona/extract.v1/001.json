@@ -1,0 +1,105 @@
+{
+ "batch": 1,
+ "clips": [
+  "20250928_123218",
+  "20250928_124310"
+ ],
+ "observations": [
+  {
+   "kind": "action",
+   "text": "The speaker reports hitting the treadmill tonight after a drive.",
+   "quote": "Tonight, hit the treadmill.",
+   "clip": "20250928_123218",
+   "public": true,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "action",
+   "text": "The speaker plans to walk to the grocery store for exercise tomorrow.",
+   "quote": "Tomorrow, use our feet to walk to the grocery store to get fresh fruit, dust, and sundry.",
+   "clip": "20250928_123218",
+   "public": true,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "action",
+   "text": "The speaker plans to walk to the gym on Tuesday for a full workout.",
+   "quote": "Tuesday will be a full workout. Treadmill workout with some strength.",
+   "clip": "20250928_123218",
+   "public": true,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker repeatedly discusses shifting from gym-focused to more varied exercise routines.",
+   "quote": "We shifted at some point from just being Fitbit-focused, plus like heavy for structured workouts at some point, to being less and less Fitbit as we went strength-focused.",
+   "clip": "20250928_123218",
+   "public": true,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that exercise must be done outside the gym to maintain a healthy routine.",
+   "quote": "It's not a workout unless we're in the gym. And we're not set up for that anymore, unfortunately.",
+   "clip": "20250928_123218",
+   "public": true,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "intent",
+   "text": "The speaker intends to start a 5K training schedule for a November 8th event.",
+   "quote": "Operation Don't Kill Ourselves 1031, full effect.",
+   "clip": "20250928_123218",
+   "public": true,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker plans to run a 5K event on November 8th.",
+   "quote": "Operation Don't Kill Ourselves 1031, full effect.",
+   "clip": "20250928_123218",
+   "public": true,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker acknowledges a contradiction between their belief that exercise must be in the gym and their current plan to do it outside the gym.",
+   "quote": "It's not a workout unless we're in the gym. And we're not set up for that anymore, unfortunately.",
+   "clip": "20250928_123218",
+   "public": true,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'Operation Don't Kill Ourselves' to describe their plan to avoid overexertion.",
+   "quote": "Operation Don't Kill Ourselves 1031, full effect.",
+   "clip": "20250928_123218",
+   "public": true,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to 'mom' as a person they will take back to the car.",
+   "quote": "If it tells us to fuck ourselves, do not blow your brains out. Take mom back to the car.",
+   "clip": "20250928_123218",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker plans to walk to the grocery store for exercise but also plans to run to Meijer for a job application, creating a tension between exercise and work.",
+   "quote": "Run to Meijer, Costco, whatever we need to do. Costco, just fucking ask about the gas station attendant job or just see if they have something available that I can start like that day.",
+   "clip": "20250928_123218",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'pussy-ass hamstrings' to describe their physical weakness.",
+   "quote": "We'll figure that out when we get back. Just structure a run schedule, like a run workout. It'll be great. We've done this. Like this part. I know this part. And then, yeah, that's tonight, tomorrow, next day. I'll set an intention for the bike shit on Wednesday, but just an intention. Okay. So, that puts us on war footing for a 5K November 8th. And that also means not killing ourselves October 31st. So, Operation Don't Kill Ourselves 1031, full effect.",
+   "clip": "20250928_123218",
+   "public": true,
+   "date": "2025-09-28"
+  }
+ ]
+}

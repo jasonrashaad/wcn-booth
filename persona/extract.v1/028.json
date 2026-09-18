@@ -1,0 +1,190 @@
+{
+ "batch": 28,
+ "clips": [
+  "00c46414b1744401acd8c3831ff93c69.Replay_20260712_225600",
+  "04e4d31e67cb41878ff564aefeff6e83.Replay20260709154415",
+  "4de9613603314356a56174344e2ea7d3.Replay20260708141403",
+  "5847e917da4c48c6a9a7d1b355629326.Replay20260710090754",
+  "69703892554a49a9b22c3c4a732c4a73.Replay20260709184007",
+  "7ef63a22f7aa4a9d99b8c4d987032fe7.Replay20260709144052",
+  "847aafe595b548afb21c26f13ac8c996.Replay20260710120156",
+  "854732cedb664d9485f9bcef41bbe334.Replay20260709131344",
+  "8e111f77eb7e4176a50623c13e166db4.Replay20260709130831",
+  "a811b12b8c954ae581ffde009b2999f3.Replay20260709183948",
+  "bb3a0e581937495280c88e1200a12864.Replay20260709130751",
+  "c679558e11b44f0286a710dfd8649c1f.Replay20260709100827",
+  "dfbe602adb004706bba6f788a23f0523.Replay20260709173721",
+  "eb17aee4aa4746d08582f1dae0a3fbad.Replay20260708141403",
+  "ec57050cfc2445ff8651b95e7d3e8cbd.Replay20260710090754"
+ ],
+ "observations": [
+  {
+   "kind": "theme",
+   "text": "The speaker frequently discusses hyper-sexualization of black bodies and its impact on their perception of others.",
+   "quote": "I don't like the hyper-sexualization of black bodies.",
+   "clip": "4de9613603314356a56174344e2ea7d3.Replay20260708141403",
+   "public": false,
+   "date": "2026-07-08"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'jubblies' to refer to their body or body parts.",
+   "quote": "Look at my big jubblies.",
+   "clip": "7ef63a22f7aa4a9d99b8c4d987032fe7.Replay20260709144052",
+   "public": false,
+   "date": "2026-07-09"
+  },
+  {
+   "kind": "cadence",
+   "text": "The speaker has a recurring Thursday ritual of getting high and reflecting on their life.",
+   "quote": "Perhaps on Thursdays we get high.",
+   "clip": "7ef63a22f7aa4a9d99b8c4d987032fe7.Replay20260709144052",
+   "public": false,
+   "date": "2026-07-09"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims they don't want to be like people who walk around staring at their phones, but they still use their phone for social media.",
+   "quote": "People walking around staring at their phones is fucking ridiculous, though. I don't want to be another dude walking around staring at his phone.",
+   "clip": "c679558e11b44f0286a710dfd8649c1f.Replay20260709100827",
+   "public": false,
+   "date": "2026-07-09"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that people should not let others dim their shine or make them feel inadequate.",
+   "quote": "Don't let these people tell you you're not doing well, Gregory.",
+   "clip": "a811b12b8c954ae581ffde009b2999f3.Replay20260709183948",
+   "public": false,
+   "date": "2026-07-09"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker has a relationship with Gregory, who is a teacher in Philadelphia.",
+   "quote": "Gregory, you're chilly. And you're a teacher. In Philly, making I don't want to speculate on how much money you're making.",
+   "clip": "a811b12b8c954ae581ffde009b2999f3.Replay20260709183948",
+   "public": false,
+   "date": "2026-07-09"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker mentions having lived alone for 30 years.",
+   "quote": "I, in 30 years of living alone, have never had that many people in my apartment.",
+   "clip": "a811b12b8c954ae581ffde009b2999f3.Replay20260709183948",
+   "public": false,
+   "date": "2026-07-09"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims they can't keep their shit together but also states they're not sure how much more together they could be.",
+   "quote": "I figure I'm just some dude. Who can't keep his shit together. Okay, so. How much more together could your shit be?",
+   "clip": "ec57050cfc2445ff8651b95e7d3e8cbd.Replay20260710090754",
+   "public": false,
+   "date": "2026-07-10"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently discusses the importance of not being distracted by technology and paying attention to their surroundings.",
+   "quote": "I keep wanting to knock that shit out of people's hands. Like, what are you doing? What are you doing? Pay attention.",
+   "clip": "c679558e11b44f0286a710dfd8649c1f.Replay20260709100827",
+   "public": false,
+   "date": "2026-07-09"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims they don't want to be a person who walks around staring at their phone but still uses their phone for social media.",
+   "quote": "I don't want to be another dude walking around staring at his phone.",
+   "clip": "c679558e11b44f0286a710dfd8649c1f.Replay20260709100827",
+   "public": false,
+   "date": "2026-07-09"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that people should follow their own path and not be influenced by others' opinions.",
+   "quote": "I know that I shouldn't be. Look, let's really interrogate ourselves on following Rachel Fitt.",
+   "clip": "dfbe602adb004706bba6f788a23f0523.Replay20260709173721",
+   "public": false,
+   "date": "2026-07-09"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims they don't want to be a person who walks around staring at their phone but still uses their phone for social media.",
+   "quote": "I don't want to be another dude walking around staring at his phone.",
+   "clip": "c679558e11b44f0286a710dfd8649c1f.Replay20260709100827",
+   "public": false,
+   "date": "2026-07-09"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently discusses the importance of taking time to figure things out and not rushing to conclusions.",
+   "quote": "Some things take time to figure out. Some things take time to settle. Some things take time full stop.",
+   "clip": "04e4d31e67cb41878ff564aefeff6e83.Replay20260709154415",
+   "public": false,
+   "date": "2026-07-09"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker has a relationship with a person named Kristen who uses the phrase 'a lot of people' frequently.",
+   "quote": "In Arabic, quite often. Like, a lot of people. Do we get that from Kristen?",
+   "clip": "bb3a0e581937495280c88e1200a12864.Replay20260709130751",
+   "public": false,
+   "date": "2026-07-09"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims they're not sure how much more together they could be but also states they're not sure if having $10 million would change their day.",
+   "quote": "I could have $10 million in the bank. Okay. If you had $10 million in the bank, how would that change your day today? Today? Yeah. I mean, I still got to do laundry.",
+   "clip": "ec57050cfc2445ff8651b95e7d3e8cbd.Replay20260710090754",
+   "public": false,
+   "date": "2026-07-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims they're not sure how much more together they could be but also states they're not sure if having $10 million would change their day.",
+   "quote": "I could have $10 million in the bank. Okay. If you had $10 million in the bank, how would that change your day today? Today? Yeah. I mean, I still got to do laundry.",
+   "clip": "5847e917da4c48c6a9a7d1b355629326.Replay20260710090754",
+   "public": false,
+   "date": "2026-07-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims they're not sure how much more together they could be but also states they're not sure if having $10 million would change their day.",
+   "quote": "I could have $10 million in the bank. Okay. If you had $10 million in the bank, how would that change your day today? Today? Yeah. I mean, I still got to do laundry.",
+   "clip": "847aafe595b548afb21c26f13ac8c996.Replay20260710120156",
+   "public": false,
+   "date": "2026-07-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'okie dokie' to indicate agreement or understanding.",
+   "quote": "Okie dokie. Smokey sounds like a plan to me.",
+   "clip": "847aafe595b548afb21c26f13ac8c996.Replay20260710120156",
+   "public": false,
+   "date": "2026-07-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims they're not sure how much more together they could be but also states they're not sure if having $10 million would change their day.",
+   "quote": "I could have $10 million in the bank. Okay. If you had $10 million in the bank, how would that change your day today? Today? Yeah. I mean, I still got to do laundry.",
+   "clip": "ec57050cfc2445ff8651b95e7d3e8cbd.Replay20260710090754",
+   "public": false,
+   "date": "2026-07-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims they're not sure how much more together they could be but also states they're not sure if having $10 million would change their day.",
+   "quote": "I could have $10 million in the bank. Okay. If you had $10 million in the bank, how would that change your day today? Today? Yeah. I mean, I still got to do laundry.",
+   "clip": "5847e917da4c48c6a9a7d1b355629326.Replay20260710090754",
+   "public": false,
+   "date": "2026-07-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims they're not sure how much more together they could be but also states they're not sure if having $10 million would change their day.",
+   "quote": "I could have $10 million in the bank. Okay. If you had $10 million in the bank, how would that change your day today? Today? Yeah. I mean, I still got to do laundry.",
+   "clip": "847aafe595b548afb21c26f13ac8c996.Replay20260710120156",
+   "public": false,
+   "date": "2026-07-10"
+  }
+ ]
+}

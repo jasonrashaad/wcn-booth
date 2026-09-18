@@ -1,0 +1,209 @@
+{
+ "batch": 30,
+ "clips": [
+  "0abeaed961f843f4ae796519c970cdbc.pencilsdown",
+  "0da9fb1dfe1d4c0b838730bd12183b71.9Juljubblies",
+  "4f1a5ee120ea416da767c2f737ec3c70.9Juljubblies",
+  "73d13859e75c4ecfa22838ab0395b966.10Jultearinitup",
+  "92596701405f4294b6b8cc3039ce3033.drugabuse",
+  "Replay_2026-07-20_11-50-58",
+  "Replay_2026-07-20_11-57-23",
+  "Replay_2026-07-20_12-00-15",
+  "Replay_2026-07-20_12-29-49",
+  "Replay_2026-07-20_14-22-04",
+  "Replay_2026-07-20_14-25-00",
+  "Replay_2026-07-20_14-30-07",
+  "Replay_2026-07-22_13-54-34",
+  "a8fea563867d4936b128ab7d49255fdf.gettowork",
+  "b9e0749f989045579314473ce8e008f3.drugabuse",
+  "c1bc49a1d31c4d4cb1b5af8b20190972.wordshavemeanings",
+  "c483b3aeae494ee0829aa103b9753b81.pencilsdown2",
+  "ed97092f7b70476a8d179546d7126877.Replay_20260720_120015"
+ ],
+ "observations": [
+  {
+   "kind": "belief",
+   "text": "The speaker believes words have precise meanings and should be used correctly.",
+   "quote": "Fucking words have meanings. Words have meanings.",
+   "clip": "c1bc49a1d31c4d4cb1b5af8b20190972.wordshavemeanings",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be high on drugs but also states they are not having fun and cannot find their wallet.",
+   "quote": "it's because I'm high on drugs it's cause I'm high on drugs and I don't get any hugs it's why I can't find my wallet",
+   "clip": "b9e0749f989045579314473ce8e008f3.drugabuse",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they will write books about management but also says they don't care about recording their words.",
+   "quote": "I'm going to write a whole bunch of books. I'm going to put Drexel University on all of them. You will smile and you will shake my motherfucking hand and you will love every minute of it. I swear. I swear to God. Okay. Now there's an argument to be made that perhaps we should relax. There's an argument to be made.",
+   "clip": "0abeaed961f843f4ae796519c970cdbc.pencilsdown",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'fuck you' as a dismissive phrase.",
+   "quote": "Fuck you.",
+   "clip": "0abeaed961f843f4ae796519c970cdbc.pencilsdown",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm high' as a justification for their behavior.",
+   "quote": "it's cause I'm high on drugs",
+   "clip": "b9e0749f989045579314473ce8e008f3.drugabuse",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be proud of being in the 'careful stage' but also states they are not going to 'fuck with shit'.",
+   "quote": "I was in the careful stage. I'm so proud. You should let her go. I know, but I want to fuck. Is she going to? No. But, no. I want to fuck. I understand that. Nope. I'm not going to fuck with shit. I'm not going to fuck with shit. I'm not going to fuck. I ain't going to fuck. I ain't going to fuck with shit.",
+   "clip": "Replay_2026-07-20_14-22-04",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they will 'write a whole bunch of books' but also says they are 'high' and cannot think of words.",
+   "quote": "I'm going to write a whole bunch of books. I'm going to put Drexel University on all of them. You will smile and you will shake my motherfucking hand and you will love every minute of it. I swear. I swear to God. Okay. Now there's an argument to be made that perhaps we should relax. There's an argument to be made.",
+   "clip": "0abeaed961f843f4ae796519c970cdbc.pencilsdown",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'homefulness' as a made-up term for homelessness.",
+   "quote": "homefulness",
+   "clip": "Replay_2026-07-20_12-00-15",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'swallow your spit and move the fuck on' as a dismissive phrase.",
+   "quote": "Swallow your spit and move the fuck on.",
+   "clip": "Replay_2026-07-20_12-00-15",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm the deadest of ass' to describe their own state.",
+   "quote": "I'm so, I'm the deadest of ass.",
+   "clip": "Replay_2026-07-20_12-29-49",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'cookie' to refer to a plan or timeline.",
+   "quote": "And that's your cookie. And that's your cookie.",
+   "clip": "Replay_2026-07-20_12-29-49",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I don't care' to dismiss concerns about recording.",
+   "quote": "I don't care I don't care are we recording shit?",
+   "clip": "Replay_2026-07-22_13-54-34",
+   "public": false,
+   "date": "2026-07-22"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'no thanks' as a complete sentence to indicate rejection.",
+   "quote": "Everyone said no. No thanks. They meant it.",
+   "clip": "Replay_2026-07-20_14-30-07",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'fuck your people' as a dismissive phrase.",
+   "quote": "Fuck your people.",
+   "clip": "0abeaed961f843f4ae796519c970cdbc.pencilsdown",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm not going to fuck with shit' to indicate they will not engage in certain activities.",
+   "quote": "I'm not going to fuck with shit.",
+   "clip": "Replay_2026-07-20_14-22-04",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm high on drugs' as a justification for their behavior.",
+   "quote": "it's cause I'm high on drugs",
+   "clip": "b9e0749f989045579314473ce8e008f3.drugabuse",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'job lease' as a phrase to indicate they are done with something.",
+   "quote": "Job lease. Job lease.",
+   "clip": "0da9fb1dfe1d4c0b838730bd12183b71.9Juljubblies",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I don't get any hugs' to explain their behavior.",
+   "quote": "I don't get any hugs",
+   "clip": "b9e0749f989045579314473ce8e008f3.drugabuse",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm high' as a justification for their behavior.",
+   "quote": "it's cause I'm high on drugs",
+   "clip": "b9e0749f989045579314473ce8e008f3.drugabuse",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm high on drugs' as a justification for their behavior.",
+   "quote": "it's cause I'm high on drugs",
+   "clip": "92596701405f4294b6b8cc3039ce3033.drugabuse",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they are 'high' but also says they are 'not having fun' and cannot find their wallet.",
+   "quote": "it's because I'm high on drugs it's cause I'm high on drugs and I don't get any hugs it's why I can't find my wallet",
+   "clip": "92596701405f4294b6b8cc3039ce3033.drugabuse",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they will 'write a whole bunch of books' but also says they are 'high' and cannot think of words.",
+   "quote": "I'm going to write a whole bunch of books. I'm going to put Drexel University on all of them. You will smile and you will shake my motherfucking hand and you will love every minute of it. I swear. I swear to God. Okay. Now there's an argument to be made that perhaps we should relax. There's an argument to be made.",
+   "clip": "0abeaed961f843f4ae796519c970cdbc.pencilsdown",
+   "public": false,
+   "date": "undated"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they are 'proud' of being in the 'careful stage' but also says they are not going to 'fuck with shit'.",
+   "quote": "I was in the careful stage. I'm so proud. You should let her go. I know, but I want to fuck. Is she going to? No. But, no. I want to fuck. I understand that. Nope. I'm not going to fuck with shit. I'm not going to fuck with shit. I'm not going to fuck. I ain't going to fuck. I ain't going to fuck with shit.",
+   "clip": "Replay_2026-07-20_14-22-04",
+   "public": false,
+   "date": "2026-07-20"
+  }
+ ]
+}

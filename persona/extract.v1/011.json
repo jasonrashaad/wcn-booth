@@ -1,0 +1,180 @@
+{
+ "batch": 11,
+ "clips": [
+  "Replay 2025-10-06 14-26-20",
+  "Replay 2025-10-06 14-27-29",
+  "Replay 2025-10-06 14-27-44",
+  "Replay 2025-10-06 14-52-13",
+  "Replay 2025-10-06 15-49-40",
+  "Replay 2025-10-06 15-49-49",
+  "Replay 2025-10-06 17-02-39",
+  "Replay 2025-10-06 17-04-19",
+  "Replay 2025-10-06 17-11-25",
+  "Replay 2025-10-06 18-38-11",
+  "Replay 2025-10-06 21-50-46",
+  "Replay 2025-10-07 15-50-13",
+  "Replay 2025-10-07 15-55-33"
+ ],
+ "observations": [
+  {
+   "kind": "theme",
+   "text": "The speaker repeatedly emphasizes the importance of creating a self-sustaining revenue system that requires minimal ongoing effort.",
+   "quote": "if we structure it properly even stripped down if we structure it properly then this rabbit this generates revenue hands-off I think this makes money and we don't have to touch anything",
+   "clip": "Replay 2025-10-06 14-26-20",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that a successful business model should function effectively even when other elements fail or are incomplete.",
+   "quote": "The kind of success that works, that's a success even if it fails, is the best kind I can think of.",
+   "clip": "Replay 2025-10-06 14-27-44",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "intent",
+   "text": "The speaker intends to create a business model that can generate revenue without requiring constant personal intervention.",
+   "quote": "I think that structure gamma prompt kicks out the damn the life I think it does that without me intervening",
+   "clip": "Replay 2025-10-06 14-26-20",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker frequently uses the phrase 'this works' to emphasize the viability of their business concept.",
+   "quote": "This works that works that works that works",
+   "clip": "Replay 2025-10-06 14-26-20",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that their business concept is uniquely achievable and that few others could replicate it.",
+   "quote": "This is not some shit that most people can just fucking do",
+   "clip": "Replay 2025-10-06 15-49-49",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have a clear 'why' for their business but simultaneously expresses confusion about why others might not understand their business concept.",
+   "quote": "Why should be real fucking clear by now, my guys. My good people I have recognized my why I got my why dialed",
+   "clip": "Replay 2025-10-06 15-49-49",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "action",
+   "text": "The speaker reports having difficulty with communication from others, particularly regarding business decisions.",
+   "quote": "He didn't say anything. He didn't say anything. I didn't know. How could I have known?",
+   "clip": "Replay 2025-10-06 17-02-39",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses confidence in their business concept while simultaneously criticizing their own product as 'stupid' and 'sucks'.",
+   "quote": "I have a stupid product to market. I'll take that. Here's my stupid fucking product that nobody wants. Take it.",
+   "clip": "Replay 2025-10-06 21-50-46",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I got my why dialed' to indicate they have a clear purpose for their business.",
+   "quote": "I got my why dialed.",
+   "clip": "Replay 2025-10-06 15-49-49",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that their business concept is validated by its ability to generate revenue without requiring constant personal involvement.",
+   "quote": "This is brand validating. This is all that shit",
+   "clip": "Replay 2025-10-06 14-52-13",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have a clear understanding of their business purpose but simultaneously expresses confusion about why others don't understand their business concept.",
+   "quote": "Why should be real fucking clear by now, my guys. My good people I have recognized my why I got my why dialed",
+   "clip": "Replay 2025-10-06 15-49-49",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker mentions that they have not had negative experiences with 'boobie' (a term for breast-related content or interactions) in a specific context.",
+   "quote": "Not once has there been negative amounts of boobie.",
+   "clip": "Replay 2025-10-07 15-55-33",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'put on your own butt' as advice for improving posture.",
+   "quote": "Put on your own butt. That's actually an important tip for men.",
+   "clip": "Replay 2025-10-07 15-55-33",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses confidence in their business concept while simultaneously criticizing their own product as 'stupid' and 'sucks'.",
+   "quote": "I have a stupid product to market. I'll take that. Here's my stupid fucking product that nobody wants. Take it.",
+   "clip": "Replay 2025-10-06 21-50-46",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have a clear understanding of their business purpose but simultaneously expresses confusion about why others don't understand their business concept.",
+   "quote": "Why should be real fucking clear by now, my guys. My good people I have recognized my why I got my why dialed",
+   "clip": "Replay 2025-10-06 15-49-49",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'this goes' to indicate that a specific business component will drive other elements of their plan.",
+   "quote": "This goes. Maybe it pulls the rest through.",
+   "clip": "Replay 2025-10-06 14-27-44",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'll take what' to indicate they will accept any business opportunity without questioning its value.",
+   "quote": "I'll take what, as long as you don't say why.",
+   "clip": "Replay 2025-10-06 15-49-49",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses confidence in their business concept while simultaneously criticizing their own product as 'stupid' and 'sucks'.",
+   "quote": "I have a stupid product to market. I'll take that. Here's my stupid fucking product that nobody wants. Take it.",
+   "clip": "Replay 2025-10-06 21-50-46",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have a clear understanding of their business purpose but simultaneously expresses confusion about why others don't understand their business concept.",
+   "quote": "Why should be real fucking clear by now, my guys. My good people I have recognized my why I got my why dialed",
+   "clip": "Replay 2025-10-06 15-49-49",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses confidence in their business concept while simultaneously criticizing their own product as 'stupid' and 'sucks'.",
+   "quote": "I have a stupid product to market. I'll take that. Here's my stupid fucking product that nobody wants. Take it.",
+   "clip": "Replay 2025-10-06 21-50-46",
+   "public": false,
+   "date": "2025-10-06"
+  }
+ ]
+}

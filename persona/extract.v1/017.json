@@ -1,0 +1,176 @@
+{
+ "batch": 17,
+ "clips": [
+  "Replay 2025-10-10 15-02-52",
+  "Replay 2025-10-10 15-03-48",
+  "Replay 2025-10-10 15-04-37",
+  "Replay 2025-10-10 15-21-53",
+  "Replay 2025-10-10 15-23-43",
+  "Replay 2025-10-10 15-25-15",
+  "Replay 2025-10-10 15-30-02",
+  "Replay 2025-10-10 15-31-15",
+  "Replay 2025-10-10 15-33-07"
+ ],
+ "observations": [
+  {
+   "kind": "belief",
+   "text": "The speaker believes that building a product in a personal space like a bedroom or laundry room is a strength, not a weakness.",
+   "quote": "I've been building apps in my fucking bedroom since I was fucking 12. Just like your black ass would have been doing if you were 20 years younger.",
+   "clip": "Replay 2025-10-10 15-03-48",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that excellence speaks for itself and mediocrity needs a megaphone.",
+   "quote": "Excellence speaks for itself. Mediocrity needs a megaphone.",
+   "clip": "Replay 2025-10-10 15-23-43",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that privacy-centric data handling is a philosophical advantage over technical solutions.",
+   "quote": "It's a philosophical moat, right? Being privacy-centric, being local first, we're doing something in a way that it does not have to be done that way.",
+   "clip": "Replay 2025-10-10 15-30-02",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that the key differentiator for their business is being 'just some dude' who built it in a personal space.",
+   "quote": "The fact that we are just some dude, there we go, is our key differentiator.",
+   "clip": "Replay 2025-10-10 15-21-53",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that the difference between madness and genius is application and implementation.",
+   "quote": "Implementation is the difference between madness and genius.",
+   "clip": "Replay 2025-10-10 15-04-37",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that they should not celebrate themselves, as they don't like the idea of throwing a party for themselves.",
+   "quote": "Specifically because you don't like the idea of throwing a party for yourself.",
+   "clip": "Replay 2025-10-10 15-25-15",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that they are not selling an app but a system, and the app is just a part of the strategy.",
+   "quote": "I'm not selling an app. That's why we didn't start with a fucking app. Okay. The app is, there we go. The app is what we're using for the backpacker strategy because I don't have any goddamn money, but what I'm selling is the system.",
+   "clip": "Replay 2025-10-10 15-33-07",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker believes they should not celebrate themselves but is actively figuring out how to throw a birthday party for themselves.",
+   "quote": "I'm just some dude, but look. That's all you gotta say, man. He's a whole bunch of bullshit. Yeah. He's spiteful, too. Who ever is he saying he is, anyway.",
+   "clip": "Replay 2025-10-10 15-21-53",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker believes they should not celebrate themselves but is actively figuring out how to throw a birthday party for themselves.",
+   "quote": "I'm listening. Shit. Shit. Which is what the fuck I am about to spend the weekend figuring out how to do.",
+   "clip": "Replay 2025-10-10 15-25-15",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm a full stack engineer' to mean someone who can stand up infrastructure, not just code different parts of an app.",
+   "quote": "I'm a full stack engineer means I know how to program different parts of this pretty thing. You don't know shit. Yeah, I'm that cat. You don't know a goddamn thing you're a full stack engineer. I hear full stack. That says to me, you can stand up the database, motherfucker.",
+   "clip": "Replay 2025-10-10 15-02-52",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm just some dude' to describe their business's key differentiator.",
+   "quote": "The fact that we are just some dude, there we go, is our key differentiator.",
+   "clip": "Replay 2025-10-10 15-21-53",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'excellence speaks for itself' to describe their business's approach to marketing.",
+   "quote": "Excellence speaks for itself. Mediocrity needs a megaphone.",
+   "clip": "Replay 2025-10-10 15-23-43",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'philosophical moat' to describe their privacy-centric data handling approach.",
+   "quote": "It's a philosophical moat, right? Being privacy-centric, being local first, we're doing something in a way that it does not have to be done that way.",
+   "clip": "Replay 2025-10-10 15-30-02",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'backpacker strategy' to describe their approach to using an app as a low-cost entry point.",
+   "quote": "The app is what we're using for the backpacker strategy because I don't have any goddamn money, but what I'm selling is the system.",
+   "clip": "Replay 2025-10-10 15-33-07",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker believes they should not celebrate themselves but is actively figuring out how to throw a birthday party for themselves.",
+   "quote": "I'm just some dude, but look. That's all you gotta say, man. He's a whole bunch of bullshit. Yeah. He's spiteful, too. Who ever is he saying he is, anyway.",
+   "clip": "Replay 2025-10-10 15-21-53",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker believes they should not celebrate themselves but is actively figuring out how to throw a birthday party for themselves.",
+   "quote": "I'm listening. Shit. Shit. Which is what the fuck I am about to spend the weekend figuring out how to do.",
+   "clip": "Replay 2025-10-10 15-25-15",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker believes they should not celebrate themselves but is actively figuring out how to throw a birthday party for themselves.",
+   "quote": "I'm just some dude, but look. That's all you gotta say, man. He's a whole bunch of bullshit. Yeah. He's spiteful, too. Who ever is he saying he is, anyway.",
+   "clip": "Replay 2025-10-10 15-21-53",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker believes they should not celebrate themselves but is actively figuring out how to throw a birthday party for themselves.",
+   "quote": "I'm listening. Shit. Shit. Which is what the fuck I am about to spend the weekend figuring out how to do.",
+   "clip": "Replay 2025-10-10 15-25-15",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker believes they should not celebrate themselves but is actively figuring out how to throw a birthday party for themselves.",
+   "quote": "I'm just some dude, but look. That's all you gotta say, man. He's a whole bunch of bullshit. Yeah. He's spiteful, too. Who ever is he saying he is, anyway.",
+   "clip": "Replay 2025-10-10 15-21-53",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker believes they should not celebrate themselves but is actively figuring out how to throw a birthday party for themselves.",
+   "quote": "I'm listening. Shit. Shit. Which is what the fuck I am about to spend the weekend figuring out how to do.",
+   "clip": "Replay 2025-10-10 15-25-15",
+   "public": false,
+   "date": "2025-10-10"
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "batch": 24,
+ "clips": [
+  "Replay 2025-10-13 15-35-53",
+  "Replay 2025-10-13 15-37-11",
+  "Replay 2025-10-13 16-56-29",
+  "Replay 2025-10-13 16-57-03",
+  "Replay 2025-10-13 16-57-19",
+  "Replay 2025-10-13 17-06-45",
+  "Replay 2025-10-13 17-07-32",
+  "Replay 2025-10-13 17-09-42",
+  "Replay 2025-10-13 17-14-27",
+  "Replay 2025-10-13 18-05-58",
+  "Replay 2025-10-13 18-28-34",
+  "Replay 2025-10-13 19-04-45",
+  "Replay 2025-10-13 19-25-16"
+ ],
+ "observations": [
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be a skilled programmer but expresses frustration that their technical abilities are not valued by others.",
+   "quote": "I can fucking debug your database constraints like a motherfucker, like seriously. By hand, look at this shit, look at this shit.",
+   "clip": "Replay 2025-10-13 18-28-34",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm more old man' to describe their perceived age or maturity level in relation to younger people.",
+   "quote": "I'm more old man. I think I'm more old man.",
+   "clip": "Replay 2025-10-13 16-57-03",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker acknowledges their tendency to create things out of emotional need but feels ashamed about it.",
+   "quote": "I don't want to think hard about it. But there's a reason you're sitting here by yourself, homeboy.",
+   "clip": "Replay 2025-10-13 18-05-58",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'don't kill yourself' as a mantra for difficult days.",
+   "quote": "Some days it's just like, don't kill yourself. That's all I got for you is don't kill yourself.",
+   "clip": "Replay 2025-10-13 17-14-27",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be skilled at debugging but admits they cannot hand-edit SQL.",
+   "quote": "Can you hand edit SQL? I mean, sure, okay, whatever. He'll fly you out, but can he hand debug SQL? Can he? No, he can't.",
+   "clip": "Replay 2025-10-13 19-04-45",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be able to debug database constraints but admits they don't have money.",
+   "quote": "I don't have any money, but I can do that.",
+   "clip": "Replay 2025-10-13 19-04-45",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be skilled at technical tasks but feels their skills are not recognized by others.",
+   "quote": "Nobody gives a fuck. I give a fuck. Stop saying nobody gives a fuck. I give a fuck.",
+   "clip": "Replay 2025-10-13 18-28-34",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be able to create things but admits they do so out of emotional need rather than genuine skill.",
+   "quote": "I did build a whole fucking thing. I did build a whole entire goddamn thing. I woke up this morning and said, Hey, you know what would be good? And now I have it.",
+   "clip": "Replay 2025-10-13 18-28-34",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be skilled at debugging but admits they cannot do it without help.",
+   "quote": "I can fucking debug your database constraints like a motherfucker, like seriously. By hand, look at this shit, look at this shit.",
+   "clip": "Replay 2025-10-13 18-28-34",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be able to change a tire but not debug database constraints.",
+   "quote": "He can change your tire. I'm not saying he can't change your tire. He can do all sorts of things. He cannot debug your database level schema constraints.",
+   "clip": "Replay 2025-10-13 19-04-45",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be skilled at technical tasks but feels their skills are not valued by others.",
+   "quote": "I can fucking debug your database constraints like a motherfucker, like seriously. By hand, look at this shit, look at this shit.",
+   "clip": "Replay 2025-10-13 18-28-34",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be able to create things but admits they do so out of emotional need rather than genuine skill.",
+   "quote": "I did build a whole fucking thing. I did build a whole entire goddamn thing. I woke up this morning and said, Hey, you know what would be good? And now I have it.",
+   "clip": "Replay 2025-10-13 18-28-34",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be skilled at debugging but admits they cannot hand-edit SQL.",
+   "quote": "Can you hand edit SQL? I mean, sure, okay, whatever. He'll fly you out, but can he hand debug SQL? Can he? No, he can't.",
+   "clip": "Replay 2025-10-13 19-04-45",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be able to debug database constraints but admits they don't have money.",
+   "quote": "I don't have any money, but I can do that.",
+   "clip": "Replay 2025-10-13 19-04-45",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be skilled at technical tasks but feels their skills are not recognized by others.",
+   "quote": "Nobody gives a fuck. I give a fuck. Stop saying nobody gives a fuck. I give a fuck.",
+   "clip": "Replay 2025-10-13 18-28-34",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be able to create things but admits they do so out of emotional need rather than genuine skill.",
+   "quote": "I did build a whole fucking thing. I did build a whole entire goddamn thing. I woke up this morning and said, Hey, you know what would be good? And now I have it.",
+   "clip": "Replay 2025-10-13 18-28-34",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be skilled at debugging but admits they cannot do it without help.",
+   "quote": "I can fucking debug your database constraints like a motherfucker, like seriously. By hand, look at this shit, look at this shit.",
+   "clip": "Replay 2025-10-13 18-28-34",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be able to change a tire but not debug database constraints.",
+   "quote": "He can change your tire. I'm not saying he can't change your tire. He can do all sorts of things. He cannot debug your database level schema constraints.",
+   "clip": "Replay 2025-10-13 19-04-45",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be skilled at technical tasks but feels their skills are not valued by others.",
+   "quote": "I can fucking debug your database constraints like a motherfucker, like seriously. By hand, look at this shit, look at this shit.",
+   "clip": "Replay 2025-10-13 18-28-34",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be able to create things but admits they do so out of emotional need rather than genuine skill.",
+   "quote": "I did build a whole fucking thing. I did build a whole entire goddamn thing. I woke up this morning and said, Hey, you know what would be good? And now I have it.",
+   "clip": "Replay 2025-10-13 18-28-34",
+   "public": false,
+   "date": "2025-10-13"
+  }
+ ]
+}

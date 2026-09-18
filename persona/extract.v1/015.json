@@ -1,0 +1,180 @@
+{
+ "batch": 15,
+ "clips": [
+  "Replay 2025-10-09 13-10-48",
+  "Replay 2025-10-09 13-13-53",
+  "Replay 2025-10-09 13-15-07",
+  "Replay 2025-10-09 14-44-20",
+  "Replay 2025-10-09 14-45-38",
+  "Replay 2025-10-09 14-47-16",
+  "Replay 2025-10-10 11-14-12",
+  "Replay 2025-10-10 12-39-43",
+  "Replay 2025-10-10 12-46-11",
+  "Replay 2025-10-10 12-47-40",
+  "Replay 2025-10-10 12-57-18",
+  "Replay 2025-10-10 13-06-30",
+  "Replay 2025-10-10 13-06-45"
+ ],
+ "observations": [
+  {
+   "kind": "theme",
+   "text": "The speaker repeatedly discusses the concept of 'grinding' to an extreme level as a necessary part of their work ethic.",
+   "quote": "You gotta grind to such a high level. I just wake up sobbing sometimes. I gotta go for it. I ain't got no motherfucking money. I just grind so hard.",
+   "clip": "Replay 2025-10-09 13-10-48",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be working extremely hard while simultaneously admitting they have no money and no friends.",
+   "quote": "I ain't got no motherfucking money. I just grind so hard. I don't have anything else. I don't have any money. I'm not particularly charismatic. You know what I'm saying? I don't have any friends.",
+   "clip": "Replay 2025-10-09 13-10-48",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'How do you grow from zero to many?' as a recurring mantra for business growth strategy.",
+   "quote": "How do you grow from zero to many? How do you grow from zero to many? How do you grow from zero to many?",
+   "clip": "Replay 2025-10-10 12-57-18",
+   "public": true,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that being 'on track' with credit or financial matters is a misconception that others assume about them.",
+   "quote": "Your assumption there is that I'm on track in the first place.",
+   "clip": "Replay 2025-10-09 14-44-20",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be offended by the suggestion they might use crack while simultaneously acknowledging it's 'very cheap' as part of a hypothetical argument.",
+   "quote": "Crack is very cheap. That was her argument. And I could see in her head she was thinking, right. That's some addict shit. She was like, that's a strong point. Motherfucker. Crack? Why would I smoke crack? What are you talking about?",
+   "clip": "Replay 2025-10-09 14-47-16",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker mentions receiving nine repeated emails about a credit issue.",
+   "quote": "This is the ninth one of these buddy",
+   "clip": "Replay 2025-10-09 14-44-20",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm not smoking crack' as a defensive reaction to being called a drug addict.",
+   "quote": "I'm not smoking crack. It's the kind of thing you can't explain. I'm offended. I'm not like, yeah, you're calling me a drug addict, but calling me a crackhead.",
+   "clip": "Replay 2025-10-09 14-47-16",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'You're done' as a dismissive comment about someone's work.",
+   "quote": "You're done. You just wanted the fucking logos for the slide deck.",
+   "clip": "Replay 2025-10-09 13-15-07",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be a millionaire while simultaneously stating they have no money and are starting a business.",
+   "quote": "And this is in I'm a millionaire, so I'm starting a business Cerera emails, this is I Was gonna die and then I didn't it was like cool here",
+   "clip": "Replay 2025-10-10 11-14-12",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be offended by being called a drug addict while simultaneously engaging in self-destructive behavior like drinking heavily.",
+   "quote": "I'm going to keep drinking. Because that's how I've been spending my evening. And I'm not going to drive two hours south to Portland to go to a sex club.",
+   "clip": "Replay 2025-10-10 12-46-11",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm Whitney Houston' as a defensive reaction to being called a drug addict.",
+   "quote": "I'm Whitney Houston. Who the fuck? Okay, you can't say shit like that, Whitney.",
+   "clip": "Replay 2025-10-09 14-47-16",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'You're looking out for who? For me, for number one.' as a way to acknowledge someone's concern.",
+   "quote": "You're looking out for who? For me, for number one. So, again, I just want to say thanks.",
+   "clip": "Replay 2025-10-09 13-15-07",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that being able to 'know what's going on when no one will tell you' is a necessary skill for their job.",
+   "quote": "Knowing what's going on when no one will tell you, and that being a skill you gotta build, and then I'm supposed to be able to turn it off?",
+   "clip": "Replay 2025-10-09 14-45-38",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be offended by being called a drug addict while simultaneously acknowledging the 'cheapness' of crack as part of a hypothetical argument.",
+   "quote": "Crack is very cheap. That was her argument. And I could see in her head she was thinking, right. That's some addict shit. She was like, that's a strong point. Motherfucker. Crack? Why would I smoke crack? What are you talking about?",
+   "clip": "Replay 2025-10-09 14-47-16",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm not posting shit' to dismiss the idea that they would share certain stories on social media.",
+   "quote": "I'm not posting shit, that's a true story.",
+   "clip": "Replay 2025-10-09 14-45-38",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'super drunk' while simultaneously discussing business strategy and making plans.",
+   "quote": "I'm super drunk. But thank you. Have a good time. I'm going to store this for posterity.",
+   "clip": "Replay 2025-10-10 12-46-11",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'You're done' as a dismissive comment about someone's work.",
+   "quote": "You're done. You just wanted the fucking logos for the slide deck.",
+   "clip": "Replay 2025-10-09 13-15-07",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that 'edge functions' are simply a new term for existing database procedures.",
+   "quote": "What the fuck is an edge function? It's a fucking store procedure. The end.",
+   "clip": "Replay 2025-10-10 13-06-30",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be offended by being called a drug addict while simultaneously acknowledging the 'cheapness' of crack as part of a hypothetical argument.",
+   "quote": "Crack is very cheap. That was her argument. And I could see in her head she was thinking, right. That's some addict shit. She was like, that's a strong point. Motherfucker. Crack? Why would I smoke crack? What are you talking about?",
+   "clip": "Replay 2025-10-09 14-47-16",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm Whitney Houston' as a defensive reaction to being called a drug addict.",
+   "quote": "I'm Whitney Houston. Who the fuck? Okay, you can't say shit like that, Whitney.",
+   "clip": "Replay 2025-10-09 14-47-16",
+   "public": false,
+   "date": "2025-10-09"
+  }
+ ]
+}

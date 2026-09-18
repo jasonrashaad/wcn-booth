@@ -1,0 +1,107 @@
+{
+ "batch": 21,
+ "clips": [
+  "Replay 2025-10-11 23-10-02",
+  "Replay 2025-10-11 23-13-40",
+  "Replay 2025-10-12 00-15-53",
+  "Replay 2025-10-12 05-34-59",
+  "Replay 2025-10-12 07-53-05",
+  "Replay 2025-10-12 07-56-45",
+  "Replay 2025-10-12 08-22-42",
+  "Replay 2025-10-12 08-25-39",
+  "Replay 2025-10-12 08-27-36",
+  "Replay 2025-10-12 09-46-08",
+  "Replay 2025-10-12 10-25-22",
+  "Replay 2025-10-12 10-27-24"
+ ],
+ "observations": [
+  {
+   "kind": "theme",
+   "text": "The speaker frequently reflects on the intersection of poverty, food choices, and convenience in daily life.",
+   "quote": "You're broke. You're not trying to sit and like, okay, well let me prepare my meal. You're mostly trying not to kill yourself all day. And so you're like, alright, what can I grab and shove into my goddamn face? And so ease of preparation. Major factor.",
+   "clip": "Replay 2025-10-11 23-10-02",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker holds a belief that societal norms around financial behavior are hypocritical, particularly regarding credit and spending habits.",
+   "quote": "You don't take Klarna? That means hookers take Klarna. You know that, right? That means hookers are taking Klarna. That's exactly what, that's 100,000% what that means, is that hookers are taking Klarna.",
+   "clip": "Replay 2025-10-11 23-13-40",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "action",
+   "text": "The speaker recalls proposing to their partner after a specific moment of emotional clarity.",
+   "quote": "I proposed to her after that. Those two things are connected.",
+   "clip": "Replay 2025-10-12 00-15-53",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker references a decade of professional work experience, specifically 10 years since a significant career event.",
+   "quote": "10 years. 10 years since Amazon, 20 since Can't Believe World.",
+   "clip": "Replay 2025-10-12 05-34-59",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "cadence",
+   "text": "The speaker uses a repetitive phrase 'S dann schatt!' to mark moments of emotional intensity or resolution.",
+   "quote": "S dann schatt! S dann schatt! S dann schatt! S dann schatt! S dann schatt! S dann schatt! S dann schatt! S dann schatt! S dann schatt! S dann schatt! S dann schatt!",
+   "clip": "Replay 2025-10-12 00-15-53",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses a contradiction between their current state of having 'nothing to lose' and their past efforts to rebuild their career.",
+   "quote": "I don't have anything to lose. I don't have anything to burn. I don't have any esteem to protect. All I have is my pride, and no, I don't. This is my pride. This is my pride. This is, look, motherfuckers, 10 years ago, this happened. And I've been clawing my fucking way back since.",
+   "clip": "Replay 2025-10-12 05-34-59",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'We're going to pass over, oh my God, we're going to die on our way to the beach' to frame challenges as temporary obstacles to a positive goal.",
+   "quote": "We're going to pass over, oh my God, we're going to die on our way to the beach. Okay? We're not headed towards, oh my God, I'm going to die. We're headed over it and past it.",
+   "clip": "Replay 2025-10-12 07-56-45",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to a specific person named 'Aunt Georgine' in a childhood memory involving discipline.",
+   "quote": "That wasn't even my mom, that was Aunt Georgine, that was like... You take your ass whooping, you don't lie about it, you take that ass whooping, you know what I'm saying?",
+   "clip": "Replay 2025-10-12 08-27-36",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker describes a contradiction between their current emotional fragility and their need to maintain composure during high-stress situations.",
+   "quote": "In high stress situations you get emotionally fragile. You're at an inflection point in your life and... You're just thinking about your mortality and there's a bunch of shit on top of it. So just... It's happening anyway.",
+   "clip": "Replay 2025-10-12 09-46-08",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker holds a belief that their professional success and longevity in Hollywood are evidence of their value.",
+   "quote": "I haven't worked steadily for 40 fucking years. It's a strap. You can kiss my ass and my balls, okay? I don't want to hear it. Make fun of me. Let me tell you something. Number one, I look like this. My name is fucking Bo-keem. So the fact that I am still working in Hollywood, you can kiss my ass.",
+   "clip": "Replay 2025-10-12 10-25-22",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'll have it with me when I'm going to commit all of these murders' to express a darkly humorous attitude toward their own perceived lack of accountability.",
+   "quote": "I'll have it with me when I'm going to commit all of these murders, okay?",
+   "clip": "Replay 2025-10-12 10-27-24",
+   "public": false,
+   "date": "2025-10-12"
+  }
+ ]
+}

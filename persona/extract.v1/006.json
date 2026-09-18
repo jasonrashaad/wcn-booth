@@ -1,0 +1,180 @@
+{
+ "batch": 6,
+ "clips": [
+  "Replay 2025-10-02 13-04-40",
+  "Replay 2025-10-02 13-05-34",
+  "Replay 2025-10-02 13-09-38",
+  "Replay 2025-10-02 13-17-55",
+  "Replay 2025-10-02 13-19-01",
+  "Replay 2025-10-02 13-21-09",
+  "Replay 2025-10-02 13-25-10",
+  "Replay 2025-10-02 13-26-21",
+  "Replay 2025-10-02 13-48-09",
+  "Replay 2025-10-02 13-54-48",
+  "Replay 2025-10-02 14-02-54",
+  "Replay 2025-10-02 14-12-40",
+  "Replay 2025-10-02 14-14-05"
+ ],
+ "observations": [
+  {
+   "kind": "theme",
+   "text": "The speaker frequently reflects on self-perception and how others view them, often questioning their own identity.",
+   "quote": "Who is stronger than me? This is how you see me. This is how I am. Creature man.",
+   "clip": "Replay 2025-10-02 13-04-40",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes authenticity is essential for personal reinforcement and validation.",
+   "quote": "When it's real, when it's authentic, when it's one voice, and it's like... Then that's reinforcement that I can get with.",
+   "clip": "Replay 2025-10-02 13-05-34",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to value authenticity but admits to fabricating stories about their profession to others.",
+   "quote": "You're in construction, my guy. It's fine. It's cool. Other people are not going to know what you're talking about. I won't tell. It's fine. You have an ally on my side. You are completely full of shit, and it's working.",
+   "clip": "Replay 2025-10-02 13-25-10",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states they are about to turn 47 years old.",
+   "quote": "Jason, you're about to be fucking 47.",
+   "clip": "Replay 2025-10-02 13-48-09",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to Jason Rashad as a person they interact with, likely a friend or acquaintance.",
+   "quote": "Please do not post that anywhere, Jason Rashad.",
+   "clip": "Replay 2025-10-02 13-19-01",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'crab leg' to refer to something they are describing.",
+   "quote": "That's my... Crab leg.",
+   "clip": "Replay 2025-10-02 13-05-34",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have excellent credit but threatens violence if challenged.",
+   "quote": "I got excellent credit. I'm not fighting you. What I look like fighting? You know how good my credit is? Bitch, I will stomp you out in front of your kids.",
+   "clip": "Replay 2025-10-02 13-26-21",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "intent",
+   "text": "The speaker intends to seek funding for their project, asking for a couple hundred thousand dollars.",
+   "quote": "I'm just asking for a couple hundred thousand. A couple hundred thousand. That's it. That's it. I'm not asking for much.",
+   "clip": "Replay 2025-10-02 13-54-48",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently references their past, particularly childhood memories and experiences.",
+   "quote": "Our parents were at work. Through the night. And that is my generation. Who's writing that book? Not me.",
+   "clip": "Replay 2025-10-02 13-19-01",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker often discusses the importance of being seen and validated by others.",
+   "quote": "And that's why the only lift I can get is from being seen. For who I feel that I am.",
+   "clip": "Replay 2025-10-02 13-04-40",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be a 'hooligan' but also expresses a desire to be respected and taken seriously.",
+   "quote": "I'm a hooligan. I'm not fucking with you motherfuckers.",
+   "clip": "Replay 2025-10-02 13-25-10",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they are not asking for much funding but admits they are seeking a significant amount of money.",
+   "quote": "I'm just asking for a couple hundred thousand. A couple hundred thousand. That's it. That's it. I'm not asking for much.",
+   "clip": "Replay 2025-10-02 13-54-48",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'fuck your facts' to dismiss logical arguments.",
+   "quote": "She is discarding all of that for just straight. Remember, she's like, fuck your facts.",
+   "clip": "Replay 2025-10-02 13-48-09",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have a good credit score but also threatens violence, indicating a contradiction in their self-presentation.",
+   "quote": "I got excellent credit. I'm not fighting you. What I look like fighting? You know how good my credit is? Bitch, I will stomp you out in front of your kids.",
+   "clip": "Replay 2025-10-02 13-26-21",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to Michael as a person they interact with, likely a friend or acquaintance.",
+   "quote": "Michael, is BB gun is a Radcliffe memory?",
+   "clip": "Replay 2025-10-02 14-12-40",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "cadence",
+   "text": "The speaker frequently checks in on their heart rate variability (HRV) as part of their fitness routine.",
+   "quote": "HRV status 38 milliseconds. I don't know what this means Your recent training load has been lighter But your HRV says the case that you may need more time to recover",
+   "clip": "Replay 2025-10-02 13-21-09",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "action",
+   "text": "The speaker has been smoking cigarettes, as indicated by their reference to 'chain smoking cigarettes'.",
+   "quote": "I remember this argument. Smoking, chain smoking cigarettes.",
+   "clip": "Replay 2025-10-02 13-48-09",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm not asking for much' when discussing their funding needs.",
+   "quote": "I'm not asking for much. Give me some runway and let me run.",
+   "clip": "Replay 2025-10-02 13-54-48",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be in a good mood but is clearly agitated and frustrated.",
+   "quote": "You're in a good mood be in a good mood. Yeah caffeine pull your shit up.",
+   "clip": "Replay 2025-10-02 14-14-05",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently references their childhood and the experiences of their generation.",
+   "quote": "Our parents were at work. Through the night. And that is my generation.",
+   "clip": "Replay 2025-10-02 13-19-01",
+   "public": false,
+   "date": "2025-10-02"
+  }
+ ]
+}

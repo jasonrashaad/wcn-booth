@@ -1,0 +1,177 @@
+{
+ "batch": 19,
+ "clips": [
+  "Replay 2025-10-10 17-39-35",
+  "Replay 2025-10-10 17-40-44",
+  "Replay 2025-10-10 17-50-15",
+  "Replay 2025-10-10 18-02-28",
+  "Replay 2025-10-10 18-40-31",
+  "Replay 2025-10-10 20-21-29",
+  "Replay 2025-10-10 20-27-30",
+  "Replay 2025-10-10 20-28-50",
+  "Replay 2025-10-10 20-30-03",
+  "Replay 2025-10-10 20-34-02"
+ ],
+ "observations": [
+  {
+   "kind": "intent",
+   "text": "The speaker intends to pitch their behavioral therapy system to therapists in Portugal.",
+   "quote": "If I'm pitching, I'm going to go back to Portugal because I would like to go to Portugal. If I'm a therapist in Portugal, I'm pitching them on this.",
+   "clip": "Replay 2025-10-10 17-39-35",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "action",
+   "text": "The speaker has built an interface for their system after the core system was developed.",
+   "quote": "That's why we built the interface last.",
+   "clip": "Replay 2025-10-10 17-39-35",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker repeatedly emphasizes that their system is about reinforcing habits rather than breaking them.",
+   "quote": "The system works for reinforcing any habit, reinforcing any behavior, taking a behavior, which is what we said, taking a pattern and aiming it, modifying it, not breaking it, not harsh, not rules just to break it, but to mold it, to shape it, to bend it.",
+   "clip": "Replay 2025-10-10 17-39-35",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that they do not need to be a medical doctor to develop a behavioral therapy methodology.",
+   "quote": "I do not have to be a medical doctor, Erica, in order to generate something for, that helps with behavioral therapy.",
+   "clip": "Replay 2025-10-10 17-40-44",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states they will take 20 years to achieve their goals.",
+   "quote": "I'll take 20 years. 19 years. I'll take that. That's solid. That's a solid run. 20. I'll do another 20.",
+   "clip": "Replay 2025-10-10 20-27-30",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims they are not a medical doctor but intends to develop a behavioral therapy methodology.",
+   "quote": "I do not have to be a medical doctor, Erica, in order to generate something for, that helps with behavioral therapy.",
+   "clip": "Replay 2025-10-10 17-40-44",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to a person named 'Gordy' who is described as 'crazy'.",
+   "quote": "Gordy. Gordy. This Gordy is crazy.",
+   "clip": "Replay 2025-10-10 20-21-29",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they are going to 'kill themselves' but also says they will 'have fun' regardless of their situation.",
+   "quote": "If we kill ourselves, then this is it. Right? We might as well have a little bit of fun. Hey, either way, we might as well say we have fun tonight.",
+   "clip": "Replay 2025-10-10 20-21-29",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "action",
+   "text": "The speaker plans to sell items to generate money before a specific date.",
+   "quote": "We're in full tilt selling shit mode. Anything in here of value that's gotta go, we gotta go.",
+   "clip": "Replay 2025-10-10 18-02-28",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker mentions a specific date, 1015, as a deadline for selling items.",
+   "quote": "So that's why when we get to 1015, we're in full tilt selling shit mode.",
+   "clip": "Replay 2025-10-10 18-02-28",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I hate balls' repeatedly.",
+   "quote": "I hate balls. I hate balls.",
+   "clip": "Replay 2025-10-10 17-39-35",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker repeatedly discusses the concept of 'iterative' development and progress.",
+   "quote": "This works. If I'm pitching, I'm going to go back to Portugal because I would like to go to Portugal. If I'm a therapist in Portugal, I'm pitching them on this.",
+   "clip": "Replay 2025-10-10 17-39-35",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that behavioral research does not mean anything.",
+   "quote": "I think we all agree that behavioral research doesn't fucking mean anything, my doctor, not doesn't mean anything.",
+   "clip": "Replay 2025-10-10 17-40-44",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims they are not a medical doctor but believes they have enough credentials to support their methodology.",
+   "quote": "I think that organizational behavior, I think that being a social scientist, which I will be, as a doctorate of business administration from a directorial university is enough credentials to support evolutions as a methodology, as habit formation therapy, as iterative, progressional behavioral therapy.",
+   "clip": "Replay 2025-10-10 17-40-44",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to a person named 'Al\u0435\u0431aba' who has been a member for eight years.",
+   "quote": "He's taken just one class. He's run for a member to power me over for eight years now.",
+   "clip": "Replay 2025-10-10 17-39-35",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they are 'nowhere near' as successful as 'Al\u0435\u0431aba' but also claims they will 'make it count' in 20 years.",
+   "quote": "I'm nowhere near like he is now. beat him into\u0443\u043c for being dumb right now. Here he came to high school, is what he does to students. He's outage to students.",
+   "clip": "Replay 2025-10-10 17-39-35",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm deadass' to emphasize their seriousness.",
+   "quote": "I'm deadass.",
+   "clip": "Replay 2025-10-10 20-21-29",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims they are not a medical doctor but believes they have enough credentials to support their methodology.",
+   "quote": "I think that organizational behavior, I think that being a social scientist, which I will be, as a doctorate of business administration from a directorial university is enough credentials to support evolutions as a methodology, as habit formation therapy, as iterative, progressional behavioral therapy.",
+   "clip": "Replay 2025-10-10 17-40-44",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'll make it count' to express their determination.",
+   "quote": "I'll make it count. That's 20 years. I didn't see some kids to college in 20 years.",
+   "clip": "Replay 2025-10-10 20-27-30",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they are 'nowhere near' as successful as 'Al\u0435\u0431aba' but also claims they will 'make it count' in 20 years.",
+   "quote": "I'm nowhere near like he is now. beat him into\u0443\u043c for being dumb right now. Here he came to high school, is what he does to students. He's outage to students.",
+   "clip": "Replay 2025-10-10 17-39-35",
+   "public": false,
+   "date": "2025-10-10"
+  }
+ ]
+}

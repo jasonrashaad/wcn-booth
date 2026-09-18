@@ -1,0 +1,181 @@
+{
+ "batch": 20,
+ "clips": [
+  "Replay 2025-10-11 10-56-04",
+  "Replay 2025-10-11 13-00-10",
+  "Replay 2025-10-11 14-48-50",
+  "Replay 2025-10-11 14-54-36",
+  "Replay 2025-10-11 15-22-28",
+  "Replay 2025-10-11 15-23-38",
+  "Replay 2025-10-11 17-41-02",
+  "Replay 2025-10-11 17-46-41",
+  "Replay 2025-10-11 18-16-02",
+  "Replay 2025-10-11 18-17-51",
+  "Replay 2025-10-11 19-11-54",
+  "Replay 2025-10-11 19-35-05",
+  "Replay 2025-10-11 23-06-51",
+  "Replay 2025-10-11 23-08-36"
+ ],
+ "observations": [
+  {
+   "kind": "phrase",
+   "text": "The speaker repeatedly uses 'Al Bundy was murdering it' to describe a desired lifestyle of simplicity and lack of modern pressures.",
+   "quote": "Al Bundy was murdering it.",
+   "clip": "Replay 2025-10-11 14-48-50",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be trying to enter an 'Al Bundy era' but admits to being 'trying to fit in' and 'forgot who in the fuck you were' for a long time.",
+   "quote": "I'm really trying to enter my Al Bundy era real heavy. I think the next thing, I'm going to do a real Al Bundy thing.",
+   "clip": "Replay 2025-10-11 14-48-50",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that writing documentation is for people who 'would have gone to business school' and that readable code is 'pussy' or 'bitch'.",
+   "quote": "If I wanted to write documentation, bitch, I'd have gone to business school. Fuck your readable code.",
+   "clip": "Replay 2025-10-11 13-00-10",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states that for a year before age 27, they only slept with people they had known for a year.",
+   "quote": "A year before having sex with her. A year. God damn it, that's a true statistic until I was 27.",
+   "clip": "Replay 2025-10-11 14-54-36",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'not dumb' but admits they're 'not a web designer' when discussing technical work.",
+   "quote": "I'm not dumb. Fuck you. He's not saying, you're dumb. ... I'm not a web designer.",
+   "clip": "Replay 2025-10-11 18-16-02",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'Homeless Joe' as a self-referential term for their current state of being.",
+   "quote": "Homeless Joe. Let's get it, Homeless Joe!",
+   "clip": "Replay 2025-10-11 15-23-38",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'saddy pants' and 'McPandy Pansy' as playful, self-deprecating nicknames for themselves.",
+   "quote": "Come on sad pants. Come on sad Mr. Slim. Come on saddy pants. McPandy Pansy.",
+   "clip": "Replay 2025-10-11 23-06-51",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm all this time borrowed' to express a sense of urgency about time.",
+   "quote": "I'm all this time borrowed, we don't have any time.",
+   "clip": "Replay 2025-10-11 17-41-02",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'You're corny' to describe their own perceived lack of authenticity.",
+   "quote": "You're corny. You are this guy. You're not these other guys.",
+   "clip": "Replay 2025-10-11 15-23-38",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'trying to fit in' but states they 'forgot who in the fuck you were' for a long time.",
+   "quote": "You've been trying to fit in your life. You've been trying, not your life. You've been trying, I know exactly where you started trying to fit in.",
+   "clip": "Replay 2025-10-11 15-23-38",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'zounds' as a mispronunciation of 'zones' when referring to a coaching process.",
+   "quote": "a lot of people say zounds when i get to that part",
+   "clip": "Replay 2025-10-11 15-22-28",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'not dumb' but admits they're 'not a web designer' when discussing technical work.",
+   "quote": "I'm not dumb. Fuck you. He's not saying, you're dumb. ... I'm not a web designer.",
+   "clip": "Replay 2025-10-11 18-16-02",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm gonna kill myself' as a sarcastic, self-deprecating phrase.",
+   "quote": "Oh I'm gonna kill myself. Oh I'm gonna blow my brains out all over the world.",
+   "clip": "Replay 2025-10-11 23-06-51",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'update your links' as a metaphor for making small, positive changes.",
+   "quote": "You like updating links. Let's just keep. I know. Shh. Shh. Shh. We're just gonna update these links.",
+   "clip": "Replay 2025-10-11 23-06-51",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they 'don't transform my habits' but then says they're 'excited to help you transform your habits' in a coaching context.",
+   "quote": "And I don't transform my habits motherfucker I'm gonna come over there I have to dress for the water to die. ... We're excited to help you transform your habits",
+   "clip": "Replay 2025-10-11 19-35-05",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm all this time borrowed' to express a sense of urgency about time.",
+   "quote": "I'm all this time borrowed, we don't have any time.",
+   "clip": "Replay 2025-10-11 17-41-02",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm gonna be the worst homeless person' as a self-deprecating phrase.",
+   "quote": "I'm gonna be the worst homeless person",
+   "clip": "Replay 2025-10-11 19-35-05",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'We're standing on your neck' as a metaphor for being supportive in a coaching context.",
+   "quote": "We're standing on your neck We're helping you find out what those eggs do",
+   "clip": "Replay 2025-10-11 19-35-05",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm all this time borrowed' to express a sense of urgency about time.",
+   "quote": "I'm all this time borrowed, we don't have any time.",
+   "clip": "Replay 2025-10-11 17-41-02",
+   "public": false,
+   "date": "2025-10-11"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm all this time borrowed' to express a sense of urgency about time.",
+   "quote": "I'm all this time borrowed, we don't have any time.",
+   "clip": "Replay 2025-10-11 17-41-02",
+   "public": false,
+   "date": "2025-10-11"
+  }
+ ]
+}

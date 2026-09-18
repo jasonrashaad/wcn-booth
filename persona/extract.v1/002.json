@@ -1,0 +1,105 @@
+{
+ "batch": 2,
+ "clips": [
+  "20250928_131432",
+  "20250928_132818"
+ ],
+ "observations": [
+  {
+   "kind": "theme",
+   "text": "The speaker frequently reflects on past professional failures and their impact on current opportunities.",
+   "quote": "Reflecting on the fact that that was 10 years ago I got fired from Amazon.",
+   "clip": "20250928_131432",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "intent",
+   "text": "The speaker intends to create a media site to publish articles and research related to their dissertation.",
+   "quote": "We're working on our goddamn dissertation. Right. Okay, this is iterating in real time. Because we're working on our dissertation and we need a place to talk about all of this shit.",
+   "clip": "20250928_131432",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "action",
+   "text": "The speaker has been fired from Amazon 10 years ago, though they mistakenly refer to it as current.",
+   "quote": "Reflecting on the fact that that was 10 years ago I got fired from Amazon.",
+   "clip": "20250928_131432",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that sharing personal professional failures can drive attention and traffic to their current projects.",
+   "quote": "This is like the perfect shit for LinkedIn because... Basically, fuck these people. Like, I'll tag those motherfuckers. I don't give a shit.",
+   "clip": "20250928_131432",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker refers to a 10-year timeframe for their Amazon firing.",
+   "quote": "Reflecting on the fact that that was 10 years ago I got fired from Amazon.",
+   "clip": "20250928_131432",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have been fired from Amazon 10 years ago but acknowledges they were still working there at that time.",
+   "quote": "You didn't actually get fired from Amazon 10 years ago. 10 years ago you were still working there.",
+   "clip": "20250928_131432",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'fuck these people' to express defiance toward perceived professional obstacles.",
+   "quote": "Basically, fuck these people. Like, I'll tag those motherfuckers. I don't give a shit.",
+   "clip": "20250928_131432",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker is focused on building a media platform to showcase their research and business ideas.",
+   "quote": "We need a place to talk about all of this shit. Because we don't have a job.",
+   "clip": "20250928_131432",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they need to publish content to secure a job but also claims they don't have a job right now.",
+   "quote": "We're working on our goddamn dissertation. Right. Okay, this is iterating in real time. Because we're working on our dissertation and we need a place to talk about all of this shit. Because we don't have a job.",
+   "clip": "20250928_131432",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that creating a media site will serve as a central hub for their business pitch and research.",
+   "quote": "This works. Fuck. Fuck.",
+   "clip": "20250928_131432",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker is preoccupied with the idea of being misunderstood by others regarding their personal struggles.",
+   "quote": "People saw what was in front of them. Didn't look any further because why would they? And so what they probably saw when they looked in front of them was somebody in a lot of pain.",
+   "clip": "20250928_132818",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have been triumphantly returning from something but acknowledges others saw only pain.",
+   "quote": "I felt that I was triumphantly returning from something, and I was. But I was triumphantly returning from something nobody knew anything about.",
+   "clip": "20250928_132818",
+   "public": false,
+   "date": "2025-09-28"
+  }
+ ]
+}

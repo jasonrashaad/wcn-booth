@@ -1,0 +1,178 @@
+{
+ "batch": 8,
+ "clips": [
+  "Replay 2025-10-03 13-04-57",
+  "Replay 2025-10-03 13-06-56",
+  "Replay 2025-10-03 13-17-40",
+  "Replay 2025-10-03 13-25-38",
+  "Replay 2025-10-03 15-31-03",
+  "Replay 2025-10-03 15-35-57",
+  "Replay 2025-10-04 22-48-30",
+  "Replay 2025-10-05 07-51-04",
+  "Replay 2025-10-05 07-53-33",
+  "Replay 2025-10-05 13-40-18",
+  "Replay 2025-10-05 13-43-50"
+ ],
+ "observations": [
+  {
+   "kind": "phrase",
+   "text": "The speaker refers to their career as 'playing with toys' and needing to explain their work to others to be left alone.",
+   "quote": "You were over minding your own fucking business playing with your toys. And somebody was like, what in the fuck are you doing? And you were like, ugh. And then you had to explain.",
+   "clip": "Replay 2025-10-03 13-04-57",
+   "public": false,
+   "date": "2025-10-03"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes they must be aggressive in their work to avoid being perceived as wrong by others.",
+   "quote": "Every time you bump up against someone, you become what they perceive you to be. Stop fucking doing that.",
+   "clip": "Replay 2025-10-04 22-48-30",
+   "public": false,
+   "date": "2025-10-04"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they want to collaborate on a fitness app but feels they lack money and attention from others.",
+   "quote": "I am actually a developer who is actually working on a fitness app, which is actually going to integrate with your application. I would actually like to collaborate. They could actually say go fuck yourself.",
+   "clip": "Replay 2025-10-03 13-06-56",
+   "public": false,
+   "date": "2025-10-03"
+  },
+  {
+   "kind": "cadence",
+   "text": "The speaker plans to update their project every Friday and Sunday for the next four weeks.",
+   "quote": "We can do that every Friday, Saturday, and Sunday for the next four Fridays, Saturdays, and Sundays.",
+   "clip": "Replay 2025-10-03 13-17-40",
+   "public": false,
+   "date": "2025-10-03"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker mentions spending hours on a project involving people clicking a second link.",
+   "quote": "We spent real people being paid real money, spent real hours of their lives trying to devise ways to make people to click a second link on a form.",
+   "clip": "Replay 2025-10-05 07-51-04",
+   "public": false,
+   "date": "2025-10-05"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they know their work is 'terrible' but continues to work on it while acknowledging the quality.",
+   "quote": "It's still terrible but oh this is fun there's a little still terrible we haven't changed the fact that this is terrible but still look and it's okay to recognize that every now and then",
+   "clip": "Replay 2025-10-03 13-25-38",
+   "public": false,
+   "date": "2025-10-03"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I don't know anything' to describe their uncertainty about their work.",
+   "quote": "I don't know what I'm doing. I don't know anything. I know it's hot.",
+   "clip": "Replay 2025-10-03 15-31-03",
+   "public": false,
+   "date": "2025-10-03"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that if no one is looking at their work, it is considered 'bullshit' and they must continue to work.",
+   "quote": "Because nobody's looking. So does that mean you're not here? Does that mean you're not doing anything? Does that mean this shit's bullshit? Yes. Absolutely.",
+   "clip": "Replay 2025-10-03 15-31-03",
+   "public": false,
+   "date": "2025-10-03"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker acknowledges they are not getting paid for their work but still want to continue developing it.",
+   "quote": "I don't have a job. And I shudder to think. I know what my hourly rate was.",
+   "clip": "Replay 2025-10-05 07-51-04",
+   "public": false,
+   "date": "2025-10-05"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'we're right or we're not' to describe their approach to work.",
+   "quote": "We're right or we're not. Or we're wrong. Aggressively.",
+   "clip": "Replay 2025-10-04 22-48-30",
+   "public": false,
+   "date": "2025-10-04"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they want to collaborate on a fitness app but feel they lack the resources to do so.",
+   "quote": "I don't have any money and I can't get anybody to pay any attention to me.",
+   "clip": "Replay 2025-10-03 13-06-56",
+   "public": false,
+   "date": "2025-10-03"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker refers to their work as 'bullshit' but continues to develop it.",
+   "quote": "Where does this bullshit come from? This is where this bullshit comes from.",
+   "clip": "Replay 2025-10-05 07-53-33",
+   "public": false,
+   "date": "2025-10-05"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they are 'crazy' for having more updates on Sunday.",
+   "quote": "I'll have more Sunday cuz I'm crazy because I'm crazy mark until you ate this until you're wow Jason until your class the same thing I'll have more on Sunday just updates Friday updates and then I'm gonna go to the gym because I don't have a girlfriend and then it's pencils down for 12 hours",
+   "clip": "Replay 2025-10-03 15-31-03",
+   "public": false,
+   "date": "2025-10-03"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that people will not click on a second link, which affects their work.",
+   "quote": "As we've proven, people are not going to click twice.",
+   "clip": "Replay 2025-10-05 07-53-33",
+   "public": false,
+   "date": "2025-10-05"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker acknowledges they are not getting paid for their work but still want to continue developing it.",
+   "quote": "I don't have a job. And I shudder to think. I know what my hourly rate was.",
+   "clip": "Replay 2025-10-05 07-51-04",
+   "public": false,
+   "date": "2025-10-05"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they want to collaborate on a fitness app but feel they lack the resources to do so.",
+   "quote": "I don't have any money and I can't get anybody to pay any attention to me.",
+   "clip": "Replay 2025-10-03 13-06-56",
+   "public": false,
+   "date": "2025-10-03"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm not a racist' to deflect from their offensive comments about black women.",
+   "quote": "So then I'm not saying, Oh, well, let me get away, girls. I can just pound it out because I won't give a fuck. Now we're saying, Well, perhaps we've been too nice to black women.",
+   "clip": "Replay 2025-10-05 13-40-18",
+   "public": false,
+   "date": "2025-10-05"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they want to collaborate on a fitness app but feel they lack the resources to do so.",
+   "quote": "I don't have any money and I can't get anybody to pay any attention to me.",
+   "clip": "Replay 2025-10-03 13-06-56",
+   "public": false,
+   "date": "2025-10-03"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they are 'crazy' for having more updates on Sunday.",
+   "quote": "I'll have more Sunday cuz I'm crazy because I'm crazy mark until you ate this until you're wow Jason until your class the same thing I'll have more on Sunday just updates Friday updates and then I'm gonna go to the gym because I don't have a girlfriend and then it's pencils down for 12 hours",
+   "clip": "Replay 2025-10-03 15-31-03",
+   "public": false,
+   "date": "2025-10-03"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they are 'crazy' for having more updates on Sunday.",
+   "quote": "I'll have more Sunday cuz I'm crazy because I'm crazy mark until you ate this until you're wow Jason until your class the same thing I'll have more on Sunday just updates Friday updates and then I'm gonna go to the gym because I don't have a girlfriend and then it's pencils down for 12 hours",
+   "clip": "Replay 2025-10-03 15-31-03",
+   "public": false,
+   "date": "2025-10-03"
+  }
+ ]
+}

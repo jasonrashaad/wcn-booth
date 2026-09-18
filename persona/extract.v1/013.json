@@ -1,0 +1,179 @@
+{
+ "batch": 13,
+ "clips": [
+  "Replay 2025-10-08 05-22-58",
+  "Replay 2025-10-08 05-45-55",
+  "Replay 2025-10-08 05-49-00",
+  "Replay 2025-10-08 05-52-35",
+  "Replay 2025-10-08 07-20-23",
+  "Replay 2025-10-08 09-02-04",
+  "Replay 2025-10-08 10-22-46",
+  "Replay 2025-10-08 12-54-59",
+  "Replay 2025-10-08 13-51-23",
+  "Replay 2025-10-08 13-55-04",
+  "Replay 2025-10-08 15-25-56",
+  "Replay 2025-10-08 15-30-41"
+ ],
+ "observations": [
+  {
+   "kind": "theme",
+   "text": "The speaker frequently reflects on the nature and impact of habits in shaping identity and behavior.",
+   "quote": "A habit can be something silly as the order with which you check your pockets on the way out of the door. A habit can be what you do with your hands when you're driving on the way to work. These are all small things, but they're things that add up to who we are.",
+   "clip": "Replay 2025-10-08 05-22-58",
+   "public": true,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that habits become automatic through repetition and do not require conscious thought once formed.",
+   "quote": "You do something often enough. You do it so that you don't have to think about it. It's still a habit, but it's a habit. You don't have to think about it.",
+   "clip": "Replay 2025-10-08 13-51-23",
+   "public": true,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses a desire to transform themselves through habit identification but struggles with self-doubt and fear of failure.",
+   "quote": "Maybe I can fucking hang on and do that. Maybe I can do it. Maybe I can do it.",
+   "clip": "Replay 2025-10-08 05-45-55",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker references a specific serving size of peanut butter as part of their ingrained habit knowledge.",
+   "quote": "What's the serving size of peanut butter? 13 grams.",
+   "clip": "Replay 2025-10-08 13-51-23",
+   "public": true,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm comfortable with that' to express acceptance of a plan or situation.",
+   "quote": "I'm comfortable with that.",
+   "clip": "Replay 2025-10-08 09-02-04",
+   "public": true,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have no job but simultaneously discusses business operations and financial decisions.",
+   "quote": "I don't have a job. I don't have a job.",
+   "clip": "Replay 2025-10-08 15-30-41",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that over-specialization in analytical or quantitative work diminishes one's ability to use analog skills and understand nuances.",
+   "quote": "I think if you over-specialize with anything, you just lose your ability to do other things. Anything analytical or quantitative, you spend all your time analyzing and quantitating. You don't spend a lot of time using analog skills.",
+   "clip": "Replay 2025-10-08 13-55-04",
+   "public": true,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker acknowledges a racist tendency but expresses discomfort with this self-awareness.",
+   "quote": "I'm a racist I think that you all look alike I'm not proud of that moment at all",
+   "clip": "Replay 2025-10-08 15-30-41",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states a specific amount they refuse to spend on a VPS.",
+   "quote": "I'm not spending $60,000 on a VPS. I'm not spending $10,000 on a VPS.",
+   "clip": "Replay 2025-10-08 07-20-23",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses a desire to be productive while simultaneously acknowledging they are behind schedule.",
+   "quote": "This block was supposed to be 8 a.m. And this was already supposed to be posted which means we're plus 4 on the day.",
+   "clip": "Replay 2025-10-08 09-02-04",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I don't need to write some shit' to indicate they have internalized knowledge.",
+   "quote": "I don't need to write some shit.",
+   "clip": "Replay 2025-10-08 13-51-23",
+   "public": true,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be focused on customer validation but simultaneously expresses frustration with investors.",
+   "quote": "This is to prove it to me and to investors. And I don't care about that. This is to prove it to customers. And that's what I care about right now.",
+   "clip": "Replay 2025-10-08 05-49-00",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that speaking with precision and attention to word formation improves communication.",
+   "quote": "Pay attention to the way that you form words when you're forming them. Just pay attention to the way that you see. Just pay attention to the way that you're forming words when you're forming them.",
+   "clip": "Replay 2025-10-08 15-25-56",
+   "public": true,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be in a state of constant stress about business outcomes while simultaneously expressing confidence in their ability to 'get rich'.",
+   "quote": "We got to get rich, because fuck that shit, right?",
+   "clip": "Replay 2025-10-08 10-22-46",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker references a specific time (10 minutes to 6) in relation to alcohol consumption.",
+   "quote": "It's 10 minutes to 6. I'd be listening. Oh, no. 10 minutes to 6. I'm already at the store waiting for that motherfucker to open.",
+   "clip": "Replay 2025-10-08 05-52-35",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses a desire to 'hang on' and continue working despite feeling overwhelmed.",
+   "quote": "Maybe I can fucking hang on and do that. Maybe I can do it. Maybe I can do it.",
+   "clip": "Replay 2025-10-08 05-45-55",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that psychological validation through price points is important for business success.",
+   "quote": "It's the psychological validation on the price tag.",
+   "clip": "Replay 2025-10-08 05-49-00",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be comfortable with their current work schedule but acknowledges they are behind schedule.",
+   "quote": "This block was supposed to be 8 a.m. And this was already supposed to be posted which means we're plus 4 on the day.",
+   "clip": "Replay 2025-10-08 09-02-04",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm not spending $X on a VPS' to express financial boundaries.",
+   "quote": "I'm not spending $60,000 on a VPS. I'm not spending $10,000 on a VPS.",
+   "clip": "Replay 2025-10-08 07-20-23",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses a belief in the importance of customer validation while simultaneously dismissing investor concerns.",
+   "quote": "This is to prove it to me and to investors. And I don't care about that. This is to prove it to customers. And that's what I care about right now.",
+   "clip": "Replay 2025-10-08 05-49-00",
+   "public": false,
+   "date": "2025-10-08"
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "batch": 22,
+ "clips": [
+  "Replay 2025-10-12 10-28-39",
+  "Replay 2025-10-12 10-30-36",
+  "Replay 2025-10-12 10-45-47",
+  "Replay 2025-10-12 10-52-34",
+  "Replay 2025-10-12 13-22-39",
+  "Replay 2025-10-12 13-25-51",
+  "Replay 2025-10-12 14-12-12",
+  "Replay 2025-10-12 14-12-52",
+  "Replay 2025-10-13 10-54-51",
+  "Replay 2025-10-13 10-57-33",
+  "Replay 2025-10-13 11-02-37",
+  "Replay 2025-10-13 11-36-18",
+  "Replay 2025-10-13 11-38-51"
+ ],
+ "observations": [
+  {
+   "kind": "theme",
+   "text": "The speaker frequently reflects on societal failures and mental health crises.",
+   "quote": "This makes us look bad as a society when you think about it. This makes us look bad as a group of people on the planet.",
+   "clip": "Replay 2025-10-12 10-28-39",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses a desire to move forward while feeling trapped in a cycle of failure.",
+   "quote": "We have to keep moving forward. We can't just sit it like this.",
+   "clip": "Replay 2025-10-12 13-22-39",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that societal issues are exacerbated by a lack of mental health support.",
+   "quote": "that there's no mental health services in this country. I can't protect you.",
+   "clip": "Replay 2025-10-12 10-45-47",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker mentions a specific date for moving out, indicating a timeline for change.",
+   "quote": "13th boom boom and this is gone all this is gone we're air mattress time next sunday",
+   "clip": "Replay 2025-10-12 14-12-12",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "action",
+   "text": "The speaker has attempted to build a stable life but failed twice.",
+   "quote": "I gave it a shot. I gave it a shot. I'm old. I'm gonna live life on the run and that's okay.",
+   "clip": "Replay 2025-10-12 14-12-52",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm gonna be a grown up' to express a failed aspiration.",
+   "quote": "I'm gonna be a grown up. I'm gonna have dinner parties. I'm gonna be a husband.",
+   "clip": "Replay 2025-10-12 14-12-52",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker acknowledges their own perceived stupidity while trying to solve technical problems.",
+   "quote": "This didn't work because I'm stupid. Alright, sorry. Violates check constraint because of course it does.",
+   "clip": "Replay 2025-10-13 10-57-33",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to Tisha Campbell as a person they have a personal connection to.",
+   "quote": "Tisha Campbell is 11 years older than me. Hey, boo. I'm just playing. She's...",
+   "clip": "Replay 2025-10-13 11-02-37",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm a sexy lover' as a self-identifier in a professional context.",
+   "quote": "I am a sexy lover. That's why my email is sexy lover.",
+   "clip": "Replay 2025-10-13 11-38-51",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses frustration with their own inability to follow through on plans.",
+   "quote": "I tried whatever whatever I tried. I did try. I gave it a go.",
+   "clip": "Replay 2025-10-12 14-12-52",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "cadence",
+   "text": "The speaker has a routine of checking their email and dashboard for work updates.",
+   "quote": "I'm looking in the dashboard. You're checking the command line like me.",
+   "clip": "Replay 2025-10-13 11-36-18",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that societal issues are exacerbated by a lack of mental health support.",
+   "quote": "that there's no mental health services in this country. I can't protect you.",
+   "clip": "Replay 2025-10-12 10-45-47",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker feels trapped between wanting to move forward and being stuck in a cycle of failure.",
+   "quote": "We have to keep moving forward. We can't just sit it like this.",
+   "clip": "Replay 2025-10-12 13-22-39",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'Mr. Elephant' as a coded reference to a past event.",
+   "quote": "That's what Mr. Elephant means, right? Yeah, they found him in the closet.",
+   "clip": "Replay 2025-10-12 10-52-34",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses frustration with their own perceived lack of intelligence.",
+   "quote": "This didn't work because I'm stupid. Alright, sorry.",
+   "clip": "Replay 2025-10-13 10-57-33",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker mentions a specific room number related to a past incident.",
+   "quote": "Mr. Elephant, room 432.",
+   "clip": "Replay 2025-10-12 10-52-34",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to a person named Jason who they are directing to focus.",
+   "quote": "Jason, focus up. Yeah, it's sad. So what? So what? Shut up and get back to work.",
+   "clip": "Replay 2025-10-13 10-54-51",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm gonna be a grown up' to express a failed aspiration.",
+   "quote": "I'm gonna be a grown up. I'm gonna have dinner parties. I'm gonna be a husband.",
+   "clip": "Replay 2025-10-12 14-12-52",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker feels conflicted between wanting to move forward and being stuck in a cycle of failure.",
+   "quote": "We have to keep moving forward. We can't just sit it like this.",
+   "clip": "Replay 2025-10-12 13-22-39",
+   "public": false,
+   "date": "2025-10-12"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I tried whatever whatever' to express repeated attempts at success.",
+   "quote": "I tried whatever whatever I tried. I did try. I gave it a go.",
+   "clip": "Replay 2025-10-12 14-12-52",
+   "public": false,
+   "date": "2025-10-12"
+  }
+ ]
+}

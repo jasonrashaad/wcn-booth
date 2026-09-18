@@ -1,0 +1,179 @@
+{
+ "batch": 5,
+ "clips": [
+  "Replay 2025-09-30 16-07-40",
+  "Replay 2025-09-30 16-09-17",
+  "Replay 2025-09-30 20-28-07",
+  "Replay 2025-09-30 20-39-27",
+  "Replay 2025-09-30 22-39-48",
+  "Replay 2025-09-30 23-07-03",
+  "Replay 2025-09-30 23-23-36",
+  "Replay 2025-10-02 09-20-08",
+  "Replay 2025-10-02 09-21-43",
+  "Replay 2025-10-02 09-22-52",
+  "Replay 2025-10-02 12-43-57",
+  "Replay 2025-10-02 12-44-43"
+ ],
+ "observations": [
+  {
+   "kind": "tension",
+   "text": "The speaker struggles to balance self-criticism with self-acceptance, repeatedly criticizing their own behavior while simultaneously acknowledging the validity of their feelings.",
+   "quote": "You've never done that. You've never done that. We've never done that. Huh.",
+   "clip": "Replay 2025-10-02 12-44-43",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker experiences internal conflict between their desire for productivity and their tendency to get distracted by irrelevant thoughts.",
+   "quote": "What do I do? What do I do? What do I do? Fuck it.",
+   "clip": "Replay 2025-10-02 09-22-52",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker has a contradiction between their stated commitment to sobriety and their ongoing preoccupation with alcohol.",
+   "quote": "I have not been drinking for almost four years, right? So the fact that I have not had a drink in that long has a high weight on whether I take the next drink.",
+   "clip": "Replay 2025-10-02 09-21-43",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'pussy' as a casual, almost reflexive term to describe something they're struggling with or avoiding.",
+   "quote": "What did we just do? We just said, man, pussy.",
+   "clip": "Replay 2025-10-02 09-20-08",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'fuck it' as a dismissive phrase when they feel stuck or frustrated.",
+   "quote": "What do I do? What do I do? What do I do? Fuck it.",
+   "clip": "Replay 2025-10-02 09-22-52",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'that's fucking it' to describe a moment of clarity or realization.",
+   "quote": "Pow, that's fucking it. But the waiting is different in a look back. That's it. That's fucking it. That's fucking it.",
+   "clip": "Replay 2025-10-02 09-20-08",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I'm not paying attention' as a self-critical phrase when they realize they've been distracted.",
+   "quote": "I'm not paying attention. But that's some good shit.",
+   "clip": "Replay 2025-10-02 09-22-52",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker experiences tension between their desire for a clear, focused work process and their tendency to get sidetracked by unrelated thoughts.",
+   "quote": "You're taking this scope and expanding it. And as you're expanding it out, you're expanding the timeline.",
+   "clip": "Replay 2025-09-30 20-39-27",
+   "public": false,
+   "date": "2025-09-30"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker struggles with the tension between their need for validation and their fear of being judged by others.",
+   "quote": "I see myself with those major, major divergences where I started caring a whole lot about what somebody else thought about me and let their perception of me shape my perception of me.",
+   "clip": "Replay 2025-10-02 12-43-57",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker experiences tension between their desire for productivity and their tendency to engage in self-sabotaging behaviors like texting people they shouldn't.",
+   "quote": "We said specifically don't do that because people don't do that. We did and you just did it twice. Okay, stop doing that.",
+   "clip": "Replay 2025-09-30 23-23-36",
+   "public": false,
+   "date": "2025-09-30"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker has a contradiction between their stated principles about boundaries and their actions that violate those boundaries.",
+   "quote": "We said specifically don't do that because people don't do that. We did and you just did it twice. Okay, stop doing that.",
+   "clip": "Replay 2025-09-30 23-23-36",
+   "public": false,
+   "date": "2025-09-30"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker experiences tension between their desire for a clear, focused work process and their tendency to get sidetracked by unrelated thoughts.",
+   "quote": "You're taking this scope and expanding it. And as you're expanding it out, you're expanding the timeline.",
+   "clip": "Replay 2025-09-30 20-39-27",
+   "public": false,
+   "date": "2025-09-30"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker has a contradiction between their stated commitment to sobriety and their ongoing preoccupation with alcohol.",
+   "quote": "I have not been drinking for almost four years, right? So the fact that I have not had a drink in that long has a high weight on whether I take the next drink.",
+   "clip": "Replay 2025-10-02 09-21-43",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker experiences tension between their need for validation and their fear of being judged by others.",
+   "quote": "I see myself with those major, major divergences where I started caring a whole lot about what somebody else thought about me and let their perception of me shape my perception of me.",
+   "clip": "Replay 2025-10-02 12-43-57",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker struggles with the tension between their desire for productivity and their tendency to get distracted by irrelevant thoughts.",
+   "quote": "What do I do? What do I do? What do I do? Fuck it.",
+   "clip": "Replay 2025-10-02 09-22-52",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker experiences tension between their need for validation and their fear of being judged by others.",
+   "quote": "I see myself with those major, major divergences where I started caring a whole lot about what somebody else thought about me and let their perception of me shape my perception of me.",
+   "clip": "Replay 2025-10-02 12-43-57",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker has a contradiction between their stated principles about boundaries and their actions that violate those boundaries.",
+   "quote": "We said specifically don't do that because people don't do that. We did and you just did it twice. Okay, stop doing that.",
+   "clip": "Replay 2025-09-30 23-23-36",
+   "public": false,
+   "date": "2025-09-30"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker experiences tension between their desire for a clear, focused work process and their tendency to get sidetracked by unrelated thoughts.",
+   "quote": "You're taking this scope and expanding it. And as you're expanding it out, you're expanding the timeline.",
+   "clip": "Replay 2025-09-30 20-39-27",
+   "public": false,
+   "date": "2025-09-30"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker has a contradiction between their stated commitment to sobriety and their ongoing preoccupation with alcohol.",
+   "quote": "I have not been drinking for almost four years, right? So the fact that I have not had a drink in that long has a high weight on whether I take the next drink.",
+   "clip": "Replay 2025-10-02 09-21-43",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker experiences tension between their need for validation and their fear of being judged by others.",
+   "quote": "I see myself with those major, major divergences where I started caring a whole lot about what somebody else thought about me and let their perception of me shape my perception of me.",
+   "clip": "Replay 2025-10-02 12-43-57",
+   "public": false,
+   "date": "2025-10-02"
+  }
+ ]
+}

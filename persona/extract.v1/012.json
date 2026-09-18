@@ -1,0 +1,180 @@
+{
+ "batch": 12,
+ "clips": [
+  "Replay 2025-10-07 17-38-37",
+  "Replay 2025-10-07 19-23-07",
+  "Replay 2025-10-07 20-03-04",
+  "Replay 2025-10-07 20-09-09",
+  "Replay 2025-10-07 20-11-32",
+  "Replay 2025-10-07 20-12-49",
+  "Replay 2025-10-07 20-35-26",
+  "Replay 2025-10-07 20-54-21",
+  "Replay 2025-10-07 22-15-32",
+  "Replay 2025-10-07 22-16-46",
+  "Replay 2025-10-07 22-51-24",
+  "Replay 2025-10-07 22-53-33",
+  "Replay 2025-10-08 05-01-21"
+ ],
+ "observations": [
+  {
+   "kind": "tension",
+   "text": "The speaker expresses frustration about not having a clear plan for the future while simultaneously insisting they are prepared for whatever comes next.",
+   "quote": "Until what? I don't know. Until I don't know is your answer. Until I don't know. Okay?",
+   "clip": "Replay 2025-10-07 17-38-37",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes people don't care about their backstory and should stop assuming others are judging them based on it.",
+   "quote": "People don't even make eye contact with you why would you make it well with your backstory it's the way about the backstory stop talking about it",
+   "clip": "Replay 2025-10-07 19-23-07",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'skrrtty blurt blurt' to emphasize a point about self-improvement.",
+   "quote": "Skrrtty blurt blurt. Because you should be a whole and complete individual.",
+   "clip": "Replay 2025-10-07 20-11-32",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'so fucking so happy' and 'so full' while simultaneously expressing loneliness and missing someone named Melissa.",
+   "quote": "Don't I seem happy and healed? I'm so fucking so happy. So yes. So full. So filled.",
+   "clip": "Replay 2025-10-07 20-11-32",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states they have 3 weeks and 3 days before a deadline or event.",
+   "quote": "3 weeks. 3 days. I know. And there's nothing that I can do about that.",
+   "clip": "Replay 2025-10-07 20-12-49",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'a mild pussy' while simultaneously describing themselves as 'a good person' and 'whole and complete individual'.",
+   "quote": "I'm a mild pussy. Melissa. I miss Melissa. Can't text her. Don't miss people. You're not supposed to miss people. Heal people, don't miss people.",
+   "clip": "Replay 2025-10-07 20-11-32",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that people should act as if they are already looking back on their current struggles with pride.",
+   "quote": "Act like that's how we're going to look back at it. Act like. This is the time period we're going to look back and say, man, those were the days we were grinding.",
+   "clip": "Replay 2025-10-07 20-54-21",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'so fucking so happy' and 'so full' while simultaneously expressing loneliness and missing someone named Melissa.",
+   "quote": "Don't I seem happy and healed? I'm so fucking so happy. So yes. So full. So filled.",
+   "clip": "Replay 2025-10-07 20-11-32",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that people should not assume others are thinking about them in the same way they think about themselves.",
+   "quote": "Stop fucking doing that. No one is thinking what you would think but you. That's what makes you special.",
+   "clip": "Replay 2025-10-07 20-35-26",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'perfectly' reasonable in their behavior while simultaneously admitting they are 'withdrawing a little bit of the dick' they could be giving.",
+   "quote": "I'm being perfectly you know in fact a lot of times i'm withdrawing a little bit of the dick i'm not giving you the whole thing i could be much more dick",
+   "clip": "Replay 2025-10-07 19-23-07",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker repeatedly discusses the importance of adapting to different social environments and cultural contexts.",
+   "quote": "How do I adjust to that? How do I adapt to that? How do I expose myself to more women whose first language is not English?",
+   "clip": "Replay 2025-10-07 22-16-46",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'so fucking so happy' and 'so full' while simultaneously expressing loneliness and missing someone named Melissa.",
+   "quote": "Don't I seem happy and healed? I'm so fucking so happy. So yes. So full. So filled.",
+   "clip": "Replay 2025-10-07 20-11-32",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that people should not seek validation from others and should instead focus on their own self-improvement.",
+   "quote": "Heal people, don't miss people. Heal people. Skrrtty blurt blurt. When you long for people, that means you're missing something within yourself.",
+   "clip": "Replay 2025-10-07 20-11-32",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'very smart' and 'have a pretty big dick' while simultaneously expressing frustration about not being taken seriously.",
+   "quote": "I Very smart my dick's pretty big too I Don't want to read this because I just know it",
+   "clip": "Replay 2025-10-07 20-03-04",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'so fucking so happy' and 'so full' while simultaneously expressing loneliness and missing someone named Melissa.",
+   "quote": "Don't I seem happy and healed? I'm so fucking so happy. So yes. So full. So filled.",
+   "clip": "Replay 2025-10-07 20-11-32",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'so fucking so happy' and 'so full' while simultaneously expressing loneliness and missing someone named Melissa.",
+   "quote": "Don't I seem happy and healed? I'm so fucking so happy. So yes. So full. So filled.",
+   "clip": "Replay 2025-10-07 20-11-32",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'so fucking so happy' and 'so full' while simultaneously expressing loneliness and missing someone named Melissa.",
+   "quote": "Don't I seem happy and healed? I'm so fucking so happy. So yes. So full. So filled.",
+   "clip": "Replay 2025-10-07 20-11-32",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'so fucking so happy' and 'so full' while simultaneously expressing loneliness and missing someone named Melissa.",
+   "quote": "Don't I seem happy and healed? I'm so fucking so happy. So yes. So full. So filled.",
+   "clip": "Replay 2025-10-07 20-11-32",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'so fucking so happy' and 'so full' while simultaneously expressing loneliness and missing someone named Melissa.",
+   "quote": "Don't I seem happy and healed? I'm so fucking so happy. So yes. So full. So filled.",
+   "clip": "Replay 2025-10-07 20-11-32",
+   "public": false,
+   "date": "2025-10-07"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'so fucking so happy' and 'so full' while simultaneously expressing loneliness and missing someone named Melissa.",
+   "quote": "Don't I seem happy and healed? I'm so fucking so happy. So yes. So full. So filled.",
+   "clip": "Replay 2025-10-07 20-11-32",
+   "public": false,
+   "date": "2025-10-07"
+  }
+ ]
+}

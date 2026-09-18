@@ -1,0 +1,183 @@
+{
+ "batch": 27,
+ "clips": [
+  "014f80ae1df94e27a3cd88fe3201629c.Replay20260708141337",
+  "4033c2f6b7c541ff8e33e5a3f0eaa383.Replay20260704181134",
+  "4675c15de5d84261a32f098026ace63f.Replay20260703104318",
+  "6b52ff6e958b4a3287725f367cbefb81.Replay20260703134605",
+  "6bd02460c7c04fbba29e17a664c0b500.Replay20260703125057",
+  "8924cc03e177465087023830f032a676.Replay20260703111806",
+  "8f47829bcbd24c1ab4cebe28df70fff3.Replay20260703111718",
+  "a5a2ee24485f442883e2989f8766b7ba.Replay20260703151957",
+  "b42b41c169ac4de592d2c167d520a410.Replay20260706232943",
+  "bd7ca88ec0984e528996c7d41bccbf21.Replay20260703145832",
+  "c1334fd8d199495f920495f35730f6c1.Replay20260707012524",
+  "c3e1d910c9c6469eb1ce391db159a3d8.POSTED3JulReplay20260703141948",
+  "e2c56f124ab644b8bde669fa99722a3d.Replay20260705230357",
+  "ea905c6c2371410a88c93149f57bf2db.Replay20260706212848",
+  "eb4e064d43d0404a88e15c3561e81119.Replay20260703131457",
+  "fe9c732f9e184182a96ff20f14f8709a.Replay20260706231537"
+ ],
+ "observations": [
+  {
+   "kind": "theme",
+   "text": "The speaker frequently discusses the concept of self-worth and internal validation.",
+   "quote": "you have to anchor your value within yourself",
+   "clip": "8924cc03e177465087023830f032a676.Replay20260703111806",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be working through personal issues while simultaneously acknowledging they are perceived as 'creepy' in social settings.",
+   "quote": "I'm the creepy old guy in the gym. I'm not creepy. I'm just, I'm working through things.",
+   "clip": "6bd02460c7c04fbba29e17a664c0b500.Replay20260703125057",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that personal impact and output are more important than process or self-criticism.",
+   "quote": "Output, outcome, impact. That's what matters. Process, the way you get there. That's for post-fucking-mortem.",
+   "clip": "bd7ca88ec0984e528996c7d41bccbf21.Replay20260703145832",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm trying not to hurt anybody' to describe their behavior in physical settings.",
+   "quote": "I'm trying not to hurt anybody.",
+   "clip": "6bd02460c7c04fbba29e17a664c0b500.Replay20260703125057",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be a successful professional while simultaneously expressing deep personal isolation and lack of social support.",
+   "quote": "I don't have any money. Or any friends. Or anything.",
+   "clip": "4675c15de5d84261a32f098026ace63f.Replay20260703104318",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker references a $95,000 interest rate over five years for a financial decision.",
+   "quote": "the interest rate alone for the first five years comes to $95,000.",
+   "clip": "b42b41c169ac4de592d2c167d520a410.Replay20260706232943",
+   "public": false,
+   "date": "2026-07-06"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that personal success should be measured by tangible outcomes rather than external validation.",
+   "quote": "We could have done it better, but let's start with the fact that we did it.",
+   "clip": "bd7ca88ec0984e528996c7d41bccbf21.Replay20260703145832",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'You should kill yourself' in a self-deprecating manner.",
+   "quote": "You should kill yourself. It's crazy that you're so alive.",
+   "clip": "c3e1d910c9c6469eb1ce391db159a3d8.POSTED3JulReplay20260703141948",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses frustration with the lack of support from others while simultaneously claiming to be a successful professional.",
+   "quote": "No one's rooting for you. Damn. That hurts me.",
+   "clip": "c3e1d910c9c6469eb1ce391db159a3d8.POSTED3JulReplay20260703141948",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that personal success requires a strong internal foundation rather than external validation.",
+   "quote": "either you're rooting your value within yourself or you're not",
+   "clip": "8924cc03e177465087023830f032a676.Replay20260703111806",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I swear I swear to God' to emphasize their commitment to future actions.",
+   "quote": "I swear I swear to God",
+   "clip": "4033c2f6b7c541ff8e33e5a3f0eaa383.Replay20260704181134",
+   "public": false,
+   "date": "2026-07-04"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that professional success requires challenging established norms and institutions.",
+   "quote": "I'm going to write a whole bunch of books I'm going to put Drexel University on all of them",
+   "clip": "4033c2f6b7c541ff8e33e5a3f0eaa383.Replay20260704181134",
+   "public": false,
+   "date": "2026-07-04"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be a successful professional while simultaneously expressing deep personal isolation and lack of social support.",
+   "quote": "I don't have any money. Or any friends. Or anything.",
+   "clip": "4675c15de5d84261a32f098026ace63f.Replay20260703104318",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'Fuck you' as a form of professional defiance.",
+   "quote": "Fuck you. Fuck your people.",
+   "clip": "4033c2f6b7c541ff8e33e5a3f0eaa383.Replay20260704181134",
+   "public": false,
+   "date": "2026-07-04"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses frustration with the lack of support from others while simultaneously claiming to be a successful professional.",
+   "quote": "No one's rooting for you. Damn. That hurts me.",
+   "clip": "c3e1d910c9c6469eb1ce391db159a3d8.POSTED3JulReplay20260703141948",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm going to keep it' to indicate they will continue with a self-deprecating statement.",
+   "quote": "I'm going to keep it.",
+   "clip": "c3e1d910c9c6469eb1ce391db159a3d8.POSTED3JulReplay20260703141948",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be working through personal issues while simultaneously acknowledging they are perceived as 'creepy' in social settings.",
+   "quote": "I'm the creepy old guy in the gym. I'm not creepy. I'm just, I'm working through things.",
+   "clip": "6bd02460c7c04fbba29e17a664c0b500.Replay20260703125057",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'My story to God shall do it' as a form of personal commitment.",
+   "quote": "My story to God shall do it.",
+   "clip": "e2c56f124ab644b8bde669fa99722a3d.Replay20260705230357",
+   "public": false,
+   "date": "2026-07-05"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that personal success requires challenging established norms and institutions.",
+   "quote": "I'm going to write a whole bunch of books I'm going to put Drexel University on all of them",
+   "clip": "4033c2f6b7c541ff8e33e5a3f0eaa383.Replay20260704181134",
+   "public": false,
+   "date": "2026-07-04"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses frustration with the lack of support from others while simultaneously claiming to be a successful professional.",
+   "quote": "No one's rooting for you. Damn. That hurts me.",
+   "clip": "c3e1d910c9c6469eb1ce391db159a3d8.POSTED3JulReplay20260703141948",
+   "public": false,
+   "date": "2026-07-03"
+  }
+ ]
+}

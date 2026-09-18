@@ -1,0 +1,176 @@
+{
+ "batch": 3,
+ "clips": [
+  "20250928_133357",
+  "20250928_134949",
+  "20250928_140808",
+  "20250928_140820",
+  "20250928_142319",
+  "20250928_145423",
+  "20250928_150443",
+  "20250928_152224",
+  "20250928_174530"
+ ],
+ "observations": [
+  {
+   "kind": "action",
+   "text": "The speaker reports building an SMS gateway for Coach's Clipboard to receive messages.",
+   "quote": "We need to wire up an SMS gateway for Coach's clipboard.",
+   "clip": "20250928_133357",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker repeatedly emphasizes the need for Coach's Clipboard to have SMS functionality for coaches to manage client communication.",
+   "quote": "SMS functionality, quality of life for coaches.",
+   "clip": "20250928_133357",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "intent",
+   "text": "The speaker intends to trademark the name 'Coach's Clipboard' and related terms in a fitness software context.",
+   "quote": "We should, uh, trademark Coach's clipboard, and... I'm sure nobody's using these fucking terms, but just in case, go ahead and trademark this shit.",
+   "clip": "20250928_134949",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states they will have $8,000 available by the first week of January to cover housing for two months.",
+   "quote": "$8,000 first week of January, two months of housing.",
+   "clip": "20250928_152224",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes coaches should be able to set working hours to avoid being available 24/7 to clients.",
+   "quote": "coaches should be able to set boundaries, and just like Nicole said, so you don't want to necessarily, you could be that kind of coach, but you don't want necessarily for coaches to be available 24, or the expectation to be that you're available 24-7",
+   "clip": "20250928_133357",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have been building the application for months but realizes they've been using Obsidian's existing structure without needing to build new systems.",
+   "quote": "All right, so it turns out this whole time we've just been building the application. Like, I'm an asshole. Like, so set aside what we have built. Set aside the SaaS.",
+   "clip": "20250928_145423",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to Nicole as someone who discussed SMS functionality for Coach's Clipboard.",
+   "quote": "because that's what Nicole was talking about.",
+   "clip": "20250928_133357",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'quality of life for coaches' to describe needed features for Coach's Clipboard.",
+   "quote": "SMS functionality, quality of life for coaches.",
+   "clip": "20250928_133357",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states they will have $1,500 available from November and December paychecks after taxes.",
+   "quote": "$1,500, let's say total $8,000.",
+   "clip": "20250928_152224",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have been building the application but realizes they've been using Obsidian's existing structure without needing to build new systems.",
+   "quote": "All right, so it turns out this whole time we've just been building the application. Like, I'm an asshole. Like, so set aside what we have built. Set aside the SaaS.",
+   "clip": "20250928_145423",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "action",
+   "text": "The speaker reports needing to script a workflow for attaching images to daily notes in Obsidian.",
+   "quote": "We're gonna need to script the... So when you... Right now, if I take a... Fucking picture... I think the workflow is if I take a picture and I hit attach in Obsidian...",
+   "clip": "20250928_150443",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker repeatedly discusses the need to simplify their product around daily note-taking and Obsidian's existing structure.",
+   "quote": "All of this, just productionize all of this. All of these things, make them tools. Make a Live Mid-Friday a script. Make it a front end for Coach's Clipboard.",
+   "clip": "20250928_145423",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states they will have $6,500 from November and December paychecks.",
+   "quote": "$6,500 figure plus our December and November paychecks.",
+   "clip": "20250928_152224",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have been building the application for months but realizes they've been using Obsidian's existing structure without needing to build new systems.",
+   "quote": "All right, so it turns out this whole time we've just been building the application. Like, I'm an asshole. Like, so set aside what we have built. Set aside the SaaS.",
+   "clip": "20250928_145423",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that the product should leverage Obsidian's existing architecture rather than building new systems.",
+   "quote": "The back end is the Obsidian folder structure. The encryption is the Obsidian vault. The security is local. Everything works local.",
+   "clip": "20250928_145423",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'productionize all of this' to describe making their current workflow into a product.",
+   "quote": "All of this, just productionize all of this.",
+   "clip": "20250928_145423",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they need to find housing for $4,000 per month but claims there's nowhere that costs that much for two months.",
+   "quote": "There's nowhere that it costs $4,000 to live for two months.",
+   "clip": "20250928_152224",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have been building the application but realizes they've been using Obsidian's existing structure without needing to build new systems.",
+   "quote": "All right, so it turns out this whole time we've just been building the application. Like, I'm an asshole. Like, so set aside what we have built. Set aside the SaaS.",
+   "clip": "20250928_145423",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to Dr. Starr as someone they need to send a demo to.",
+   "quote": "That's going to be our tape. Hey, yo, hey, yo, yo. God damn it, that's true. We need to have that demo up for recruiting coaches. Otherwise, what are we doing? We don't necessarily, we don't necessarily. The study is how we're recruiting coaches. We need to have the demo up to have the demo up for sales. If we want to tie sales into recruiting for the study, which I think we can do because they aren't study participants, remember, we're recruiting them to be paid participants, but not retaining their data or any fucking thing. I'm basically paying them to be employees. I can sell them my shit or at least pitch them my shit. Yeah, yeah, yeah. Tie those things together. SMS functionality, quality of life for coaches. So as coaches know, that's a very, very simple thing. We've already got that mostly wired up. That's a single line emoji. That's got to go into the demo we send to Dr. Starr any fucking way.",
+   "clip": "20250928_133357",
+   "public": false,
+   "date": "2025-09-28"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'single line emoji' to describe a simple SMS functionality feature.",
+   "quote": "That's a single line emoji.",
+   "clip": "20250928_133357",
+   "public": false,
+   "date": "2025-09-28"
+  }
+ ]
+}

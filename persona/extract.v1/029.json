@@ -1,0 +1,245 @@
+{
+ "batch": 29,
+ "clips": [
+  "175137a267594146b33d484fb83147bf.Replay_20260720_122949",
+  "55d93b3b033f4cbeb20f40a22ef0d883.Replay_20260712_225613",
+  "580d252ec51f4959946b060fec0709fa.Replay_20260712_150203",
+  "5b11e6a453244100b75141396fd9aefd.Replay_20260720_143007",
+  "852f343a205249a7a3e3e28e8ca08b90.Replay_20260712_145402",
+  "884dcb06176a4b099f55ed7389214ec3.Replay_20260720_115723",
+  "9994cf9a31554c84b4dd091c42bdd1fa.Replay_20260712_145206",
+  "Replay_2026-07-19_17-03-18",
+  "Replay_2026-07-20_10-12-25",
+  "Replay_2026-07-20_11-46-46",
+  "aad97c0442664284bf0b97f42be0926c.Replay_20260719_170318",
+  "b3bd7a5f695c47a59ce24fe089f2cf9a.Replay_20260712_143126",
+  "b8e90bb7034f4d58a4701668bcd32ecb.Replay_20260712_220437",
+  "c034de1ee2264621b277e62a37251320.Replay_20260712_215039"
+ ],
+ "observations": [
+  {
+   "kind": "theme",
+   "text": "The speaker frequently references their dissertation as a significant personal project they are working on but have not yet completed.",
+   "quote": "I bet you there is. I bet you there is. It tries to keep to a goal and you wrote it down and fucking did and you didn't kill yourself. The dissertation.",
+   "clip": "852f343a205249a7a3e3e28e8ca08b90.Replay_20260712_145402",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker is fixated on completing their dissertation, often mentioning it in relation to other projects or goals.",
+   "quote": "I need to go to Prague to finish my dissertation",
+   "clip": "c034de1ee2264621b277e62a37251320.Replay_20260712_215039",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they need to complete their dissertation but also expresses a strong focus on product development and business goals.",
+   "quote": "I've got interest funnel that I've worked with Sabrina which is people saying yes I fucking love to sign up it is fucking product I got X number of users of the app that I can refer to give me some money I need to go to Prague to finish my dissertation",
+   "clip": "c034de1ee2264621b277e62a37251320.Replay_20260712_215039",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'clear the deck' to describe a reset or restart process for their work.",
+   "quote": "Clear the decks is good. It's not a game. It's not a game. It's not a game.",
+   "clip": "b3bd7a5f695c47a59ce24fe089f2cf9a.Replay_20260712_143126",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that if they don't choose to do things they want to do, they will eventually starve and die.",
+   "quote": "You don't do shit else ever that you don't want to do, literally, unless you choose. Eventually you will starve and you will die, but you know what I'm saying.",
+   "clip": "580d252ec51f4959946b060fec0709fa.Replay_20260712_150203",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker mentions a 100-day period for transformation starting on November 18th.",
+   "quote": "November 18th is also a 100 day period for transformation in the summer",
+   "clip": "aad97c0442664284bf0b97f42be0926c.Replay_20260719_170318",
+   "public": false,
+   "date": "2026-07-19"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to 'Jason' as a person they are addressing or referencing in their voice memo.",
+   "quote": "Oh no, Jason, that's not okay.",
+   "clip": "55d93b3b033f4cbeb20f40a22ef0d883.Replay_20260712_225613",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm the deadest of ass' to describe their current state or condition.",
+   "quote": "I'm so, I'm the deadest of ass.",
+   "clip": "175137a267594146b33d484fb83147bf.Replay_20260720_122949",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'that's my workout' to describe their current life situation or challenges.",
+   "quote": "That's my workout, nigga.",
+   "clip": "b8e90bb7034f4d58a4701668bcd32ecb.Replay_20260712_220437",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I don't have health insurance fucking workout' to describe their current life situation.",
+   "quote": "I've got the I don't have health insurance fucking workout.",
+   "clip": "b8e90bb7034f4d58a4701668bcd32ecb.Replay_20260712_220437",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I don't have a wife, like, oh baby, you can't get off the couch workout' to describe their current life situation.",
+   "quote": "I've got the I don't have a wife, like, oh baby, you can't get off the couch workout.",
+   "clip": "b8e90bb7034f4d58a4701668bcd32ecb.Replay_20260712_220437",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'the fucking, I don't have an occupational therapist and couldn't afford one workout' to describe their current life situation.",
+   "quote": "That's my workout. I've got the I don't have health insurance fucking workout. The fucking, I don't have a wife, like, oh baby, you can't get off the couch workout. Motherfucker, that's my workout.",
+   "clip": "b8e90bb7034f4d58a4701668bcd32ecb.Replay_20260712_220437",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently references their lack of health insurance as a significant personal challenge.",
+   "quote": "I've got the I don't have health insurance fucking workout.",
+   "clip": "b8e90bb7034f4d58a4701668bcd32ecb.Replay_20260712_220437",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently references their lack of a wife or relationship as a significant personal challenge.",
+   "quote": "I've got the I don't have a wife, like, oh baby, you can't get off the couch workout.",
+   "clip": "b8e90bb7034f4d58a4701668bcd32ecb.Replay_20260712_220437",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently references their lack of access to an occupational therapist as a significant personal challenge.",
+   "quote": "The fucking, I don't have an occupational therapist and couldn't afford one workout.",
+   "clip": "b8e90bb7034f4d58a4701668bcd32ecb.Replay_20260712_220437",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently references their lack of a job as a significant personal challenge.",
+   "quote": "Because we don't have a job.",
+   "clip": "b3bd7a5f695c47a59ce24fe089f2cf9a.Replay_20260712_143126",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'do do do do do a deer a female deer' as a nonsensical phrase they repeat.",
+   "quote": "do do do do do a deer a female deer",
+   "clip": "aad97c0442664284bf0b97f42be0926c.Replay_20260719_170318",
+   "public": false,
+   "date": "2026-07-19"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'it's over fourth' as a nonsensical phrase they repeat.",
+   "quote": "It's over fourth. It's November 1st.",
+   "clip": "884dcb06176a4b099f55ed7389214ec3.Replay_20260720_115723",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker mentions November 1st as a specific date related to a project or memory.",
+   "quote": "It's November 1st. This one's from 2006.",
+   "clip": "884dcb06176a4b099f55ed7389214ec3.Replay_20260720_115723",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker mentions 2006 as a year related to a project or memory.",
+   "quote": "It's November 1st. This one's from 2006.",
+   "clip": "884dcb06176a4b099f55ed7389214ec3.Replay_20260720_115723",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm not bodybuilding, but neither are you, workout' to describe their current physical state.",
+   "quote": "I'm not bodybuilding, but neither are you, workout.",
+   "clip": "b8e90bb7034f4d58a4701668bcd32ecb.Replay_20260712_220437",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'you're gonna separate your motherfucking shoulder workout' to describe their current physical state.",
+   "quote": "I've got the you're gonna separate your motherfucking shoulder workout.",
+   "clip": "b8e90bb7034f4d58a4701668bcd32ecb.Replay_20260712_220437",
+   "public": false,
+   "date": "2026-07-12"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'the date is like, alright, well, we gotta stay somewhere to fucking watch it' to describe their planning process.",
+   "quote": "The date is like, alright, well, we gotta stay somewhere to fucking watch it.",
+   "clip": "175137a267594146b33d484fb83147bf.Replay_20260720_122949",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'the date, that's the hotel' to describe their planning process.",
+   "quote": "The date, that's the hotel.",
+   "clip": "175137a267594146b33d484fb83147bf.Replay_20260720_122949",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'that's how long we're gonna be in Vietnam' to describe their planning process.",
+   "quote": "And that's how long we're gonna be in Vietnam.",
+   "clip": "175137a267594146b33d484fb83147bf.Replay_20260720_122949",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'that's your cookie' to describe their planning process.",
+   "quote": "And that's your cookie. And that's your cookie.",
+   "clip": "175137a267594146b33d484fb83147bf.Replay_20260720_122949",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'don't drop this, don't drop shit else ever' to describe their focus strategy.",
+   "quote": "And if you don't drop this, don't drop shit else ever.",
+   "clip": "175137a267594146b33d484fb83147bf.Replay_20260720_122949",
+   "public": false,
+   "date": "2026-07-20"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm going to save it' as a repeated phrase they say to themselves.",
+   "quote": "I'm going to save it. I'm going to save it. I'm going to save it. I'm going to save it.",
+   "clip": "884dcb06176a4b099f55ed7389214ec3.Replay_20260720_115723",
+   "public": false,
+   "date": "2026-07-20"
+  }
+ ]
+}

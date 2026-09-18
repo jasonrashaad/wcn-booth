@@ -1,0 +1,179 @@
+{
+ "batch": 16,
+ "clips": [
+  "Replay 2025-10-10 13-08-10",
+  "Replay 2025-10-10 13-21-18",
+  "Replay 2025-10-10 13-22-17",
+  "Replay 2025-10-10 13-25-49",
+  "Replay 2025-10-10 13-38-16",
+  "Replay 2025-10-10 13-41-22",
+  "Replay 2025-10-10 13-49-04",
+  "Replay 2025-10-10 13-49-55",
+  "Replay 2025-10-10 13-58-24",
+  "Replay 2025-10-10 14-03-25",
+  "Replay 2025-10-10 14-31-29",
+  "Replay 2025-10-10 14-56-43"
+ ],
+ "observations": [
+  {
+   "kind": "theme",
+   "text": "The speaker is preoccupied with the impact of Stack Overflow on AI development and programming careers.",
+   "quote": "This is why AI writes code the way that it does. Stack Overflow. Hey, good job, everybody. You fucked over your own jobs.",
+   "clip": "Replay 2025-10-10 13-08-10",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'do things differently' as a recurring directive to avoid implying current actions are inherently bad.",
+   "quote": "do things differently. That's saying that what you're doing presently is not aligned with what, from my perspective, is acceptable.",
+   "clip": "Replay 2025-10-10 13-21-18",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to avoid judging others' work while simultaneously criticizing Stack Overflow's impact on programming careers.",
+   "quote": "You fucked over your own jobs. Nice work. Good. Good work, everyone. You've been fucking programming your demise this whole way.",
+   "clip": "Replay 2025-10-10 13-08-10",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that current work practices are misaligned with acceptable standards and should be changed.",
+   "quote": "do things differently. That's saying that what you're doing presently is not aligned with what, from my perspective, is acceptable.",
+   "clip": "Replay 2025-10-10 13-21-18",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to their mother as a person they call to discuss memories.",
+   "quote": "I said, let me call my mom and ask her about it.",
+   "clip": "Replay 2025-10-10 13-25-49",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have no interest in discussing their personal life but repeatedly references intimate details with women.",
+   "quote": "I don't even know. She didn't have any clothes on. We had that conversation. I know that shit. I know that shit for sure.",
+   "clip": "Replay 2025-10-10 13-41-22",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker references 31 as a significant age related to personal milestones.",
+   "quote": "31, though, no, because 31 is a pivot from that, right? 31 is Jessica.",
+   "clip": "Replay 2025-10-10 13-49-55",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'plowder fields' as a euphemism for sexual activity.",
+   "quote": "Yep, it was plowder fields all through.",
+   "clip": "Replay 2025-10-10 13-49-04",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be writing a book but references not having written 'Notes of a Native Son' at age 31.",
+   "quote": "I definitely didn't write Notes of a Native Son at 31.",
+   "clip": "Replay 2025-10-10 13-49-55",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker is preoccupied with the influence of internet commentary on their perception of human behavior.",
+   "quote": "It could be that we have just been reading humanity's commentary our whole fucking life.",
+   "clip": "Replay 2025-10-10 14-56-43",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have no interest in discussing their personal life but repeatedly references intimate details with women.",
+   "quote": "She didn't have any clothes on. We had that conversation. I know that shit for sure.",
+   "clip": "Replay 2025-10-10 13-41-22",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be avoiding judgment while simultaneously making strong judgments about Stack Overflow and programming practices.",
+   "quote": "You fucked over your own jobs. Nice work. Good. Good work, everyone.",
+   "clip": "Replay 2025-10-10 13-08-10",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to 'Alicia' as a person with whom they had a sexual encounter.",
+   "quote": "Alicia said that. If you... What was she saying? If you don't have things you're looking for, then maybe that's why you end up with anything. I was like, bitch. And then we had sex.",
+   "clip": "Replay 2025-10-10 13-41-22",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker references 80 percent as a measure of their past behavior.",
+   "quote": "80 percent. I think I did it I don't know",
+   "clip": "Replay 2025-10-10 13-49-04",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'bajillionaires' to describe those who benefit from AI development.",
+   "quote": "And the ones that did are bajillionaires, and they don't care.",
+   "clip": "Replay 2025-10-10 13-08-10",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have no interest in discussing their personal life but repeatedly references intimate details with women.",
+   "quote": "She didn't have any clothes on. We had that conversation. I know that shit for sure.",
+   "clip": "Replay 2025-10-10 13-41-22",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'plowder fields' as a euphemism for sexual activity.",
+   "quote": "Yep, it was plowder fields all through.",
+   "clip": "Replay 2025-10-10 13-49-04",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be writing a book but references not having written 'Notes of a Native Son' at age 31.",
+   "quote": "I definitely didn't write Notes of a Native Son at 31.",
+   "clip": "Replay 2025-10-10 13-49-55",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have no interest in discussing their personal life but repeatedly references intimate details with women.",
+   "quote": "She didn't have any clothes on. We had that conversation. I know that shit for sure.",
+   "clip": "Replay 2025-10-10 13-41-22",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be avoiding judgment while simultaneously making strong judgments about Stack Overflow and programming practices.",
+   "quote": "You fucked over your own jobs. Nice work. Good. Good work, everyone.",
+   "clip": "Replay 2025-10-10 13-08-10",
+   "public": false,
+   "date": "2025-10-10"
+  }
+ ]
+}

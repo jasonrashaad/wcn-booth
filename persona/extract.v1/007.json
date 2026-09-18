@@ -1,0 +1,179 @@
+{
+ "batch": 7,
+ "clips": [
+  "Replay 2025-10-02 14-18-25",
+  "Replay 2025-10-02 14-35-29",
+  "Replay 2025-10-02 14-54-51",
+  "Replay 2025-10-02 15-00-45",
+  "Replay 2025-10-02 15-03-21",
+  "Replay 2025-10-02 15-15-01",
+  "Replay 2025-10-02 15-18-11",
+  "Replay 2025-10-02 15-20-48",
+  "Replay 2025-10-02 16-03-23",
+  "Replay 2025-10-02 16-39-00",
+  "Replay 2025-10-03 12-18-59",
+  "Replay 2025-10-03 13-03-51"
+ ],
+ "observations": [
+  {
+   "kind": "belief",
+   "text": "The speaker believes that people should not let others' perspectives influence their work.",
+   "quote": "That's you letting other people's perspective influence you, which we're not going to do anymore.",
+   "clip": "Replay 2025-10-02 14-18-25",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that pooling esteem from various aspects of life is a necessary strategy.",
+   "quote": "I am taking whatever esteem I had, which limping if you ask me, and pooling it.",
+   "clip": "Replay 2025-10-02 14-18-25",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be not homeless today while simultaneously acknowledging financial instability.",
+   "quote": "We're not homeless today. We're not homeless until the 31st.",
+   "clip": "Replay 2025-10-02 14-35-29",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker repeatedly uses 'We're not homeless today' as a mantra to maintain focus.",
+   "quote": "We're not homeless today. We're not homeless today.",
+   "clip": "Replay 2025-10-02 14-35-29",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that emotional distance is necessary for content and body.",
+   "quote": "Emotional distance on the content. Emotional distance on the body.",
+   "clip": "Replay 2025-10-02 15-15-01",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that building from what one has is more important than having a polished speaker package.",
+   "quote": "You're building. From what we got, because what I don't have is a polished speaker package, but you got to start somewhere.",
+   "clip": "Replay 2025-10-02 16-03-23",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be self-taught in technical skills while criticizing bootcamps.",
+   "quote": "Suck my whole dick self-taught not a bootcamp in sight suck my dick",
+   "clip": "Replay 2025-10-02 16-39-00",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker mentions a specific date for potential homelessness: the 31st.",
+   "quote": "We're not homeless until the 31st.",
+   "clip": "Replay 2025-10-02 14-35-29",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to a person named Kiki who has a tenuous relationship.",
+   "quote": "Kiki would be like, nigga. And Kiki's already been like, nigga, enough time.",
+   "clip": "Replay 2025-10-02 15-20-48",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to a person named Rhonda who is referenced as a potential solution.",
+   "quote": "I'll find you a Rhonda. I guarantee you there's a Rhonda.",
+   "clip": "Replay 2025-10-03 13-03-51",
+   "public": false,
+   "date": "2025-10-03"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that people should not overinvest in relationships.",
+   "quote": "We overinvest into relationships and we burn them out.",
+   "clip": "Replay 2025-10-02 15-20-48",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that hugging is not common in households.",
+   "quote": "I thought that was some TV shit. Y'all tripping. But turns out, no, that's the thing.",
+   "clip": "Replay 2025-10-02 15-20-48",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that sexual encounters are the only form of physical contact they've had.",
+   "quote": "My only hugs have ever been sexual.",
+   "clip": "Replay 2025-10-02 15-20-48",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'plum pudding' as a metaphor for feeling satisfied after completing a task.",
+   "quote": "Once you send that off to Mark, you're going to feel like plum pudding.",
+   "clip": "Replay 2025-10-03 13-03-51",
+   "public": false,
+   "date": "2025-10-03"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'suck my dick' as a dismissive phrase for self-taught skills.",
+   "quote": "Suck my whole dick self-taught not a bootcamp in sight suck my dick",
+   "clip": "Replay 2025-10-02 16-39-00",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker claims to have passed a technical test in four hours without bootcamp training.",
+   "quote": "I pass that test in four hours suck my whole dick self-taught not a bootcamp in sight",
+   "clip": "Replay 2025-10-02 16-39-00",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently discusses financial instability and the fear of homelessness.",
+   "quote": "We're not homeless today. We're not homeless until the 31st.",
+   "clip": "Replay 2025-10-02 14-35-29",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently discusses the importance of building from current resources.",
+   "quote": "You're building. From what we got, because what I don't have is a polished speaker package, but you got to start somewhere.",
+   "clip": "Replay 2025-10-02 16-03-23",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently discusses the lack of physical affection in their life.",
+   "quote": "My only hugs have ever been sexual.",
+   "clip": "Replay 2025-10-02 15-20-48",
+   "public": false,
+   "date": "2025-10-02"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently discusses the importance of emotional distance.",
+   "quote": "Emotional distance on the content. Emotional distance on the body.",
+   "clip": "Replay 2025-10-02 15-15-01",
+   "public": false,
+   "date": "2025-10-02"
+  }
+ ]
+}

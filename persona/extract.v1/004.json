@@ -1,0 +1,30 @@
+{
+ "batch": 4,
+ "clips": [
+  "20250928_204315",
+  "20250928_212150",
+  "Replay 2025-09-29 14-26-13",
+  "Replay 2025-09-29 14-42-21",
+  "Replay 2025-09-29 14-51-09",
+  "Replay 2025-09-29 16-05-04",
+  "Replay 2025-09-29 18-14-59",
+  "Replay 2025-09-29 19-02-05",
+  "Replay 2025-09-29 19-02-50",
+  "Replay 2025-09-29 23-12-50",
+  "Replay 2025-09-30 12-31-55",
+  "Replay 2025-09-30 13-14-58",
+  "Replay 2025-09-30 15-46-42",
+  "Replay 2025-09-30 15-48-29",
+  "Replay 2025-09-30 16-02-55"
+ ],
+ "observations": [
+  {
+   "kind": "phrase",
+   "text": "The speaker frequently uses the phrase 'I'm washed' to indicate a state of being clean or refreshed.",
+   "quote": "I'm washed, I'm washed.",
+   "clip": "20250928_204315",
+   "public": true,
+   "date": "2025-09-28"
+  }
+ ]
+}

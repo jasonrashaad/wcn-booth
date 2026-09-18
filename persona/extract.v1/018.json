@@ -1,0 +1,121 @@
+{
+ "batch": 18,
+ "clips": [
+  "Replay 2025-10-10 15-34-25",
+  "Replay 2025-10-10 15-34-52",
+  "Replay 2025-10-10 15-53-27",
+  "Replay 2025-10-10 15-55-18",
+  "Replay 2025-10-10 15-58-26",
+  "Replay 2025-10-10 16-05-16",
+  "Replay 2025-10-10 17-14-50",
+  "Replay 2025-10-10 17-32-46",
+  "Replay 2025-10-10 17-33-56",
+  "Replay 2025-10-10 17-38-04"
+ ],
+ "observations": [
+  {
+   "kind": "theme",
+   "text": "The primary speaker repeatedly emphasizes that their coaching service is not for clients seeking quick fixes or symptom-based solutions.",
+   "quote": "They want a fad. They want an app. They want the Atkins diet. They want a fix. They want to fix the symptom.",
+   "clip": "Replay 2025-10-10 15-34-25",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "belief",
+   "text": "The primary speaker believes that clients who don't care about privacy or iterative habit formation are not their target customers.",
+   "quote": "If you don't care about portability and privacy, and you don't care about privacy at all, and you just want something that's going to help you lose 15 pounds, that's a specific customer. That's not my customer.",
+   "clip": "Replay 2025-10-10 15-34-25",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The primary speaker uses the phrase 'iterative habit formation' to describe their coaching methodology.",
+   "quote": "I have a system of iterative habit formation that is going to lead to a greater transformation.",
+   "clip": "Replay 2025-10-10 15-34-25",
+   "public": true,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "action",
+   "text": "The primary speaker recorded themselves talking to create marketing content.",
+   "quote": "all you got to do is fucking record yourself all the time talking and then drop it every now and then.",
+   "clip": "Replay 2025-10-10 15-34-52",
+   "public": true,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "cadence",
+   "text": "The primary speaker has a routine of recording themselves regularly for marketing purposes.",
+   "quote": "all you got to do is fucking record yourself all the time talking and then drop it every now and then.",
+   "clip": "Replay 2025-10-10 15-34-52",
+   "public": true,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "theme",
+   "text": "The primary speaker frequently discusses the importance of separating spaces for different purposes.",
+   "quote": "separating rooms into purpose separating posture into purpose all of that shit helps",
+   "clip": "Replay 2025-10-10 15-53-27",
+   "public": true,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "belief",
+   "text": "The primary speaker believes that people cannot understand how awful people can be to one another until they experience it in groups.",
+   "quote": "People can't get their minds around how fucking horrible people can be to one another until people are horrible to each other in groups.",
+   "clip": "Replay 2025-10-10 15-55-18",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The primary speaker claims to have a resilient infrastructure for their business but also mentions losing their phone and laptop to theft.",
+   "quote": "my phone gets stolen because fucking Big Rick is like, Give me your motherfucking phone, bitch! And I'm trying to protect my laptop while he's kicking the shit out of me. And I lose my phone.",
+   "clip": "Replay 2025-10-10 17-33-56",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "number",
+   "text": "The primary speaker mentions having a habit of recording themselves for marketing purposes.",
+   "quote": "all you got to do is fucking record yourself all the time talking",
+   "clip": "Replay 2025-10-10 15-34-52",
+   "public": true,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "phrase",
+   "text": "The primary speaker uses the phrase 'resilient motherfucking infrastructure' to describe their business system.",
+   "quote": "That's called resilient motherfucking infrastructure.",
+   "clip": "Replay 2025-10-10 17-33-56",
+   "public": true,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "theme",
+   "text": "The primary speaker discusses the importance of simplifying paths to comfort in their business model.",
+   "quote": "how do you simplify the path to comfort from comfortable middle class life to there is a race of people being scoured off of the place face of the earth right now",
+   "clip": "Replay 2025-10-10 15-58-26",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "tension",
+   "text": "The primary speaker claims to have a 'skeleton key' for habit tracking but also expresses uncertainty about its implementation.",
+   "quote": "I think this is my skeleton key, whatever that is. If I got that, then I can identify it back, I can identify it forward.",
+   "clip": "Replay 2025-10-10 17-32-46",
+   "public": false,
+   "date": "2025-10-10"
+  },
+  {
+   "kind": "belief",
+   "text": "The primary speaker believes that their business model can be applied to various behavioral training contexts.",
+   "quote": "If I run a behavioral therapist office of some kind, if I'm trying to get my fucking kid to stop jerking off in front of other kids. Jason, why does it? We know why. Right? Any kind of thing where it's learned, structured behavior for kids, and I gotta show them pictures, say stop fucking doing this, but then track how they're doing it. This works.",
+   "clip": "Replay 2025-10-10 17-38-04",
+   "public": false,
+   "date": "2025-10-10"
+  }
+ ]
+}

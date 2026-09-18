@@ -1,0 +1,181 @@
+{
+ "batch": 25,
+ "clips": [
+  "275d89f3d2ce4de3a32f48f449ad9b44.Replay20260701114424",
+  "2a8e4d0792fe4aa9a1c30a019e5e8acd.Replay20260701180603",
+  "961f158a7c654343b836b277f9701dfd.Replay20260630171120",
+  "Replay 2025-10-13 20-36-10",
+  "Replay 2025-10-13 20-39-38",
+  "Replay 2025-10-14 15-40-59",
+  "Replay 2025-10-14 16-30-10",
+  "Replay 2025-10-14 16-32-19",
+  "Replay 2025-10-14 19-06-08",
+  "Replay 2025-10-14 19-30-55",
+  "Replay 2025-10-14 21-44-02",
+  "Replay 2025-10-14 22-23-23",
+  "Replay 2025-10-14 22-28-26",
+  "c2d5e7837b0446fb97779a44e7bbd2b5.Replay20260630162628"
+ ],
+ "observations": [
+  {
+   "kind": "action",
+   "text": "The speaker repeatedly attempts to replace phone use with push-ups as a habit.",
+   "quote": "Every time you reach for your phone, instead of reaching for your phone, what are you going to do? Push-ups.",
+   "clip": "Replay 2025-10-13 20-36-10",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses a desire to improve their behavior but struggles with self-sabotage.",
+   "quote": "I can't even slip up and just... I can't even fail my way to failure.",
+   "clip": "Replay 2025-10-14 19-06-08",
+   "public": false,
+   "date": "2025-10-14"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes they should not start a business from a position of weakness or desperation.",
+   "quote": "You don't start a business from a position of weakness. You don't start a business out of a position of desperation.",
+   "clip": "Replay 2025-10-14 19-30-55",
+   "public": false,
+   "date": "2025-10-14"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states they need 300 leads for their business, currently at 100.",
+   "quote": "At about 30 per table, 300 leads I would find totally acceptable. We're at 100 now, I think we can get to 300 before the 15th.",
+   "clip": "961f158a7c654343b836b277f9701dfd.Replay20260630171120",
+   "public": false,
+   "date": "2026-06-30"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'I genuinely believe' repeatedly to emphasize conviction.",
+   "quote": "I genuinely believe, I genuinely believe. I genuinely believe.",
+   "clip": "Replay 2025-10-14 22-28-26",
+   "public": false,
+   "date": "2025-10-14"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to believe they should kill themselves but states they don't actually do it.",
+   "quote": "I should 1000% kill myself. I just don't.",
+   "clip": "Replay 2025-10-14 16-32-19",
+   "public": false,
+   "date": "2025-10-14"
+  },
+  {
+   "kind": "person",
+   "text": "The speaker refers to a former co-worker named Adrian Coldworn.",
+   "quote": "Adrian Coldworn. You remember his whole name.",
+   "clip": "275d89f3d2ce4de3a32f48f449ad9b44.Replay20260701114424",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have a business idea but states they have no money or support.",
+   "quote": "I lost my motherfucking job and shifted into being a solopreneur full-time. I don't have any support or friends or structure or money.",
+   "clip": "961f158a7c654343b836b277f9701dfd.Replay20260630171120",
+   "public": false,
+   "date": "2026-06-30"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes they should be a 'supervillain' rather than a 'villain' in their approach to life.",
+   "quote": "You've said a thousand times if you're going to be a villain, be a supervillain.",
+   "clip": "Replay 2025-10-14 15-40-59",
+   "public": false,
+   "date": "2025-10-14"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'in for a penny, in for a pound' to justify taking risks.",
+   "quote": "In for a penny, in for a pound. Fuck me.",
+   "clip": "Replay 2025-10-14 15-40-59",
+   "public": false,
+   "date": "2025-10-14"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes they should not internalize negative self-perceptions.",
+   "quote": "You can't internalize that. And so you have to make up shit to make that not the case.",
+   "clip": "Replay 2025-10-14 22-23-23",
+   "public": false,
+   "date": "2025-10-14"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be a 'solopreneur' but states they have no resources beyond their own body.",
+   "quote": "I have money. Resources other than myself, my hands, my arms, faithful breasts and an intensive ear and instructive tone.",
+   "clip": "961f158a7c654343b836b277f9701dfd.Replay20260630171120",
+   "public": false,
+   "date": "2026-06-30"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes they should not rely on external validation for business success.",
+   "quote": "I've done this and I can now start a business. I've had this success and now I can start a business.",
+   "clip": "Replay 2025-10-14 19-30-55",
+   "public": false,
+   "date": "2025-10-14"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they believe they should kill themselves but also claims to be 'wonderful' and capable of starting a business.",
+   "quote": "I am wonderful and now I can start a business.",
+   "clip": "Replay 2025-10-14 19-30-55",
+   "public": false,
+   "date": "2025-10-14"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'fail my way up' to describe their approach to overcoming failure.",
+   "quote": "Fail my way up. Well, that's privilege.",
+   "clip": "Replay 2025-10-14 19-06-08",
+   "public": false,
+   "date": "2025-10-14"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have a business idea but states they have no money or support.",
+   "quote": "I lost my motherfucking job and shifted into being a solopreneur full-time. I don't have any support or friends or structure or money.",
+   "clip": "961f158a7c654343b836b277f9701dfd.Replay20260630171120",
+   "public": false,
+   "date": "2026-06-30"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes they should not be defined by negative self-perceptions.",
+   "quote": "You suck and nobody likes you. It's fine. Here we are. That's the facts of the case.",
+   "clip": "Replay 2025-10-14 22-23-23",
+   "public": false,
+   "date": "2025-10-14"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have a business idea but states they have no money or support.",
+   "quote": "I lost my motherfucking job and shifted into being a solopreneur full-time. I don't have any support or friends or structure or money.",
+   "clip": "961f158a7c654343b836b277f9701dfd.Replay20260630171120",
+   "public": false,
+   "date": "2026-06-30"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'fuck it now' to justify taking risks.",
+   "quote": "Fuck it now, right? Fuck it now, right?",
+   "clip": "Replay 2025-10-14 15-40-59",
+   "public": false,
+   "date": "2025-10-14"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be a 'solopreneur' but states they have no resources beyond their own body.",
+   "quote": "I have money. Resources other than myself, my hands, my arms, faithful breasts and an intensive ear and instructive tone.",
+   "clip": "961f158a7c654343b836b277f9701dfd.Replay20260630171120",
+   "public": false,
+   "date": "2026-06-30"
+  }
+ ]
+}

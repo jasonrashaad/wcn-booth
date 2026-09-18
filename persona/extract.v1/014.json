@@ -1,0 +1,126 @@
+{
+ "batch": 14,
+ "clips": [
+  "Replay 2025-10-08 15-44-44",
+  "Replay 2025-10-08 16-10-21",
+  "Replay 2025-10-09 08-56-52",
+  "Replay 2025-10-09 09-00-28",
+  "Replay 2025-10-09 09-00-46",
+  "Replay 2025-10-09 09-59-56",
+  "Replay 2025-10-09 10-02-07",
+  "Replay 2025-10-09 10-15-10",
+  "Replay 2025-10-09 11-01-55",
+  "Replay 2025-10-09 11-50-42",
+  "Replay 2025-10-09 12-05-51",
+  "Replay 2025-10-09 12-07-17",
+  "Replay 2025-10-09 12-16-20",
+  "Replay 2025-10-09 12-21-02",
+  "Replay 2025-10-09 13-06-36"
+ ],
+ "observations": [
+  {
+   "kind": "tension",
+   "text": "The speaker repeatedly expresses frustration about past job search efforts while simultaneously dismissing the relevance of those efforts in the present.",
+   "quote": "The issue is not, did I see the job posting? The issue maybe three years ago was, hey, can you send me some openings? The issue maybe two years ago was, let me know if you can see something. The issue a year ago was, if you don't put my resume in somebody's hand, no one's looking at this shit. That was a year ago. And it turns out, raw facts. Why are we reliving this? Why are we reliving this? I say we stop. I say we stop. This isn't going anywhere.",
+   "clip": "Replay 2025-10-08 15-44-44",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'revolsion' as a deliberate misspelling of 'revulsion' to describe a physical reaction to intimate encounters.",
+   "quote": "Revolsion washing over our sweat soaked bodies.",
+   "clip": "Replay 2025-10-08 16-10-21",
+   "public": false,
+   "date": "2025-10-08"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker obsessively explores the concept of 'prompts' as a communication tool in branding and design.",
+   "quote": "Prompts, it's questioning, it's I'm open, I'm listening. Prompts. Queries. Queries is good. Prompt is good. Queries, prompts, questions.",
+   "clip": "Replay 2025-10-09 08-56-52",
+   "public": true,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'hashbang' as a shorthand for the # symbol in programming contexts.",
+   "quote": "Hashbang. It's a hash and a bang. Hashbang. 100,000 times I've said that. Hashbang. I've been saying hashbang longer than I've been saying www.",
+   "clip": "Replay 2025-10-09 10-02-07",
+   "public": true,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker holds the belief that understanding technical terms like 'bits' is a prerequisite for financial success.",
+   "quote": "Do you know that everybody that knows their bits from a bite right now is a fucking billionaire and then there's you? That's just a fact.",
+   "clip": "Replay 2025-10-09 10-02-07",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker alternates between expressing suicidal ideation and dismissing it as a joke.",
+   "quote": "I should kill myself? Yeah, we were talking about it. You should kill yourself. Man. What do you say? Why? You know what I mean? That's fucked up. It's just... Hey man, you should kill yourself. All the worst you can say is, no I shouldn't. You know what I mean? You can't say no.",
+   "clip": "Replay 2025-10-09 11-50-42",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'swagnificent' as a portmanteau of 'swag' and 'magnificent' to describe something impressive.",
+   "quote": "Swagnificent. I'll grant you Swagnificent. Thank you. That's it though right here.",
+   "clip": "Replay 2025-10-09 12-07-17",
+   "public": true,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be ready to 'kill himself' while simultaneously expressing a desire to continue working on projects.",
+   "quote": "I should kill myself? Yeah, we were talking about it. You should kill yourself. Man. What do you say? Why? You know what I mean? That's fucked up. It's just... Hey man, you should kill yourself. All the worst you can say is, no I shouldn't. You know what I mean? You can't say no. You should kill yourself. I'm not saying kill yourself. I'm just saying you should. I'm making a suggestion. I'm offering my opinion. Unsolicited, admittedly. But I'm letting you know.",
+   "clip": "Replay 2025-10-09 11-50-42",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker claims to have said 'hashbang' 100,000 times.",
+   "quote": "Hashbang. It's a hash and a bang. Hashbang. 100,000 times I've said that. Hashbang.",
+   "clip": "Replay 2025-10-09 10-02-07",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses frustration about needing to 'put the chair down' while simultaneously describing a physical interaction with a chair.",
+   "quote": "I hear what you're saying, but put the chair down. Right? Put the chair down. This is my office. What the fuck is wrong with you? Put the chair down. You know what I mean? Okay, I like that. Yeah, there it is. So, look. Now it's an equal sign.",
+   "clip": "Replay 2025-10-09 12-05-51",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'swagnacious' as a variation of 'swag' to describe something impressive.",
+   "quote": "Swagnacious. Swagnificent. Swagnificent. I'll grant you Swagnificent. Thank you.",
+   "clip": "Replay 2025-10-09 12-07-17",
+   "public": true,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker repeatedly references 'old folks homes' as a potential workplace or location for social interaction.",
+   "quote": "It's an old folks home, but actually probably about comparable in cost. And there's free coffee. Is there free coffee in an old folks home? I don't think so. Old folks are there to talk to each other, though. They're not talking to anybody. It's the best. It's the best. Please pay me some money to do that.",
+   "clip": "Replay 2025-10-09 12-16-20",
+   "public": false,
+   "date": "2025-10-09"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'fuck that' as an expression of dismissal or frustration.",
+   "quote": "Better to die. You know, I mean, I'll die sarcastically rather than die. Maybe die angry. I'll take that anger but not die unfulfilled Or surprised angry I can take resigned I can take It's not wait fuck that fuck that",
+   "clip": "Replay 2025-10-09 13-06-36",
+   "public": false,
+   "date": "2025-10-09"
+  }
+ ]
+}

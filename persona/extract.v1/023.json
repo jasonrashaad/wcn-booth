@@ -1,0 +1,179 @@
+{
+ "batch": 23,
+ "clips": [
+  "Replay 2025-10-13 11-43-52",
+  "Replay 2025-10-13 11-45-42",
+  "Replay 2025-10-13 11-46-40",
+  "Replay 2025-10-13 12-03-05",
+  "Replay 2025-10-13 12-03-28",
+  "Replay 2025-10-13 12-13-22",
+  "Replay 2025-10-13 12-16-08",
+  "Replay 2025-10-13 12-17-11",
+  "Replay 2025-10-13 13-37-11",
+  "Replay 2025-10-13 14-38-56",
+  "Replay 2025-10-13 15-33-13",
+  "Replay 2025-10-13 15-35-11"
+ ],
+ "observations": [
+  {
+   "kind": "tension",
+   "text": "The speaker expresses a desire to avoid commitment while simultaneously using romantic metaphors to describe their relationship, creating a contradiction between their stated intentions and their language.",
+   "quote": "I didn't say anything about commitment. I said, when we do it, it's like when the sun came up. Sometimes you don't fucking feel like the sun comes up. Sometimes you want a good, overcast, cloudy day in order to get your creative juices going.",
+   "clip": "Replay 2025-10-13 11-43-52",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently references past work experiences and career history, particularly in technology and database programming, as a way to contextualize their current situation.",
+   "quote": "I've worked with a lot of databases. Remember fucking... Was it DB2 programming or AIX programming? There was a bank one in Columbus. Where was that? No, no, no. We were in Columbus. This is 2003.",
+   "clip": "Replay 2025-10-13 12-16-08",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have not made money for a year while simultaneously expressing frustration about not being able to earn $15 an hour, creating a contradiction between their stated financial situation and their expectations.",
+   "quote": "We have not made any money in a year. That's a fact. Why would I assume that I can tomorrow make $15 an hour when I have not been able to do so to this point? Not a dollar, not a dollar, not one dollar.",
+   "clip": "Replay 2025-10-13 12-13-22",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states they have not made any money for a year, specifically referencing their lack of earnings from Harrisburg where they've worked for two months without payment.",
+   "quote": "We have not made any money in a year. That's a fact. I haven't been paid from Harrisburg yet. I've been working for Harrisburg two months.",
+   "clip": "Replay 2025-10-13 12-13-22",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that Michigan is in a technological valley that will be severely impacted by technological changes, using a tornado metaphor to describe the potential destruction.",
+   "quote": "Michigan is in like a valley as far as this shit is being concerned. A lot of this shit is going to pass right over us. But as soon as this storm hits, it's going to hit us like it hits every fucking valley. It's going to be a tornado. It's going to be very, very destructive.",
+   "clip": "Replay 2025-10-13 12-03-28",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm fired' repeatedly to describe their perceived professional status, often followed by a reference to substance use.",
+   "quote": "I'm like, I'm fucking fired. And I would start doing mad cocaine or whatever. Like, I'm fired. You know how I am.",
+   "clip": "Replay 2025-10-13 12-03-05",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have not made money for a year while simultaneously expressing frustration about not being able to earn $15 an hour, creating a contradiction between their stated financial situation and their expectations.",
+   "quote": "We have not made any money in a year. That's a fact. Why would I assume that I can tomorrow make $15 an hour when I have not been able to do so to this point? Not a dollar, not a dollar, not one dollar.",
+   "clip": "Replay 2025-10-13 12-13-22",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently references past work experiences and career history, particularly in technology and database programming, as a way to contextualize their current situation.",
+   "quote": "I've worked with a lot of databases. Remember fucking... Was it DB2 programming or AIX programming? There was a bank one in Columbus. Where was that? No, no, no. We were in Columbus. This is 2003.",
+   "clip": "Replay 2025-10-13 12-16-08",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses a desire to avoid commitment while simultaneously using romantic metaphors to describe their relationship, creating a contradiction between their stated intentions and their language.",
+   "quote": "I didn't say anything about commitment. I said, when we do it, it's like when the sun came up. Sometimes you don't fucking feel like the sun comes up. Sometimes you want a good, overcast, cloudy day in order to get your creative juices going.",
+   "clip": "Replay 2025-10-13 11-43-52",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have not made money for a year while simultaneously expressing frustration about not being able to earn $15 an hour, creating a contradiction between their stated financial situation and their expectations.",
+   "quote": "We have not made any money in a year. That's a fact. Why would I assume that I can tomorrow make $15 an hour when I have not been able to do so to this point? Not a dollar, not a dollar, not one dollar.",
+   "clip": "Replay 2025-10-13 12-13-22",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states they have not made any money for a year, specifically referencing their lack of earnings from Harrisburg where they've worked for two months without payment.",
+   "quote": "We have not made any money in a year. That's a fact. I haven't been paid from Harrisburg yet. I've been working for Harrisburg two months.",
+   "clip": "Replay 2025-10-13 12-13-22",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that Michigan is in a technological valley that will be severely impacted by technological changes, using a tornado metaphor to describe the potential destruction.",
+   "quote": "Michigan is in like a valley as far as this shit is being concerned. A lot of this shit is going to pass right over us. But as soon as this storm hits, it's going to hit us like it hits every fucking valley. It's going to be a tornado. It's going to be very, very destructive.",
+   "clip": "Replay 2025-10-13 12-03-28",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm fired' repeatedly to describe their perceived professional status, often followed by a reference to substance use.",
+   "quote": "I'm like, I'm fucking fired. And I would start doing mad cocaine or whatever. Like, I'm fired. You know how I am.",
+   "clip": "Replay 2025-10-13 12-03-05",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have not made money for a year while simultaneously expressing frustration about not being able to earn $15 an hour, creating a contradiction between their stated financial situation and their expectations.",
+   "quote": "We have not made any money in a year. That's a fact. Why would I assume that I can tomorrow make $15 an hour when I have not been able to do so to this point? Not a dollar, not a dollar, not one dollar.",
+   "clip": "Replay 2025-10-13 12-13-22",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently references past work experiences and career history, particularly in technology and database programming, as a way to contextualize their current situation.",
+   "quote": "I've worked with a lot of databases. Remember fucking... Was it DB2 programming or AIX programming? There was a bank one in Columbus. Where was that? No, no, no. We were in Columbus. This is 2003.",
+   "clip": "Replay 2025-10-13 12-16-08",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses a desire to avoid commitment while simultaneously using romantic metaphors to describe their relationship, creating a contradiction between their stated intentions and their language.",
+   "quote": "I didn't say anything about commitment. I said, when we do it, it's like when the sun came up. Sometimes you don't fucking feel like the sun comes up. Sometimes you want a good, overcast, cloudy day in order to get your creative juices going.",
+   "clip": "Replay 2025-10-13 11-43-52",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states they have not made any money for a year, specifically referencing their lack of earnings from Harrisburg where they've worked for two months without payment.",
+   "quote": "We have not made any money in a year. That's a fact. I haven't been paid from Harrisburg yet. I've been working for Harrisburg two months.",
+   "clip": "Replay 2025-10-13 12-13-22",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that Michigan is in a technological valley that will be severely impacted by technological changes, using a tornado metaphor to describe the potential destruction.",
+   "quote": "Michigan is in like a valley as far as this shit is being concerned. A lot of this shit is going to pass right over us. But as soon as this storm hits, it's going to hit us like it hits every fucking valley. It's going to be a tornado. It's going to be very, very destructive.",
+   "clip": "Replay 2025-10-13 12-03-28",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'I'm fired' repeatedly to describe their perceived professional status, often followed by a reference to substance use.",
+   "quote": "I'm like, I'm fucking fired. And I would start doing mad cocaine or whatever. Like, I'm fired. You know how I am.",
+   "clip": "Replay 2025-10-13 12-03-05",
+   "public": false,
+   "date": "2025-10-13"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to have not made money for a year while simultaneously expressing frustration about not being able to earn $15 an hour, creating a contradiction between their stated financial situation and their expectations.",
+   "quote": "We have not made any money in a year. That's a fact. Why would I assume that I can tomorrow make $15 an hour when I have not been able to do so to this point? Not a dollar, not a dollar, not one dollar.",
+   "clip": "Replay 2025-10-13 12-13-22",
+   "public": false,
+   "date": "2025-10-13"
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "batch": 9,
+ "clips": [
+  "Replay 2025-10-05 13-45-55",
+  "Replay 2025-10-05 13-54-49",
+  "Replay 2025-10-05 18-30-58",
+  "Replay 2025-10-05 19-02-34",
+  "Replay 2025-10-06 10-05-40",
+  "Replay 2025-10-06 10-28-31",
+  "Replay 2025-10-06 11-02-09",
+  "Replay 2025-10-06 11-06-29",
+  "Replay 2025-10-06 11-10-42",
+  "Replay 2025-10-06 11-34-37",
+  "Replay 2025-10-06 11-35-28",
+  "Replay 2025-10-06 11-40-09",
+  "Replay 2025-10-06 12-09-57"
+ ],
+ "observations": [
+  {
+   "kind": "tension",
+   "text": "The speaker expresses frustration about past work as a consultant while simultaneously acknowledging a positive career pivot.",
+   "quote": "Can you fucking imagine if we were still at Deloitte? What is this, 2025? Fuck you. Can you fucking imagine being a manager at Deloitte? Being a senior manager at Deloitte? Oh, shit. Oh, God. You're going to have to fucking kill people. With your hands in front of the partners. Look at it. Look at me. Watch me. Watch me do it.",
+   "clip": "Replay 2025-10-05 13-45-55",
+   "public": false,
+   "date": "2025-10-05"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that over-investing in connections, especially past ones, leads to negative outcomes.",
+   "quote": "Because you overinvested in connections, including past ones. Now, Kristen is a connection that we, looking back, really should have invested more into. You asshole. We didn't. We fucked that off.",
+   "clip": "Replay 2025-10-06 11-34-37",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker criticizes their own habit of texting ex-partners on birthdays while acknowledging the importance of moving forward.",
+   "quote": "In conclusion, don't be texting these hoes on their birthday. It's just not a ho. Don't be like that.",
+   "clip": "Replay 2025-10-06 11-35-28",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker frequently uses the phrase 'slurperty slurp' to describe unclear speech or confusion.",
+   "quote": "I mean at this stage I just be like okay miss ma'am young lady slurperty slurp I just I have to question the home environment at the very least though right slurperty slurp",
+   "clip": "Replay 2025-10-05 18-30-58",
+   "public": false,
+   "date": "2025-10-05"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states they've been in a relationship for 20 years, minus the time spent with a specific group.",
+   "quote": "Besides, obviously, who we had the in-person connection with. 20 years. Go back 20. 2005, yeah, 20. Minus the whole Wayne State squad, so 18 years.",
+   "clip": "Replay 2025-10-06 11-10-42",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker criticizes their own tendency to work excessively without rest, while recognizing the need for rest.",
+   "quote": "We can't, we can't. We can't do that. So much longer. Thank you. I mean, if I'm not exhausted, then I'm chilling. If I'm not worn out, then what the fuck I got to relax for?",
+   "clip": "Replay 2025-10-05 19-02-34",
+   "public": false,
+   "date": "2025-10-05"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that creating a persona for website users is essential for understanding customer experience.",
+   "quote": "How's Dave feeling? Maybe Dave's got glasses on, right? Maybe Dave just got finished fucking his wife that morning, right? Dave's feeling pretty good. He's smelling his hand every now and then.",
+   "clip": "Replay 2025-10-06 11-40-09",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'don't be texting these hoes on their birthday' to criticize a specific behavior.",
+   "quote": "In conclusion, don't be texting these hoes on their birthday. It's just not a ho. Don't be like that.",
+   "clip": "Replay 2025-10-06 11-35-28",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states they charge $2.25 an hour for their work.",
+   "quote": "Yeah, I'm charging fucking $2.25 an hour for this bullshit.",
+   "clip": "Replay 2025-10-06 11-40-09",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker acknowledges a need for rest while simultaneously working excessively.",
+   "quote": "We're going to do what we set out to do. You're going to fuel the fuck up. But then we're going to stop, and then we're going to go the fuck to sleep.",
+   "clip": "Replay 2025-10-05 19-02-34",
+   "public": false,
+   "date": "2025-10-05"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'hold your thoughts right here on the problem' to emphasize focus.",
+   "quote": "Hold your thoughts in one place. Hold your thoughts right here on the problem, on the problem, on the problem, on the problem, on the problem.",
+   "clip": "Replay 2025-10-06 11-34-37",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker criticizes their own habit of creating personas for work while acknowledging the necessity of the practice.",
+   "quote": "I've been bullshitting this whole time, this whole time. I thought I'd put some new shit together. I'm gonna create a persona. I'm gonna call it Dave.",
+   "clip": "Replay 2025-10-06 11-40-09",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'you're never going to know what song this is' to express a desire to preserve a moment.",
+   "quote": "I'm going to save this just because I'm going to 80 years from now want to know what song that is.",
+   "clip": "Replay 2025-10-06 11-02-09",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker criticizes their own tendency to over-invest in connections while acknowledging the importance of maintaining connections.",
+   "quote": "Because you overinvested in connections, including past ones. Now, Kristen is a connection that we, looking back, really should have invested more into.",
+   "clip": "Replay 2025-10-06 11-34-37",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'it's just not a ho' to dismiss a behavior.",
+   "quote": "In conclusion, don't be texting these hoes on their birthday. It's just not a ho. Don't be like that.",
+   "clip": "Replay 2025-10-06 11-35-28",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker criticizes their own habit of working excessively without rest while recognizing the need for rest.",
+   "quote": "We can't, we can't. We can't do that. So much longer. Thank you. I mean, if I'm not exhausted, then I'm chilling. If I'm not worn out, then what the fuck I got to relax for?",
+   "clip": "Replay 2025-10-05 19-02-34",
+   "public": false,
+   "date": "2025-10-05"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker states they've been working on a project for three weeks.",
+   "quote": "One, two, three weeks. One, two, three full weeks. That are coming no matter what you do.",
+   "clip": "Replay 2025-10-06 12-09-57",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker criticizes their own tendency to create personas for work while acknowledging the necessity of the practice.",
+   "quote": "I've been bullshitting this whole time, this whole time. I thought I'd put some new shit together. I'm gonna create a persona. I'm gonna call it Dave.",
+   "clip": "Replay 2025-10-06 11-40-09",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'you're going to fuel the fuck up' to describe working excessively.",
+   "quote": "You're going to fuel the fuck up. But then we're going to stop, and then we're going to go the fuck to sleep.",
+   "clip": "Replay 2025-10-05 19-02-34",
+   "public": false,
+   "date": "2025-10-05"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker criticizes their own habit of working excessively without rest while recognizing the need for rest.",
+   "quote": "We're going to do what we set out to do. You're going to fuel the fuck up. But then we're going to stop, and then we're going to go the fuck to sleep.",
+   "clip": "Replay 2025-10-05 19-02-34",
+   "public": false,
+   "date": "2025-10-05"
+  }
+ ]
+}

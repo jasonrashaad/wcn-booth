@@ -1,0 +1,114 @@
+{
+ "batch": 10,
+ "clips": [
+  "Replay 2025-10-06 12-18-49",
+  "Replay 2025-10-06 12-45-35",
+  "Replay 2025-10-06 12-49-11",
+  "Replay 2025-10-06 13-45-21",
+  "Replay 2025-10-06 13-46-35",
+  "Replay 2025-10-06 13-48-13",
+  "Replay 2025-10-06 13-48-36",
+  "Replay 2025-10-06 14-07-23",
+  "Replay 2025-10-06 14-08-39",
+  "Replay 2025-10-06 14-09-46",
+  "Replay 2025-10-06 14-14-08"
+ ],
+ "observations": [
+  {
+   "kind": "theme",
+   "text": "The speaker frequently returns to the topic of transportation costs and Detroit's perceived lack of accessibility.",
+   "quote": "It doesn't have to be a plane ticket. It's not cheaper. That's my thing. That bus ticket, that train ticket, that plane ticket all cost about the same one way. Because it's country's ass. And for whatever reason, Detroit to Philadelphia, it's a cost like that.",
+   "clip": "Replay 2025-10-06 12-18-49",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses frustration about their own past behavior while simultaneously acknowledging the need for self-improvement.",
+   "quote": "I already did that. Pussy. Why do I have to be a pussy? You're hurting my feelings. Oh, right. So it gave me the default because I hadn't indicated anything.",
+   "clip": "Replay 2025-10-06 12-45-35",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker recalls a past incident where they felt empowered but now struggles to remember specific details, creating a disconnect between past and present self-perception.",
+   "quote": "I ran up on somebody like that. I know I did that at least once. I was like, look. Was that Kevly Wall? Who else would it have been? I was like, I'm going to go to this motherfucker's desk. I promise you they won't tell me. I promise you they won't say this request again.",
+   "clip": "Replay 2025-10-06 12-49-11",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker repeatedly discusses the importance of replacing old friends with new ones, expressing regret over years of maintaining unfulfilling relationships.",
+   "quote": "You have been replacing friends with for years and years. For too many years. For entirely too many years. You wanna store that one? Store it. But that's more because that's sad than for anything else.",
+   "clip": "Replay 2025-10-06 13-45-21",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'yesterday jason' to refer to their past self and 'today jason' to refer to their current self, highlighting a disconnect between their past and present actions.",
+   "quote": "yesterday jason hooking a nigga up type shit yesterday jason be like no thanks no gratitude nothing just working working you know all he gets is slander slander slander jason yesterday jason just keep at it he just keep at it yesterday jason working working striving striving striving and then today jason be like oh man yesterday jason look at all this hard work he did thanks yesterday jason",
+   "clip": "Replay 2025-10-06 13-46-35",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that creating a painful process for someone to clean up their digital files would prevent digital hoarding.",
+   "quote": "Make it a pain in the ass. Make them be like, oh, bullshit, I got to do this. Fuck, I can't even believe they're smoking or whatever.",
+   "clip": "Replay 2025-10-06 13-48-36",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker expresses frustration with the perceived value of LinkedIn as a professional networking tool while simultaneously acknowledging the reality of recruiter-driven job searches.",
+   "quote": "I don't fucking use LinkedIn. I certainly have never gotten a job from it. Make sure that's true. It can't be true. Recruiters. But you get a recruiter to fucking stick your dick out the window.",
+   "clip": "Replay 2025-10-06 14-14-08",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that vendors should be held accountable for poor code quality and that clients should not be expected to pay for multiple vendors to review the same code.",
+   "quote": "Vendors be attached to their technical solutions. I'm not here to question it. You piece of shit. You should fire him for that. What the fuck? This is shitty code.",
+   "clip": "Replay 2025-10-06 14-08-39",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker mentions a $8,000 cost for a technical validation service.",
+   "quote": "$8,000. Well, they charged me per hour for sure. It would have been weekends. It would have been decks. I had donuts. Some muffins. A lot of muffins.",
+   "clip": "Replay 2025-10-06 14-07-23",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses the phrase 'fiddler's fuck' to express indifference to others' opinions about their digital clutter.",
+   "quote": "Like, anybody would ever give a fiddler's fuck about any of this.",
+   "clip": "Replay 2025-10-06 13-48-36",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker criticizes the perceived lack of authenticity in professional networking platforms while acknowledging the reality of recruiter-driven job searches.",
+   "quote": "This shit's not real. Motherfuckers treat it like it's real. None of this shit's real. Isn't that interesting though, Jason? That you'll separate... So Facebook's real, LinkedIn's not, right?",
+   "clip": "Replay 2025-10-06 14-14-08",
+   "public": false,
+   "date": "2025-10-06"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker frequently references past work experiences involving late nights, coffee, and negative interactions with colleagues.",
+   "quote": "A lot of late nights. A lot of shitty, shitty coffee. Some asshole yelling at me. Talking about listen. Nigger.",
+   "clip": "Replay 2025-10-06 14-07-23",
+   "public": false,
+   "date": "2025-10-06"
+  }
+ ]
+}

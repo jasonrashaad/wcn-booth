@@ -1,0 +1,183 @@
+{
+ "batch": 26,
+ "clips": [
+  "17ed532ad81346e78319bf7f06435552.Replay20260703143544",
+  "310113e9846a4d96afff7c2d6479097b.Replay20260701124110",
+  "337a39c08b2d4dd6accaf4281ae170d0.Replay20260703154755",
+  "34db1251c9ed41718283cbfc1fbbc40f.POSTED3JulReplay20260703140539",
+  "36cab4610a3542398b2c6bdb17c529b4.Replay20260701195354",
+  "5bae5528012c4fd5bffec2864b3e25f2.Replay20260702111203",
+  "899a7dc7b8cf4ff8a2d2739223d9529b.Replay20260702120316",
+  "9a64fab26e1b4b63a1ab3bae76637115.Replay20260701193807",
+  "9fd95fc946c945058e7952492d9e5116.Replay20260701180604",
+  "a05e3e1e55d54b59aceccc0da76d6675.Replay20260701215553",
+  "aef6c1f385624092b31eb43f4eead359.Replay20260701114655",
+  "bc84217d097145bfb59127c7c4c90e2e.Replay20260701201046",
+  "bddbe49c74a34c379a1d6cca5204f972.Replay20260701202713",
+  "bdeb5a77c8f844ddbd79859f0892c603.Replay20260701203129",
+  "cc203cdd8c904e308223a50de5cbaeca.Replay20260701183008",
+  "deeaf51ec16f41d2a4b30446f2a8e9ac.Replay20260701205546"
+ ],
+ "observations": [
+  {
+   "kind": "tension",
+   "text": "The speaker repeatedly states that 'nobody cares' while simultaneously seeking validation and engagement from others.",
+   "quote": "Nobody cares. Make me care. That's the message. Stop assuming people care.",
+   "clip": "310113e9846a4d96afff7c2d6479097b.Replay20260701124110",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "theme",
+   "text": "The speaker fixates on racial stereotypes and misidentifications, particularly regarding white women.",
+   "quote": "I'm not going to be a big giant racist. Now, was I mixing these two white women up? Absolutely.",
+   "clip": "36cab4610a3542398b2c6bdb17c529b4.Replay20260701195354",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'supposed to be dead a bunch of times' while actively planning for a six-month timeline.",
+   "quote": "We have proven. I'm supposed to be dead a bunch of times. I'm supposed to be dead a bunch of times.",
+   "clip": "bddbe49c74a34c379a1d6cca5204f972.Replay20260701202713",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'pussy' as a non-sequitur curse word for a future self.",
+   "quote": "My thing is going to be pussy. You ever see that old man that's just on the side of the highway and he just keeps yelling a non-sequencer curse word? Mine's going to be pussy.",
+   "clip": "cc203cdd8c904e308223a50de5cbaeca.Replay20260701183008",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'having a very serious mental collapse' while simultaneously making jokes about it.",
+   "quote": "I have not taken a shower. And I don't actually remember the last time. I am having a very serious mental collapse.",
+   "clip": "899a7dc7b8cf4ff8a2d2739223d9529b.Replay20260702120316",
+   "public": false,
+   "date": "2026-07-02"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker references a six-month timeline for business decisions.",
+   "quote": "We planned for six months. I'm just asking for five, November 19th. Four.",
+   "clip": "bc84217d097145bfb59127c7c4c90e2e.Replay20260701201046",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "belief",
+   "text": "The speaker believes that people should be 'made to care' through action rather than assumption.",
+   "quote": "Make me care. Give people something to care about and they'll care.",
+   "clip": "310113e9846a4d96afff7c2d6479097b.Replay20260701124110",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to not care about others while simultaneously expressing concern about a man without children.",
+   "quote": "What if he had kids? What if he had kids? Then we'd give a shit. That'd be crazy. Oh my goodness. Good thing he doesn't have kids.",
+   "clip": "bdeb5a77c8f844ddbd79859f0892c603.Replay20260701203129",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they 'don't give a thundering fuck' about someone while still engaging in detailed analysis of their relationship.",
+   "quote": "I don't give a thundering fuck about you. But your thing is, the one person you feel should be sort of, at least sort of, glad about.",
+   "clip": "17ed532ad81346e78319bf7f06435552.Replay20260703143544",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'supposed to be dead a bunch of times' while simultaneously discussing business timelines.",
+   "quote": "We have proven. I'm supposed to be dead a bunch of times. I'm supposed to be dead a bunch of times.",
+   "clip": "bddbe49c74a34c379a1d6cca5204f972.Replay20260701202713",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to not care about others while simultaneously expressing concern about a man without children.",
+   "quote": "What if he had kids? What if he had kids? Then we'd give a shit. That'd be crazy. Oh my goodness. Good thing he doesn't have kids.",
+   "clip": "bdeb5a77c8f844ddbd79859f0892c603.Replay20260701203129",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they 'should kill themselves' while simultaneously expressing disbelief that someone else would not want to.",
+   "quote": "And what do you say to that? Like, of course you should kill yourself. Like, that's not even what we came to argue.",
+   "clip": "337a39c08b2d4dd6accaf4281ae170d0.Replay20260703154755",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "number",
+   "text": "The speaker references a $400 monthly utility cost that they claim was unexpected.",
+   "quote": "$400, and that's when we had a job. So this, oh look, extra money. Shit that you're on, as soon as we get the PICO bill, that's half of that.",
+   "clip": "deeaf51ec16f41d2a4b30446f2a8e9ac.Replay20260701205546",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "phrase",
+   "text": "The speaker uses 'spicy orisa pita' as a nonsensical phrase to end conversations.",
+   "quote": "Spicy orisa pita? It should sound delicious.",
+   "clip": "337a39c08b2d4dd6accaf4281ae170d0.Replay20260703154755",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'having a very serious mental collapse' while simultaneously making jokes about it.",
+   "quote": "I have not taken a shower. And I don't actually remember the last time. I am having a very serious mental collapse.",
+   "clip": "899a7dc7b8cf4ff8a2d2739223d9529b.Replay20260702120316",
+   "public": false,
+   "date": "2026-07-02"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to not care about others while simultaneously expressing concern about a man without children.",
+   "quote": "What if he had kids? What if he had kids? Then we'd give a shit. That'd be crazy. Oh my goodness. Good thing he doesn't have kids.",
+   "clip": "bdeb5a77c8f844ddbd79859f0892c603.Replay20260701203129",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'supposed to be dead a bunch of times' while simultaneously discussing business timelines.",
+   "quote": "We have proven. I'm supposed to be dead a bunch of times. I'm supposed to be dead a bunch of times.",
+   "clip": "bddbe49c74a34c379a1d6cca5204f972.Replay20260701202713",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to not care about others while simultaneously expressing concern about a man without children.",
+   "quote": "What if he had kids? What if he had kids? Then we'd give a shit. That'd be crazy. Oh my goodness. Good thing he doesn't have kids.",
+   "clip": "bdeb5a77c8f844ddbd79859f0892c603.Replay20260701203129",
+   "public": false,
+   "date": "2026-07-01"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker states they 'should kill themselves' while simultaneously expressing disbelief that someone else would not want to.",
+   "quote": "And what do you say to that? Like, of course you should kill yourself. Like, that's not even what we came to argue.",
+   "clip": "337a39c08b2d4dd6accaf4281ae170d0.Replay20260703154755",
+   "public": false,
+   "date": "2026-07-03"
+  },
+  {
+   "kind": "tension",
+   "text": "The speaker claims to be 'having a very serious mental collapse' while simultaneously making jokes about it.",
+   "quote": "I have not taken a shower. And I don't actually remember the last time. I am having a very serious mental collapse.",
+   "clip": "899a7dc7b8cf4ff8a2d2739223d9529b.Replay20260702120316",
+   "public": false,
+   "date": "2026-07-02"
+  }
+ ]
+}
