@@ -1,1 +1,12 @@
 reduce: 546 observations, 10 sections, model qwen3:30b
+  Who this is, in their own words: 253 obs → 116 bullets (13 public) in 1000s [9231 tok]
+  What they keep coming back to: 46 obs → 41 bullets (3 public) in 82s [2065 tok]
+  What they said they would do: 6 obs → 6 bullets (1 public) in 9s [290 tok]
+  What they said they did: 14 obs → 14 bullets (4 public) in 23s [754 tok]
+  Named cadences and rituals: 6 obs → 6 bullets (1 public) in 11s [388 tok]
+  Phrases that are theirs: 136 obs → 18 bullets (5 public) in 100s [1662 tok]
+  What they hold themselves to: 71 obs → 1 bullets (0 public) in 17s [259 tok]
+  Numbers and dates they stated: 40 obs → 37 bullets (3 public) in 65s [1732 tok]
+  People: 18 obs → 17 bullets (0 public) in 26s [815 tok]
+  Tensions: 209 obs → 92 bullets (0 public) in 544s [4945 tok]
+wrote /Users/jasonrashaad/Projects/wcn-booth/persona/jason-model.md (8710 words). READ IT, edit it, then run --public.
