@@ -1,12 +1,10 @@
 # Local build truth and anything about Jason himself stay off GitHub.
+# The persona (corpus, extracts, model files) moved to wcn-coach (private) 2026-09-20;
+# these patterns stay so nothing of that shape can ever land here again.
 CLAUDE.md
-persona/jason-model*.md
-persona/corpus/
-persona/extract/
+persona/
 episodes/
 .venv/
 __pycache__/
 .DS_Store
-persona/map.log
-persona/themes.md
-persona/closers.md
+*.log

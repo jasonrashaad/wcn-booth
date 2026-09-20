@@ -7,9 +7,10 @@ ask.py — the Coach writes the questions for one episode.
     python3 prep/ask.py --topic "..." --when 2025-10 --out episodes/<ep>   # only bullets dated that month
     python3 prep/ask.py --topic "..." --brief-only                           # print what the Coach would see
 
-Reads persona/coach.md (the register and the rules) and persona/jason-model.public.md
-(the ONLY file about the guest the Coach may see — hand-edited, see build-persona.py),
-and asks a local Ollama for N questions on the topic.
+Reads coach/coach.md and model/jason-model.public.md from wcn-coach (COACH_REPO, or
+COACH_MD / COACH_PUBLIC individually). The public file is the ONLY file about the guest
+the Coach may see — a plain filter of the hand-edited private one; see wcn-coach's
+model/build.py. Asks a local Ollama for N questions on the topic.
 
 THE BRIEF
     The public file is ~25k words; the Coach gets a brief, not the file. Always: the
@@ -52,12 +53,16 @@ import urllib.request
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-COACH = REPO / "persona" / "coach.md"
-PUBLIC = REPO / "persona" / "jason-model.public.md"
+# The persona lives in wcn-coach (private) since 2026-09-20. Booth reads ONLY the public
+# derivation of it, and the Coach's register, from there.
+COACH_REPO = Path(os.environ.get("COACH_REPO", Path.home() / "Projects" / "wcn-coach"))
+COACH = Path(os.environ.get("COACH_MD", COACH_REPO / "coach" / "coach.md"))
+PUBLIC = Path(os.environ.get("COACH_PUBLIC", COACH_REPO / "model" / "jason-model.public.md"))
 OLLAMA = os.environ.get("BOOTH_OLLAMA", "http://192.168.1.118:11434")
 MODEL = os.environ.get("BOOTH_MODEL", "qwen3:30b")
 BRIEF_WORDS = 8000
-TAGLESS = re.compile(r"\s*\((20\d\d-\d\d-\d\d(?:, 20\d\d-\d\d-\d\d)*)\)\s*$")
+# "(dates)" and, from wcn-coach's builder, an optional " · context, context" after them
+TAGLESS = re.compile(r"\s*\((20\d\d-\d\d-\d\d(?:, 20\d\d-\d\d-\d\d)*)\)(?:\s*·[^\n]*)?\s*$")
 ALWAYS = ("What was going on, when", "Named cadences and rituals")
 STOP = set("the a an and or of to in on at for with about from by is was were be been it its this that "
            "these those they them their he she his her we our you your i my me what when where how why "
@@ -235,7 +240,7 @@ def main():
     args = ap.parse_args()
 
     if not PUBLIC.is_file():
-        sys.exit(f"{PUBLIC} does not exist — run persona/build-persona.py, then READ AND EDIT it first")
+        sys.exit(f"{PUBLIC} does not exist — build it in wcn-coach (model/build.py, edit, --public)")
     coach = COACH.read_text(encoding="utf-8")
     public, n_words = brief(PUBLIC.read_text(encoding="utf-8"), args.topic, args.when)
     if args.brief_only:

@@ -37,7 +37,7 @@ there will not be. The only ML in the booth is the voice and the questions.
 ## How it works
 
 ```
-PERSONA   my transcribed voice-journal corpus ──► jason-model.md   (a habit model of me)
+PERSONA   (wcn-coach, private)  the record ──► jason-model.md ──► jason-model.public.md
                                               + coach.md          (how the Coach asks)
 
 PREP      topic ──► questions.json ──► qNN.wav (Kokoro TTS) ──► qNN.timeline.json (mouth)
@@ -56,16 +56,14 @@ PUBLISH   playlist ──► same-origin <video> on the press room (+ a link to 
 
 | Path | What |
 |---|---|
-| `persona/build-persona.py` | The corpus → a dated, tagged habit model, map/reduce against a local Ollama; `--public` derives the Coach's file by a plain filter |
-| `persona/themes.py` · `closers.py` | A noun cloud with dates, and the last line before each save key. No model |
-| `persona/coach.md` | The Coach's rules and register. No examples on purpose — the model copies any it is given |
+| *(wcn-coach, private)* | The persona: corpus adapters, the map/reduce builder, the Coach's register, and the `--public` derivation booth reads. Moved out 2026-09-20; `prep/ask.py` finds it via `COACH_REPO` |
 | `prep/ask.py` | Topic → questions, one per script-picked observation, with a validator for tics |
 | `prep/voice.py` · `timeline.py` | Kokoro (the cast lives here) and the wav → mouth track |
 | `booth/director.py` · `avatar.html` | The `:8788` jukebox and the Coach: the `?` mark on a teal CRT, the dot is the mouth |
 | `booth/obs/` | The OBS profile + scene collection, exported for rebuild |
 | `docs/phase0.md` | The three unknowns, measured |
 
-Not in the repo, by design: `persona/corpus/`, `persona/jason-model*.md`, `episodes/`.
+Not in the repo, by design: the persona (it lives in wcn-coach, a private repo) and `episodes/`.
 
 ## Status
 
@@ -91,7 +89,9 @@ Everything else is the standard library.
 
 - [`wcn-commandcenter`](https://github.com/jasonrashaad/wcn-commandcenter) — the office
   TV channel; the director here is the same shape as its state server on purpose.
-- The persona corpus and the transcription service come from a private repo; only the
+- [`wcn-coach`](https://github.com/jasonrashaad/wcn-coach) (private) — the persona: the
+  record, the builder, the Coach that answers instead of asks. Booth reads its public
+  file and nothing else. The transcription service is a private repo too; only the
   measurements are reproduced here.
 
 ## License
